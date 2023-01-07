@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<style>
+ul.index-content li{margin-bottom:20px;}
+
+</style>
+
+</head>
+{include file="public/header"/}
+<body>
+<div class="layui-container">
+	{include file="public/head"/}
+	<div class="layui-row">
+		<div class="layui-col-md9">
+			<div class="layui-card">
+				<div class="layui-card-header">
+					<span class="layui-breadcrumb" lay-separator="|">
+						<a href="">分类1</a>
+						<a href="">分类2</a>
+						<a href="">分类3</a>
+						<a href="">分类4</a>
+						<a href="">分类5</a>
+						<a href="">分类6</a>
+					</span>
+				</div>
+				<div class="layui-card-body">
+					
+					<ul class="index-content">
+						{volist name="article_data" id="data"}
+							<li><a href="{:url('index/read',['id'=>$data['article_id']])}"><h2>{$data.title}</h2></a></li>
+						{/volist}
+					</ul>
+				</div>
+			</div>
+			
+		</div>
+		<div class="layui-col-md3">
+			<div class="layui-card">
+				<div class="layui-card-header">
+					<h2>热门文章</h2>
+				</div>
+				<div class="layui-card-body">
+					<ul class="index-content">
+						<li><a href=""><h3>标题1</h3></a></li>
+						<li><a href=""><h3>标题1</h3></a></li>
+						<li><a href=""><h3>标题1</h3></a></li>
+						<li><a href=""><h3>标题1</h3></a></li>
+						<li><a href=""><h3>标题1</h3></a></li>
+						<li><a href=""><h3>标题1</h3></a></li>
+					</ul>
+				</div>
+			</div>
+			
+			<div class="layui-card">
+				<div class="layui-card-header">
+					<h2>精华文章</h2>
+				</div>
+				<div class="layui-card-body">
+					<ul class="index-content">
+						<li><a href=""><h3>标题1</h3></a></li>
+						<li><a href=""><h3>标题1</h3></a></li>
+						<li><a href=""><h3>标题1</h3></a></li>
+						<li><a href=""><h3>标题1</h3></a></li>
+						<li><a href=""><h3>标题1</h3></a></li>
+						<li><a href=""><h3>标题1</h3></a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+</body>
+</html>

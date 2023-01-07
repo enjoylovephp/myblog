@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+{include file="public/header"/}
+<body>
+<div class="layui-container">
+{include file="public/head"/}
+	<div class="layui-row">
+		<div class="layui-col-md2">
+			<ul class="layui-nav layui-nav-tree" lay-filter="test">
+				<li class="layui-nav-item layui-nav-itemed manager">
+					<a href="javascript:;">管理文章</a>
+					<dl class="layui-nav-child manager">
+						<dd><a href="{:url('index/add/')}" target="iframe-content">添加文章</a></dd>
+						<dd><a href="{:url('index/update/')}" data-url="update" target="iframe-content">修改文章</a></dd>
+						<dd><a href="{:url('index/delete/')}" data-url="delete" target="iframe-content">删除文章</a></dd>
+					</dl>
+				</li>
+				<li class="layui-nav-item layui-nav-itemed">
+					<a href="javascript:;">管理分类</a>
+					<dl class="layui-nav-child">
+                                            <!--
+						<dd><a href="{:url('index/addCategory1/')}" target="iframe-content">添加一级分类</a></dd>
+						<dd><a href="{:url('index/addCategory2/')}" target="iframe-content">添加二级分类</a></dd>
+                                            -->
+						<dd><a href="{:url('BlogCategory/update/')}" target="iframe-content">修改分类</a></dd>
+						<dd><a href="{:url('BlogCategory/delete/')}" target="iframe-content">删除分类</a></dd>
+					</dl>
+				</li>
+			</ul>
+		</div>		
+		<div class="layui-col-md9">
+			<iframe src="{:url('index/add/')}" height="1000" width="950" frameborder="0" name="iframe-content"></iframe>
+		</div>	
+	</div>
+</div>
+<script>
+layui.use('element', function(){
+  var element = layui.element;
+});
+var ifrm = document.getElementById('ifrm');
+/*
+$(".manager a").click(function(){
+	var url = $(this).data("url");
+//	alert("hello");
+	ifrm.src="{:url('index/"+url+"/')}";
+})
+*/
+</script>
+<script>
+
+</script>
+</body>
+</html>

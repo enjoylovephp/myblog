@@ -18,12 +18,9 @@ ul.index-content li{margin-bottom:20px;}
 			<div class="layui-card">
 				<div class="layui-card-header">
 					<span class="layui-breadcrumb" lay-separator="|">
-						<a href="">分类1</a>
-						<a href="">分类2</a>
-						<a href="">分类3</a>
-						<a href="">分类4</a>
-						<a href="">分类5</a>
-						<a href="">分类6</a>
+						{volist name="category2_data" id="data"}
+							<a href="">{$data.category2_name}</a>
+						{/volist}
 					</span>
 				</div>
 				<div class="layui-card-body">

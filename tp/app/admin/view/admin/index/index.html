@@ -3,6 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <title>Insert title here</title>
+
 </head>
 {include file="public/header"/}
 <body>
@@ -15,17 +16,16 @@
 					<a href="javascript:;">管理文章</a>
 					<dl class="layui-nav-child manager">
 						<dd><a href="{:url('index/add/')}" target="iframe-content">添加文章</a></dd>
-						<dd><a href="{:url('index/update/')}" data-url="update" target="iframe-content">修改文章</a></dd>
-						<dd><a href="{:url('index/delete/')}" data-url="delete" target="iframe-content">删除文章</a></dd>
+						<!--  <dd><a href="{:url('index/update/')}" data-url="update" target="iframe-content">修改文章</a></dd>-->
+						<dd><a href="{:url('index/list/')}" data-url="delete" target="iframe-content">文章列表</a></dd>
 					</dl>
 				</li>
 				<li class="layui-nav-item layui-nav-itemed">
 					<a href="javascript:;">管理分类</a>
 					<dl class="layui-nav-child">
-                                            <!--
-						<dd><a href="{:url('index/addCategory1/')}" target="iframe-content">添加一级分类</a></dd>
-						<dd><a href="{:url('index/addCategory2/')}" target="iframe-content">添加二级分类</a></dd>
-                                            -->
+                                            
+						<dd><a href="{:url('BlogCategory/addTop/')}" target="iframe-content">添加顶级分类</a></dd>
+                        <dd><a href="{:url('BlogCategory/addSecond/')}" target="iframe-content">添加二级分类</a></dd>               
 						<dd><a href="{:url('BlogCategory/update/')}" target="iframe-content">修改分类</a></dd>
 						<dd><a href="{:url('BlogCategory/delete/')}" target="iframe-content">删除分类</a></dd>
 					</dl>

@@ -3,7 +3,7 @@ namespace app\admin\controller;
 
 use app\BaseController;
 use app\admin\model\Article;
-
+use think\facade\Db;
 class BlogArticle extends BaseController
 {
 
@@ -12,6 +12,9 @@ class BlogArticle extends BaseController
         $title = input('post.title');
         $html = input('post.html');
         $category2 = input('post.category2');
+        
+        $hot = input('post.hot');
+        $recommend = input('post.recommend');
         $data - [
             'title' => $title,
             'content' => $html,
@@ -20,7 +23,10 @@ class BlogArticle extends BaseController
             'user_id' => 0,
             'description' => mb_substr($html, 0, 140),
             'keyword' => mb_substr($title, 0, 60),
-            'category2_id' => $category2
+            'category2_id' => $category2,
+            
+            'hot'=>$hot,
+            'recommend'=>$recommend
         ];
         $article = Article::create($data);
         return $article->id;
@@ -38,5 +44,25 @@ class BlogArticle extends BaseController
     
     public function delete(){
         return view();
+    }
+    
+    public function deleteArticle(){
+        $id = input('id');
+        //dump($id);
+        $result = Article::where('article_id',$id)->delete();
+        if(isset($result) && !empty($result)){
+            return "删除完成";
+        }
+    }
+    public function updateArticle(){
+        $id = input('id');
+        //dump($id);
+        $article_data = Article::where('article_id',$id)->find();
+//         if(isset($result) && !empty($result)){
+        $article2_id = $article_data['category2_id'];
+        $category2  = Db::query("SELECT c2.category2_name as top,c1.category2_name as second,c1.category1_id as category1_id ,c2.category1_id as category2_id FROM `blog_category2` c1,blog_category2 c2 where c1.category2_id = c2.category1_id");
+//         dump($article_data);
+        return view('update',['article_data'=>$article_data,'category2'=>$category2]);
+//         }
     }
 }

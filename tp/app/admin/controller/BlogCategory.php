@@ -6,10 +6,14 @@ use app\admin\model\ {
     Category1,
     Category2
 };
-
+use think\Facade\View;
 class BlogCategory extends BaseController
 {
-
+//     public $category2;
+    
+    public function initialize(){
+//         $category2 = new Category2();
+    }
     public function add1()
     {
         $category1 = input("post.category1");
@@ -36,12 +40,38 @@ class BlogCategory extends BaseController
     public function add3()
     {}
     
+    public function addTop(){
+        $category2 = new Category2();
+        $data = $category2->getAll();
+        View::assign('data',$data);
+        return view();
+    }
+    
+    public function addSecond(){
+        $category2 = new Category2();
+        $data = $category2->getAll();
+        View::assign('data',$data);
+        return view();
+    }
+    
     public function update() {
+        $category2 = new Category2();
+        $data = $category2->getAll();
+        View::assign('data',$data);
         return view();
     }
     
     public function delete() {
+        $category2 = new Category2();
+        $data = $category2->getAll();
+        View::assign('data',$data);
         return view();
+    }
+    
+    public function deleteCategory(){
+        $category2 = new Category2();
+        $id = input('id');
+        $category2->deleteCategory($id);
     }
 }
 

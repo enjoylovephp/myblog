@@ -29,10 +29,11 @@ class Index extends BaseController
     public function add()
     {
         // $category1 = Category1::select();
-        $category2 = Db::query("SELECT c2.category2_name as top,c1.category2_name as second,c1.category1_id,c2.category1_id FROM `blog_category2` c1,blog_category2 c2 where c1.category2_id = c2.category1_id");
-        $category2_top = Category2::where("category2_id", 0)->select();
-        View::assign("category2_top", $category2_top);
+        $category2 = Db::query("SELECT c2.category_name as top,c1.category_name as second,c1.category2_id as category2_id,c1.category1_id as category1_id FROM `blog_category2` c1,blog_category2 c2 where c1.category1_id = c2.category2_id");
+        //$category2_top = Category2::where("category2_id", 0)->select();
+        //View::assign("category2_top", $category2_top);
         View::assign("category2", $category2);
+        //dump($category2);
         return view();
     }
 

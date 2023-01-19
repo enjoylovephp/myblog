@@ -1,11 +1,12 @@
 {include file="public/header"/}
-<form class="layui-form" name="form1" method="post">
+<form class="layui-form" name="form1" method="post" action="{:url('BlogCategory/addSecondDeal/')}">
 	<div class="layui-form-item">
+		<label class="layui-form-label">顶级分类：</label>
 		<div class="layui-input-block">
-			<select name="category1">
+			<select name="category2_id">
 			{volist name="data" id="d"}
-				{eq name="d.category2_id" value="0"}
-				<option>{$d.category2_name}</option>
+				{eq name="d.category1_id" value="0"}
+				<option value="{$d.category2_id}">{$d.category_name}</option>
 				{/eq}
 			{/volist}
 			</select>
@@ -13,8 +14,9 @@
 	</div>
 	
 	<div class="layui-form-item">
+		<label class="layui-form-label">二级分类：</label>
 		<div class="layui-input-block">
-			<input type="text" class="layui-input" name="category2_name"/>
+			<input type="text" class="layui-input" name="category_name"/>
 		</div>
 	</div>
 	

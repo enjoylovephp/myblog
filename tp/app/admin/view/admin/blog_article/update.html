@@ -28,9 +28,9 @@
 			<select name="category2" lay-filter="category2">
                 {volist name="category2" id="cate2"}
                 	{if condition="$cate2['category1_id'] eq $article_data['category1_id']"}
-                		<option value="{$cate2.category1_id}" selected>{$cate2.top}——{$cate2.second}</option>
+                		<option value="{$cate2.category2_id}" selected>{$cate2.top}——{$cate2.second}</option>
                 		{else/}
-                		<option value="{$cate2.category1_id}">{$cate2.top}——{$cate2.second}</option>
+                		<option value="{$cate2.category2_id}">{$cate2.top}——{$cate2.second}</option>
                 	{/if}
                 {/volist}
             </select>
@@ -44,7 +44,11 @@
            		{else/}
            		<input type="checkbox" name="hot"/>
            {/eq}
-            
+		</div>
+	</div>
+	
+	<div class="layui-form-item">
+		<div class="layui-input-block">
            <label>推荐：</label>
            {eq name="article_data.recommend" value="1"}
            		<input type="checkbox" name="recommend" checked/>
@@ -53,6 +57,7 @@
            {/eq}
 		</div>
 	</div>
+	
 	<div class="layui-form-item">
 		<div class="layui-input-block">
 			<div id="editor��wrapper">
@@ -115,18 +120,23 @@ function escape2Html(str) {
    editor.setHtml(text);
    layui.use('form', function(){
   		var form = layui.form;
- 		
- 		
+ 		var category2;
  		
    form.on('submit(*)',function(data){
- 		var title = form.title;
- 		var category2 = form.category2;
- 		var hot = form.hot;
- 		var recommend = form.recommend;
+   		//console.log(data.field)
+ 		var title = data.field.title;
+ 		var category2 = data.field.category2;
+ 		var hot = (data.field.hot=='on')?1:0;
+ 		var recommend = (data.field.recommend=="on")?1:0;
    		var html = editor.getHtml();
-   		console.log(html);
-      $.post("{:url('BlogArticle/article_update/')}",{title:title,category2:category2,hot:hot,recommend:recommend,html:html},function(data){
- 		   
+   		//console.log(html);
+      $.post("{:url('BlogArticle/articleUpdateDeal/')}",{id:{$article_data.article_id},title:title,category2:category2,hot:hot,recommend:recommend,html:html},function(data){
+ 		   //console.log(data);
+ 		   if(data){
+ 		   	alert('更新成功')
+ 		   }else{
+ 		   	alert('更新失败')
+ 		   }
       })
       return false;
   })

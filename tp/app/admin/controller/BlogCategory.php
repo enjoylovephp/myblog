@@ -73,5 +73,26 @@ class BlogCategory extends BaseController
         $id = input('id');
         $category2->deleteCategory($id);
     }
+    
+    public function addTopDeal(){
+        $category_name = input('category_name');
+        $data = [
+            'category1_id'=>0,
+            'category_name'=>$category_name
+        ];
+        $result = Category2::create($data);
+        return $result;
+    }
+    
+    public function addSecondDeal(){
+        $category_name = input('category_name');
+        $category2_id = input('category2_id');
+        $data = [
+            'category1_id'=>$category2_id,
+            'category_name'=>$category_name,
+        ];
+        $result = Category2::create($data);
+        return $result;
+    }
 }
 

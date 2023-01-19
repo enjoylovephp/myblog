@@ -1,6 +1,8 @@
 eclipse.preferences.version=1
 encoding//app/AppService.php=GBK
 encoding//app/admin/view/admin/blog_article/update.html=UTF-8
+encoding//app/admin/view/admin/blog_category/add_second.html=UTF-8
+encoding//app/admin/view/admin/blog_category/add_top.html=UTF-8
 encoding//app/admin/view/admin/blog_category/delete.html=UTF-8
 encoding//app/admin/view/admin/index/add.html=UTF-8
 encoding//app/admin/view/admin/index/add_category1.html=UTF-8

@@ -1,0 +1,200 @@
+[2023-01-18T16:18:32+08:00][sql] CONNECT:[ UseTime:0.001121s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-18T16:18:32+08:00][sql] SELECT c2.category2_name as top,c1.category2_name as second,c1.category1_id,c2.category1_id FROM `blog_category2` c1,blog_category2 c2 where c1.category2_id = c2.category1_id [ RunTime:0.010951s ]
+[2023-01-18T16:18:32+08:00][sql] SHOW FULL COLUMNS FROM `blog_category2` [ RunTime:0.000798s ]
+[2023-01-18T16:18:32+08:00][sql] SELECT * FROM `blog_category2` WHERE  `category2_id` = 0 [ RunTime:0.000458s ]
+[2023-01-18T16:18:39+08:00][sql] CONNECT:[ UseTime:0.000858s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-18T16:18:39+08:00][sql] SHOW FULL COLUMNS FROM `blog_category2` [ RunTime:0.000836s ]
+[2023-01-18T16:18:39+08:00][sql] SELECT * FROM `blog_category2` [ RunTime:0.000386s ]
+[2023-01-18T16:18:40+08:00][sql] CONNECT:[ UseTime:0.001059s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-18T16:18:40+08:00][sql] SHOW FULL COLUMNS FROM `blog_category2` [ RunTime:0.000883s ]
+[2023-01-18T16:18:40+08:00][sql] SELECT * FROM `blog_category2` [ RunTime:0.000310s ]
+[2023-01-18T16:18:41+08:00][sql] CONNECT:[ UseTime:0.000890s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-18T16:18:41+08:00][sql] SHOW FULL COLUMNS FROM `blog_category2` [ RunTime:0.000897s ]
+[2023-01-18T16:18:41+08:00][sql] SELECT * FROM `blog_category2` [ RunTime:0.000423s ]
+[2023-01-18T16:18:41+08:00][sql] CONNECT:[ UseTime:0.017513s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-18T16:18:41+08:00][sql] SHOW FULL COLUMNS FROM `blog_category2` [ RunTime:0.000804s ]
+[2023-01-18T16:18:41+08:00][sql] SELECT * FROM `blog_category2` [ RunTime:0.000227s ]
+[2023-01-18T16:18:42+08:00][sql] CONNECT:[ UseTime:0.018620s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-18T16:18:42+08:00][sql] SHOW FULL COLUMNS FROM `blog_category2` [ RunTime:0.001527s ]
+[2023-01-18T16:18:42+08:00][sql] SELECT * FROM `blog_category2` [ RunTime:0.000658s ]
+[2023-01-18T16:18:43+08:00][sql] CONNECT:[ UseTime:0.000815s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-18T16:18:43+08:00][sql] SHOW FULL COLUMNS FROM `blog_category2` [ RunTime:0.001574s ]
+[2023-01-18T16:18:43+08:00][sql] SELECT * FROM `blog_category2` [ RunTime:0.000391s ]
+[2023-01-18T16:18:43+08:00][sql] CONNECT:[ UseTime:0.020362s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-18T16:18:43+08:00][sql] SHOW FULL COLUMNS FROM `blog_category2` [ RunTime:0.000885s ]
+[2023-01-18T16:18:43+08:00][sql] SELECT * FROM `blog_category2` [ RunTime:0.000426s ]
+[2023-01-18T16:18:44+08:00][sql] CONNECT:[ UseTime:0.023578s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-18T16:18:44+08:00][sql] SHOW FULL COLUMNS FROM `blog_category2` [ RunTime:0.000931s ]
+[2023-01-18T16:18:44+08:00][sql] SELECT * FROM `blog_category2` [ RunTime:0.000238s ]
+[2023-01-18T16:18:44+08:00][sql] CONNECT:[ UseTime:0.021951s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-18T16:18:44+08:00][sql] SHOW FULL COLUMNS FROM `blog_category2` [ RunTime:0.000945s ]
+[2023-01-18T16:18:44+08:00][sql] SELECT * FROM `blog_category2` [ RunTime:0.000362s ]
+[2023-01-18T16:18:44+08:00][sql] CONNECT:[ UseTime:0.018771s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-18T16:18:44+08:00][sql] SHOW FULL COLUMNS FROM `blog_category2` [ RunTime:0.000865s ]
+[2023-01-18T16:18:44+08:00][sql] SELECT * FROM `blog_category2` [ RunTime:0.000270s ]
+[2023-01-18T16:18:45+08:00][sql] CONNECT:[ UseTime:0.000924s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-18T16:18:45+08:00][sql] SHOW FULL COLUMNS FROM `blog_category2` [ RunTime:0.000642s ]
+[2023-01-18T16:18:45+08:00][sql] SELECT * FROM `blog_category2` [ RunTime:0.000298s ]
+[2023-01-18T16:18:45+08:00][sql] CONNECT:[ UseTime:0.013718s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-18T16:18:45+08:00][sql] SHOW FULL COLUMNS FROM `blog_category2` [ RunTime:0.000817s ]
+[2023-01-18T16:18:45+08:00][sql] SELECT * FROM `blog_category2` [ RunTime:0.000271s ]
+[2023-01-18T16:18:45+08:00][sql] CONNECT:[ UseTime:0.001008s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-18T16:18:45+08:00][sql] SHOW FULL COLUMNS FROM `blog_category2` [ RunTime:0.000852s ]
+[2023-01-18T16:18:45+08:00][sql] SELECT * FROM `blog_category2` [ RunTime:0.000422s ]
+[2023-01-18T16:18:45+08:00][sql] CONNECT:[ UseTime:0.024814s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-18T16:18:45+08:00][sql] SHOW FULL COLUMNS FROM `blog_category2` [ RunTime:0.000792s ]
+[2023-01-18T16:18:45+08:00][sql] SELECT * FROM `blog_category2` [ RunTime:0.000381s ]
+[2023-01-18T16:18:46+08:00][sql] CONNECT:[ UseTime:0.019331s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-18T16:18:46+08:00][sql] SHOW FULL COLUMNS FROM `blog_category2` [ RunTime:0.000670s ]
+[2023-01-18T16:18:46+08:00][sql] SELECT * FROM `blog_category2` [ RunTime:0.000441s ]
+[2023-01-18T16:18:46+08:00][sql] CONNECT:[ UseTime:0.001071s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-18T16:18:46+08:00][sql] SHOW FULL COLUMNS FROM `blog_category2` [ RunTime:0.000716s ]
+[2023-01-18T16:18:46+08:00][sql] SELECT * FROM `blog_category2` [ RunTime:0.000326s ]
+[2023-01-18T16:18:46+08:00][sql] CONNECT:[ UseTime:0.000895s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-18T16:18:46+08:00][sql] SHOW FULL COLUMNS FROM `blog_category2` [ RunTime:0.000725s ]
+[2023-01-18T16:18:46+08:00][sql] SELECT * FROM `blog_category2` [ RunTime:0.000224s ]
+[2023-01-18T16:18:46+08:00][sql] CONNECT:[ UseTime:0.016809s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-18T16:18:46+08:00][sql] SHOW FULL COLUMNS FROM `blog_category2` [ RunTime:0.000558s ]
+[2023-01-18T16:18:46+08:00][sql] SELECT * FROM `blog_category2` [ RunTime:0.000177s ]
+[2023-01-18T16:18:47+08:00][sql] CONNECT:[ UseTime:0.000902s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-18T16:18:47+08:00][sql] SHOW FULL COLUMNS FROM `blog_category2` [ RunTime:0.000650s ]
+[2023-01-18T16:18:47+08:00][sql] SELECT * FROM `blog_category2` [ RunTime:0.000275s ]
+[2023-01-18T16:18:47+08:00][sql] CONNECT:[ UseTime:0.000682s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-18T16:18:47+08:00][sql] SHOW FULL COLUMNS FROM `blog_category2` [ RunTime:0.000542s ]
+[2023-01-18T16:18:47+08:00][sql] SELECT * FROM `blog_category2` [ RunTime:0.000287s ]
+[2023-01-18T16:18:47+08:00][sql] CONNECT:[ UseTime:0.017142s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-18T16:18:47+08:00][sql] SHOW FULL COLUMNS FROM `blog_category2` [ RunTime:0.000527s ]
+[2023-01-18T16:18:47+08:00][sql] SELECT * FROM `blog_category2` [ RunTime:0.000227s ]
+[2023-01-18T16:18:48+08:00][sql] CONNECT:[ UseTime:0.021728s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-18T16:18:48+08:00][sql] SHOW FULL COLUMNS FROM `blog_category2` [ RunTime:0.001619s ]
+[2023-01-18T16:18:48+08:00][sql] SELECT * FROM `blog_category2` [ RunTime:0.000577s ]
+[2023-01-18T16:18:48+08:00][sql] CONNECT:[ UseTime:0.014615s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-18T16:18:48+08:00][sql] SHOW FULL COLUMNS FROM `blog_category2` [ RunTime:0.000628s ]
+[2023-01-18T16:18:48+08:00][sql] SELECT * FROM `blog_category2` [ RunTime:0.000321s ]
+[2023-01-18T16:18:48+08:00][sql] CONNECT:[ UseTime:0.000706s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-18T16:18:48+08:00][sql] SHOW FULL COLUMNS FROM `blog_category2` [ RunTime:0.000612s ]
+[2023-01-18T16:18:48+08:00][sql] SELECT * FROM `blog_category2` [ RunTime:0.000217s ]
+[2023-01-18T16:18:48+08:00][sql] CONNECT:[ UseTime:0.011229s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-18T16:18:48+08:00][sql] SHOW FULL COLUMNS FROM `blog_category2` [ RunTime:0.000902s ]
+[2023-01-18T16:18:48+08:00][sql] SELECT * FROM `blog_category2` [ RunTime:0.000276s ]
+[2023-01-18T16:18:50+08:00][sql] CONNECT:[ UseTime:0.000710s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-18T16:18:50+08:00][sql] SHOW FULL COLUMNS FROM `blog_category2` [ RunTime:0.000543s ]
+[2023-01-18T16:18:50+08:00][sql] SELECT * FROM `blog_category2` [ RunTime:0.000279s ]
+[2023-01-18T16:18:59+08:00][sql] CONNECT:[ UseTime:0.012684s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-18T16:18:59+08:00][sql] SHOW FULL COLUMNS FROM `blog_category2` [ RunTime:0.000675s ]
+[2023-01-18T16:18:59+08:00][sql] SELECT * FROM `blog_category2` [ RunTime:0.000272s ]
+[2023-01-18T16:18:59+08:00][sql] CONNECT:[ UseTime:0.023116s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-18T16:18:59+08:00][sql] SHOW FULL COLUMNS FROM `blog_category2` [ RunTime:0.000616s ]
+[2023-01-18T16:18:59+08:00][sql] SELECT * FROM `blog_category2` [ RunTime:0.000330s ]
+[2023-01-18T16:18:59+08:00][sql] CONNECT:[ UseTime:0.000936s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-18T16:18:59+08:00][sql] SHOW FULL COLUMNS FROM `blog_category2` [ RunTime:0.000947s ]
+[2023-01-18T16:18:59+08:00][sql] SELECT * FROM `blog_category2` [ RunTime:0.000405s ]
+[2023-01-18T16:19:00+08:00][sql] CONNECT:[ UseTime:0.017212s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-18T16:19:00+08:00][sql] SHOW FULL COLUMNS FROM `blog_category2` [ RunTime:0.000645s ]
+[2023-01-18T16:19:00+08:00][sql] SELECT * FROM `blog_category2` [ RunTime:0.000292s ]
+[2023-01-18T16:19:00+08:00][sql] CONNECT:[ UseTime:0.013236s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-18T16:19:00+08:00][sql] SHOW FULL COLUMNS FROM `blog_category2` [ RunTime:0.000654s ]
+[2023-01-18T16:19:00+08:00][sql] SELECT * FROM `blog_category2` [ RunTime:0.000324s ]
+[2023-01-18T16:19:00+08:00][sql] CONNECT:[ UseTime:0.023428s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-18T16:19:00+08:00][sql] SHOW FULL COLUMNS FROM `blog_category2` [ RunTime:0.000672s ]
+[2023-01-18T16:19:00+08:00][sql] SELECT * FROM `blog_category2` [ RunTime:0.000310s ]
+[2023-01-18T16:19:00+08:00][sql] CONNECT:[ UseTime:0.010616s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-18T16:19:00+08:00][sql] SHOW FULL COLUMNS FROM `blog_category2` [ RunTime:0.000651s ]
+[2023-01-18T16:19:00+08:00][sql] SELECT * FROM `blog_category2` [ RunTime:0.000249s ]
+[2023-01-18T16:19:01+08:00][sql] CONNECT:[ UseTime:0.011046s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-18T16:19:01+08:00][sql] SHOW FULL COLUMNS FROM `blog_category2` [ RunTime:0.000877s ]
+[2023-01-18T16:19:01+08:00][sql] SELECT * FROM `blog_category2` [ RunTime:0.000316s ]
+[2023-01-18T16:19:01+08:00][sql] CONNECT:[ UseTime:0.010145s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-18T16:19:01+08:00][sql] SHOW FULL COLUMNS FROM `blog_category2` [ RunTime:0.000896s ]
+[2023-01-18T16:19:01+08:00][sql] SELECT * FROM `blog_category2` [ RunTime:0.000572s ]
+[2023-01-18T16:19:01+08:00][sql] CONNECT:[ UseTime:0.017250s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-18T16:19:01+08:00][sql] SHOW FULL COLUMNS FROM `blog_category2` [ RunTime:0.000551s ]
+[2023-01-18T16:19:01+08:00][sql] SELECT * FROM `blog_category2` [ RunTime:0.000177s ]
+[2023-01-18T16:19:01+08:00][sql] CONNECT:[ UseTime:0.000717s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-18T16:19:01+08:00][sql] SHOW FULL COLUMNS FROM `blog_category2` [ RunTime:0.000564s ]
+[2023-01-18T16:19:01+08:00][sql] SELECT * FROM `blog_category2` [ RunTime:0.000252s ]
+[2023-01-18T16:19:01+08:00][sql] CONNECT:[ UseTime:0.010842s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-18T16:19:01+08:00][sql] SHOW FULL COLUMNS FROM `blog_category2` [ RunTime:0.000601s ]
+[2023-01-18T16:19:01+08:00][sql] SELECT * FROM `blog_category2` [ RunTime:0.000283s ]
+[2023-01-18T16:19:01+08:00][sql] CONNECT:[ UseTime:0.000762s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-18T16:19:01+08:00][sql] SHOW FULL COLUMNS FROM `blog_category2` [ RunTime:0.000689s ]
+[2023-01-18T16:19:01+08:00][sql] SELECT * FROM `blog_category2` [ RunTime:0.000256s ]
+[2023-01-18T16:19:02+08:00][sql] CONNECT:[ UseTime:0.000890s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-18T16:19:02+08:00][sql] SHOW FULL COLUMNS FROM `blog_category2` [ RunTime:0.000596s ]
+[2023-01-18T16:19:02+08:00][sql] SELECT * FROM `blog_category2` [ RunTime:0.000356s ]
+[2023-01-18T16:19:02+08:00][sql] CONNECT:[ UseTime:0.019977s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-18T16:19:02+08:00][sql] SHOW FULL COLUMNS FROM `blog_category2` [ RunTime:0.000686s ]
+[2023-01-18T16:19:02+08:00][sql] SELECT * FROM `blog_category2` [ RunTime:0.000343s ]
+[2023-01-18T16:19:02+08:00][sql] CONNECT:[ UseTime:0.000820s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-18T16:19:02+08:00][sql] SHOW FULL COLUMNS FROM `blog_category2` [ RunTime:0.000509s ]
+[2023-01-18T16:19:02+08:00][sql] SELECT * FROM `blog_category2` [ RunTime:0.000172s ]
+[2023-01-18T16:19:02+08:00][sql] CONNECT:[ UseTime:0.012467s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-18T16:19:02+08:00][sql] SHOW FULL COLUMNS FROM `blog_category2` [ RunTime:0.000755s ]
+[2023-01-18T16:19:02+08:00][sql] SELECT * FROM `blog_category2` [ RunTime:0.000376s ]
+[2023-01-18T16:19:03+08:00][sql] CONNECT:[ UseTime:0.015216s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-18T16:19:03+08:00][sql] SHOW FULL COLUMNS FROM `blog_category2` [ RunTime:0.000949s ]
+[2023-01-18T16:19:03+08:00][sql] SELECT * FROM `blog_category2` [ RunTime:0.000345s ]
+[2023-01-18T16:19:03+08:00][sql] CONNECT:[ UseTime:0.000901s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-18T16:19:03+08:00][sql] SHOW FULL COLUMNS FROM `blog_category2` [ RunTime:0.000635s ]
+[2023-01-18T16:19:03+08:00][sql] SELECT * FROM `blog_category2` [ RunTime:0.000350s ]
+[2023-01-18T16:19:03+08:00][sql] CONNECT:[ UseTime:0.017709s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-18T16:19:03+08:00][sql] SHOW FULL COLUMNS FROM `blog_category2` [ RunTime:0.000711s ]
+[2023-01-18T16:19:03+08:00][sql] SELECT * FROM `blog_category2` [ RunTime:0.000316s ]
+[2023-01-18T16:19:03+08:00][sql] CONNECT:[ UseTime:0.017824s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-18T16:19:03+08:00][sql] SHOW FULL COLUMNS FROM `blog_category2` [ RunTime:0.000876s ]
+[2023-01-18T16:19:03+08:00][sql] SELECT * FROM `blog_category2` [ RunTime:0.000285s ]
+[2023-01-18T16:19:03+08:00][sql] CONNECT:[ UseTime:0.021472s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-18T16:19:03+08:00][sql] SHOW FULL COLUMNS FROM `blog_category2` [ RunTime:0.000693s ]
+[2023-01-18T16:19:03+08:00][sql] SELECT * FROM `blog_category2` [ RunTime:0.000325s ]
+[2023-01-18T16:19:04+08:00][sql] CONNECT:[ UseTime:0.001163s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-18T16:19:04+08:00][sql] SHOW FULL COLUMNS FROM `blog_category2` [ RunTime:0.000879s ]
+[2023-01-18T16:19:04+08:00][sql] SELECT * FROM `blog_category2` [ RunTime:0.000354s ]
+[2023-01-18T16:19:04+08:00][sql] CONNECT:[ UseTime:0.001207s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-18T16:19:04+08:00][sql] SHOW FULL COLUMNS FROM `blog_category2` [ RunTime:0.000627s ]
+[2023-01-18T16:19:04+08:00][sql] SELECT * FROM `blog_category2` [ RunTime:0.000274s ]
+[2023-01-18T16:19:04+08:00][sql] CONNECT:[ UseTime:0.020920s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-18T16:19:04+08:00][sql] SHOW FULL COLUMNS FROM `blog_category2` [ RunTime:0.000594s ]
+[2023-01-18T16:19:04+08:00][sql] SELECT * FROM `blog_category2` [ RunTime:0.000269s ]
+[2023-01-18T16:19:04+08:00][sql] CONNECT:[ UseTime:0.017593s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-18T16:19:04+08:00][sql] SHOW FULL COLUMNS FROM `blog_category2` [ RunTime:0.000548s ]
+[2023-01-18T16:19:04+08:00][sql] SELECT * FROM `blog_category2` [ RunTime:0.000200s ]
+[2023-01-18T16:19:04+08:00][sql] CONNECT:[ UseTime:0.022336s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-18T16:19:04+08:00][sql] SHOW FULL COLUMNS FROM `blog_category2` [ RunTime:0.002597s ]
+[2023-01-18T16:19:04+08:00][sql] SELECT * FROM `blog_category2` [ RunTime:0.000908s ]
+[2023-01-18T22:10:52+08:00][sql] CONNECT:[ UseTime:0.016549s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-18T22:10:52+08:00][sql] SELECT c2.category2_name as top,c1.category2_name as second,c1.category1_id,c2.category1_id FROM `blog_category2` c1,blog_category2 c2 where c1.category2_id = c2.category1_id [ RunTime:0.000973s ]
+[2023-01-18T22:10:52+08:00][sql] SHOW FULL COLUMNS FROM `blog_category2` [ RunTime:0.001078s ]
+[2023-01-18T22:10:52+08:00][sql] SELECT * FROM `blog_category2` WHERE  `category2_id` = 0 [ RunTime:0.000324s ]
+[2023-01-18T22:11:00+08:00][sql] CONNECT:[ UseTime:0.015600s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-18T22:11:00+08:00][sql] SELECT c2.category2_name as top,c1.category2_name as second,c1.category1_id,c2.category1_id FROM `blog_category2` c1,blog_category2 c2 where c1.category2_id = c2.category1_id [ RunTime:0.000608s ]
+[2023-01-18T22:11:00+08:00][sql] SHOW FULL COLUMNS FROM `blog_category2` [ RunTime:0.000568s ]
+[2023-01-18T22:11:00+08:00][sql] SELECT * FROM `blog_category2` WHERE  `category2_id` = 0 [ RunTime:0.000320s ]
+[2023-01-18T22:11:00+08:00][sql] CONNECT:[ UseTime:0.020004s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-18T22:11:00+08:00][sql] SHOW FULL COLUMNS FROM `blog_article` [ RunTime:0.000879s ]
+[2023-01-18T22:11:00+08:00][sql] SELECT `article_id`,`title` FROM `blog_article` [ RunTime:0.000352s ]
+[2023-01-18T22:11:03+08:00][sql] CONNECT:[ UseTime:0.018246s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-18T22:11:03+08:00][sql] SHOW FULL COLUMNS FROM `blog_article` [ RunTime:0.000840s ]
+[2023-01-18T22:11:03+08:00][sql] SELECT * FROM `blog_article` WHERE  `article_id` = 5 LIMIT 1 [ RunTime:0.000365s ]
+[2023-01-18T22:11:03+08:00][sql] SELECT c2.category2_name as top,c1.category2_name as second,c1.category1_id as category1_id ,c2.category1_id as category2_id FROM `blog_category2` c1,blog_category2 c2 where c1.category2_id = c2.category1_id [ RunTime:0.000824s ]
+[2023-01-18T22:11:05+08:00][sql] CONNECT:[ UseTime:0.019733s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-18T22:11:05+08:00][sql] SHOW FULL COLUMNS FROM `blog_article` [ RunTime:0.000795s ]
+[2023-01-18T22:11:05+08:00][sql] SELECT `article_id`,`title` FROM `blog_article` [ RunTime:0.000252s ]
+[2023-01-18T22:11:08+08:00][sql] CONNECT:[ UseTime:0.010214s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-18T22:11:08+08:00][sql] SELECT c2.category2_name as top,c1.category2_name as second,c1.category1_id,c2.category1_id FROM `blog_category2` c1,blog_category2 c2 where c1.category2_id = c2.category1_id [ RunTime:0.000600s ]
+[2023-01-18T22:11:08+08:00][sql] SHOW FULL COLUMNS FROM `blog_category2` [ RunTime:0.000575s ]
+[2023-01-18T22:11:08+08:00][sql] SELECT * FROM `blog_category2` WHERE  `category2_id` = 0 [ RunTime:0.000324s ]
+[2023-01-18T22:11:09+08:00][sql] CONNECT:[ UseTime:0.006351s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-18T22:11:09+08:00][sql] SHOW FULL COLUMNS FROM `blog_category2` [ RunTime:0.000655s ]
+[2023-01-18T22:11:09+08:00][sql] SELECT * FROM `blog_category2` [ RunTime:0.000321s ]
+[2023-01-18T22:11:29+08:00][sql] CONNECT:[ UseTime:0.000709s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-18T22:11:29+08:00][sql] SHOW FULL COLUMNS FROM `blog_category2` [ RunTime:0.000962s ]
+[2023-01-18T22:11:29+08:00][sql] SELECT * FROM `blog_category2` [ RunTime:0.000202s ]
+[2023-01-18T22:11:30+08:00][sql] CONNECT:[ UseTime:0.000960s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-18T22:11:30+08:00][sql] SHOW FULL COLUMNS FROM `blog_category2` [ RunTime:0.001266s ]
+[2023-01-18T22:11:30+08:00][sql] SELECT * FROM `blog_category2` [ RunTime:0.000539s ]
+[2023-01-18T22:11:31+08:00][sql] CONNECT:[ UseTime:0.006499s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-18T22:11:31+08:00][sql] SHOW FULL COLUMNS FROM `blog_category2` [ RunTime:0.000681s ]
+[2023-01-18T22:11:31+08:00][sql] SELECT * FROM `blog_category2` [ RunTime:0.000406s ]
+[2023-01-18T22:11:39+08:00][sql] CONNECT:[ UseTime:0.024199s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-18T22:11:39+08:00][sql] SHOW FULL COLUMNS FROM `blog_category2` [ RunTime:0.000833s ]
+[2023-01-18T22:11:39+08:00][sql] SELECT * FROM `blog_category2` [ RunTime:0.000357s ]

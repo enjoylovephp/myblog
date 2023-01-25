@@ -1,0 +1,1180 @@
+[2023-01-15T03:40:08+08:00][sql] CONNECT:[ UseTime:0.152657s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-15T03:40:08+08:00][sql] SELECT c2.category2_name as top,c1.category2_name as second,c1.category1_id,c2.category1_id FROM `blog_category2` c1,blog_category2 c2 where c1.category2_id = c2.category1_id [ RunTime:0.238407s ]
+[2023-01-15T03:40:08+08:00][sql] SHOW FULL COLUMNS FROM `blog_category2` [ RunTime:0.049767s ]
+[2023-01-15T03:40:08+08:00][sql] SELECT * FROM `blog_category2` WHERE  `category2_id` = 0 [ RunTime:0.000665s ]
+[2023-01-15T03:40:12+08:00][sql] CONNECT:[ UseTime:0.017336s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-15T03:40:12+08:00][sql] SHOW FULL COLUMNS FROM `blog_article` [ RunTime:0.062224s ]
+[2023-01-15T03:40:12+08:00][sql] SELECT `article_id`,`title` FROM `blog_article` [ RunTime:0.000455s ]
+[2023-01-15T03:40:14+08:00][sql] CONNECT:[ UseTime:0.000911s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-15T03:40:14+08:00][sql] SHOW FULL COLUMNS FROM `blog_article` [ RunTime:0.001180s ]
+[2023-01-15T03:40:14+08:00][sql] SELECT * FROM `blog_article` WHERE  `article_id` = 4 LIMIT 1 [ RunTime:0.075486s ]
+[2023-01-15T03:40:16+08:00][sql] CONNECT:[ UseTime:0.001042s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-15T03:40:16+08:00][sql] SELECT c2.category2_name as top,c1.category2_name as second,c1.category1_id,c2.category1_id FROM `blog_category2` c1,blog_category2 c2 where c1.category2_id = c2.category1_id [ RunTime:0.000723s ]
+[2023-01-15T03:40:16+08:00][sql] SHOW FULL COLUMNS FROM `blog_category2` [ RunTime:0.000779s ]
+[2023-01-15T03:40:16+08:00][sql] SELECT * FROM `blog_category2` WHERE  `category2_id` = 0 [ RunTime:0.000358s ]
+[2023-01-15T03:40:45+08:00][sql] CONNECT:[ UseTime:0.018171s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-15T03:40:45+08:00][sql] SHOW FULL COLUMNS FROM `blog_article` [ RunTime:0.002874s ]
+[2023-01-15T03:40:45+08:00][sql] SELECT `article_id`,`title` FROM `blog_article` [ RunTime:0.000641s ]
+[2023-01-15T03:42:31+08:00][sql] CONNECT:[ UseTime:0.000976s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-15T03:42:31+08:00][sql] SELECT c2.category2_name as top,c1.category2_name as second,c1.category1_id,c2.category1_id FROM `blog_category2` c1,blog_category2 c2 where c1.category2_id = c2.category1_id [ RunTime:0.000790s ]
+[2023-01-15T03:42:31+08:00][sql] SHOW FULL COLUMNS FROM `blog_category2` [ RunTime:0.000647s ]
+[2023-01-15T03:42:31+08:00][sql] SELECT * FROM `blog_category2` WHERE  `category2_id` = 0 [ RunTime:0.000363s ]
+[2023-01-15T03:42:32+08:00][sql] CONNECT:[ UseTime:0.000807s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-15T03:42:32+08:00][sql] SELECT c2.category2_name as top,c1.category2_name as second,c1.category1_id,c2.category1_id FROM `blog_category2` c1,blog_category2 c2 where c1.category2_id = c2.category1_id [ RunTime:0.000858s ]
+[2023-01-15T03:42:32+08:00][sql] SHOW FULL COLUMNS FROM `blog_category2` [ RunTime:0.000655s ]
+[2023-01-15T03:42:32+08:00][sql] SELECT * FROM `blog_category2` WHERE  `category2_id` = 0 [ RunTime:0.000243s ]
+[2023-01-15T03:42:32+08:00][sql] CONNECT:[ UseTime:0.012353s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-15T03:42:32+08:00][sql] SHOW FULL COLUMNS FROM `blog_article` [ RunTime:0.000876s ]
+[2023-01-15T03:42:32+08:00][sql] SELECT `article_id`,`title` FROM `blog_article` [ RunTime:0.000322s ]
+[2023-01-15T03:43:02+08:00][sql] CONNECT:[ UseTime:0.020902s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-15T03:43:02+08:00][sql] SELECT c2.category2_name as top,c1.category2_name as second,c1.category1_id,c2.category1_id FROM `blog_category2` c1,blog_category2 c2 where c1.category2_id = c2.category1_id [ RunTime:0.001891s ]
+[2023-01-15T03:43:02+08:00][sql] SHOW FULL COLUMNS FROM `blog_category2` [ RunTime:0.000717s ]
+[2023-01-15T03:43:02+08:00][sql] SELECT * FROM `blog_category2` WHERE  `category2_id` = 0 [ RunTime:0.000365s ]
+[2023-01-15T03:43:03+08:00][sql] CONNECT:[ UseTime:0.023497s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-15T03:43:03+08:00][sql] SHOW FULL COLUMNS FROM `blog_article` [ RunTime:0.000929s ]
+[2023-01-15T03:43:03+08:00][sql] SELECT `article_id`,`title` FROM `blog_article` [ RunTime:0.000349s ]
+[2023-01-15T03:43:26+08:00][sql] CONNECT:[ UseTime:0.017372s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-15T03:43:26+08:00][sql] SELECT c2.category2_name as top,c1.category2_name as second,c1.category1_id,c2.category1_id FROM `blog_category2` c1,blog_category2 c2 where c1.category2_id = c2.category1_id [ RunTime:0.000953s ]
+[2023-01-15T03:43:26+08:00][sql] SHOW FULL COLUMNS FROM `blog_category2` [ RunTime:0.001264s ]
+[2023-01-15T03:43:26+08:00][sql] SELECT * FROM `blog_category2` WHERE  `category2_id` = 0 [ RunTime:0.000728s ]
+[2023-01-15T03:43:26+08:00][sql] CONNECT:[ UseTime:0.000693s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-15T03:43:26+08:00][sql] SHOW FULL COLUMNS FROM `blog_article` [ RunTime:0.001100s ]
+[2023-01-15T03:43:26+08:00][sql] SELECT `article_id`,`title` FROM `blog_article` [ RunTime:0.000932s ]
+[2023-01-15T03:43:54+08:00][sql] CONNECT:[ UseTime:0.001308s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-15T03:43:54+08:00][sql] SELECT c2.category2_name as top,c1.category2_name as second,c1.category1_id,c2.category1_id FROM `blog_category2` c1,blog_category2 c2 where c1.category2_id = c2.category1_id [ RunTime:0.000907s ]
+[2023-01-15T03:43:54+08:00][sql] SHOW FULL COLUMNS FROM `blog_category2` [ RunTime:0.001114s ]
+[2023-01-15T03:43:54+08:00][sql] SELECT * FROM `blog_category2` WHERE  `category2_id` = 0 [ RunTime:0.000431s ]
+[2023-01-15T03:43:54+08:00][sql] CONNECT:[ UseTime:0.001222s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-15T03:43:54+08:00][sql] SHOW FULL COLUMNS FROM `blog_article` [ RunTime:0.001801s ]
+[2023-01-15T03:43:54+08:00][sql] SELECT `article_id`,`title` FROM `blog_article` [ RunTime:0.000605s ]
+[2023-01-15T03:43:55+08:00][sql] CONNECT:[ UseTime:0.001260s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-15T03:43:55+08:00][sql] SHOW FULL COLUMNS FROM `blog_article` [ RunTime:0.000692s ]
+[2023-01-15T03:43:55+08:00][sql] SELECT * FROM `blog_article` WHERE  `article_id` = 4 LIMIT 1 [ RunTime:0.000420s ]
+[2023-01-15T03:44:05+08:00][sql] CONNECT:[ UseTime:0.012177s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-15T03:44:05+08:00][sql] SELECT c2.category2_name as top,c1.category2_name as second,c1.category1_id,c2.category1_id FROM `blog_category2` c1,blog_category2 c2 where c1.category2_id = c2.category1_id [ RunTime:0.000849s ]
+[2023-01-15T03:44:05+08:00][sql] SHOW FULL COLUMNS FROM `blog_category2` [ RunTime:0.000640s ]
+[2023-01-15T03:44:05+08:00][sql] SELECT * FROM `blog_category2` WHERE  `category2_id` = 0 [ RunTime:0.000347s ]
+[2023-01-15T03:44:06+08:00][sql] CONNECT:[ UseTime:0.022627s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-15T03:44:06+08:00][sql] SHOW FULL COLUMNS FROM `blog_article` [ RunTime:0.000858s ]
+[2023-01-15T03:44:06+08:00][sql] SELECT `article_id`,`title` FROM `blog_article` [ RunTime:0.000355s ]
+[2023-01-15T03:44:07+08:00][sql] CONNECT:[ UseTime:0.010772s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-15T03:44:07+08:00][sql] SHOW FULL COLUMNS FROM `blog_article` [ RunTime:0.000801s ]
+[2023-01-15T03:44:07+08:00][sql] SELECT * FROM `blog_article` WHERE  `article_id` = 4 LIMIT 1 [ RunTime:0.000334s ]
+[2023-01-15T03:44:21+08:00][sql] CONNECT:[ UseTime:0.011735s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-15T03:44:21+08:00][sql] SELECT c2.category2_name as top,c1.category2_name as second,c1.category1_id,c2.category1_id FROM `blog_category2` c1,blog_category2 c2 where c1.category2_id = c2.category1_id [ RunTime:0.000435s ]
+[2023-01-15T03:44:21+08:00][sql] SHOW FULL COLUMNS FROM `blog_category2` [ RunTime:0.000616s ]
+[2023-01-15T03:44:21+08:00][sql] SELECT * FROM `blog_category2` WHERE  `category2_id` = 0 [ RunTime:0.000313s ]
+[2023-01-15T03:44:22+08:00][sql] CONNECT:[ UseTime:0.024330s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-15T03:44:22+08:00][sql] SHOW FULL COLUMNS FROM `blog_article` [ RunTime:0.000867s ]
+[2023-01-15T03:44:22+08:00][sql] SELECT `article_id`,`title` FROM `blog_article` [ RunTime:0.000345s ]
+[2023-01-15T03:44:23+08:00][sql] CONNECT:[ UseTime:0.000938s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-15T03:44:23+08:00][sql] SHOW FULL COLUMNS FROM `blog_article` [ RunTime:0.000731s ]
+[2023-01-15T03:44:23+08:00][sql] SELECT * FROM `blog_article` WHERE  `article_id` = 4 LIMIT 1 [ RunTime:0.000418s ]
+[2023-01-15T03:46:18+08:00][sql] CONNECT:[ UseTime:0.000977s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-15T03:46:18+08:00][sql] SELECT c2.category2_name as top,c1.category2_name as second,c1.category1_id,c2.category1_id FROM `blog_category2` c1,blog_category2 c2 where c1.category2_id = c2.category1_id [ RunTime:0.000718s ]
+[2023-01-15T03:46:18+08:00][sql] SHOW FULL COLUMNS FROM `blog_category2` [ RunTime:0.000671s ]
+[2023-01-15T03:46:18+08:00][sql] SELECT * FROM `blog_category2` WHERE  `category2_id` = 0 [ RunTime:0.000335s ]
+[2023-01-15T03:46:19+08:00][sql] CONNECT:[ UseTime:0.019832s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-15T03:46:19+08:00][sql] SHOW FULL COLUMNS FROM `blog_article` [ RunTime:0.000939s ]
+[2023-01-15T03:46:19+08:00][sql] SELECT `article_id`,`title` FROM `blog_article` [ RunTime:0.000398s ]
+[2023-01-15T03:46:20+08:00][sql] CONNECT:[ UseTime:0.001018s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-15T03:46:20+08:00][sql] SHOW FULL COLUMNS FROM `blog_article` [ RunTime:0.000727s ]
+[2023-01-15T03:46:20+08:00][sql] SELECT * FROM `blog_article` WHERE  `article_id` = 4 LIMIT 1 [ RunTime:0.000428s ]
+[2023-01-15T03:46:37+08:00][sql] CONNECT:[ UseTime:0.016391s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-15T03:46:37+08:00][sql] SELECT c2.category2_name as top,c1.category2_name as second,c1.category1_id,c2.category1_id FROM `blog_category2` c1,blog_category2 c2 where c1.category2_id = c2.category1_id [ RunTime:0.001272s ]
+[2023-01-15T03:46:37+08:00][sql] SHOW FULL COLUMNS FROM `blog_category2` [ RunTime:0.001158s ]
+[2023-01-15T03:46:37+08:00][sql] SELECT * FROM `blog_category2` WHERE  `category2_id` = 0 [ RunTime:0.000266s ]
+[2023-01-15T03:46:38+08:00][sql] CONNECT:[ UseTime:0.018754s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-15T03:46:38+08:00][sql] SHOW FULL COLUMNS FROM `blog_article` [ RunTime:0.000948s ]
+[2023-01-15T03:46:38+08:00][sql] SELECT `article_id`,`title` FROM `blog_article` [ RunTime:0.000382s ]
+[2023-01-15T03:46:39+08:00][sql] CONNECT:[ UseTime:0.011360s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-15T03:46:39+08:00][sql] SHOW FULL COLUMNS FROM `blog_article` [ RunTime:0.001154s ]
+[2023-01-15T03:46:39+08:00][sql] SELECT * FROM `blog_article` WHERE  `article_id` = 4 LIMIT 1 [ RunTime:0.000475s ]
+[2023-01-15T03:47:43+08:00][sql] CONNECT:[ UseTime:0.001002s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-15T03:47:43+08:00][sql] SELECT c2.category2_name as top,c1.category2_name as second,c1.category1_id,c2.category1_id FROM `blog_category2` c1,blog_category2 c2 where c1.category2_id = c2.category1_id [ RunTime:0.001773s ]
+[2023-01-15T03:47:43+08:00][sql] SHOW FULL COLUMNS FROM `blog_category2` [ RunTime:0.000817s ]
+[2023-01-15T03:47:43+08:00][sql] SELECT * FROM `blog_category2` WHERE  `category2_id` = 0 [ RunTime:0.000489s ]
+[2023-01-15T03:47:43+08:00][sql] CONNECT:[ UseTime:0.001026s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-15T03:47:43+08:00][sql] SHOW FULL COLUMNS FROM `blog_article` [ RunTime:0.000921s ]
+[2023-01-15T03:47:43+08:00][sql] SELECT `article_id`,`title` FROM `blog_article` [ RunTime:0.000436s ]
+[2023-01-15T03:47:44+08:00][sql] CONNECT:[ UseTime:0.015024s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-15T03:47:44+08:00][sql] SHOW FULL COLUMNS FROM `blog_article` [ RunTime:0.000662s ]
+[2023-01-15T03:47:44+08:00][sql] SELECT * FROM `blog_article` WHERE  `article_id` = 4 LIMIT 1 [ RunTime:0.000486s ]
+[2023-01-15T03:51:20+08:00][sql] CONNECT:[ UseTime:0.000651s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-15T03:51:20+08:00][sql] SELECT c2.category2_name as top,c1.category2_name as second,c1.category1_id,c2.category1_id FROM `blog_category2` c1,blog_category2 c2 where c1.category2_id = c2.category1_id [ RunTime:0.000514s ]
+[2023-01-15T03:51:20+08:00][sql] SHOW FULL COLUMNS FROM `blog_category2` [ RunTime:0.000860s ]
+[2023-01-15T03:51:20+08:00][sql] SELECT * FROM `blog_category2` WHERE  `category2_id` = 0 [ RunTime:0.000604s ]
+[2023-01-15T03:51:21+08:00][sql] CONNECT:[ UseTime:0.001126s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-15T03:51:21+08:00][sql] SELECT c2.category2_name as top,c1.category2_name as second,c1.category1_id,c2.category1_id FROM `blog_category2` c1,blog_category2 c2 where c1.category2_id = c2.category1_id [ RunTime:0.000377s ]
+[2023-01-15T03:51:21+08:00][sql] SHOW FULL COLUMNS FROM `blog_category2` [ RunTime:0.000592s ]
+[2023-01-15T03:51:21+08:00][sql] SELECT * FROM `blog_category2` WHERE  `category2_id` = 0 [ RunTime:0.000255s ]
+[2023-01-15T03:51:21+08:00][sql] CONNECT:[ UseTime:0.000797s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-15T03:51:21+08:00][sql] SELECT c2.category2_name as top,c1.category2_name as second,c1.category1_id,c2.category1_id FROM `blog_category2` c1,blog_category2 c2 where c1.category2_id = c2.category1_id [ RunTime:0.000585s ]
+[2023-01-15T03:51:21+08:00][sql] SHOW FULL COLUMNS FROM `blog_category2` [ RunTime:0.000550s ]
+[2023-01-15T03:51:21+08:00][sql] SELECT * FROM `blog_category2` WHERE  `category2_id` = 0 [ RunTime:0.000429s ]
+[2023-01-15T03:51:22+08:00][sql] CONNECT:[ UseTime:0.001192s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-15T03:51:22+08:00][sql] SHOW FULL COLUMNS FROM `blog_article` [ RunTime:0.005173s ]
+[2023-01-15T03:51:22+08:00][sql] SELECT `article_id`,`title` FROM `blog_article` [ RunTime:0.000573s ]
+[2023-01-15T03:51:23+08:00][sql] CONNECT:[ UseTime:0.019444s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-15T03:51:23+08:00][sql] SHOW FULL COLUMNS FROM `blog_article` [ RunTime:0.000722s ]
+[2023-01-15T03:51:23+08:00][sql] SELECT * FROM `blog_article` WHERE  `article_id` = 4 LIMIT 1 [ RunTime:0.000417s ]
+[2023-01-15T03:57:14+08:00][sql] CONNECT:[ UseTime:0.017924s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-15T03:57:14+08:00][sql] SELECT c2.category2_name as top,c1.category2_name as second,c1.category1_id,c2.category1_id FROM `blog_category2` c1,blog_category2 c2 where c1.category2_id = c2.category1_id [ RunTime:0.000830s ]
+[2023-01-15T03:57:14+08:00][sql] SHOW FULL COLUMNS FROM `blog_category2` [ RunTime:0.000561s ]
+[2023-01-15T03:57:14+08:00][sql] SELECT * FROM `blog_category2` WHERE  `category2_id` = 0 [ RunTime:0.000289s ]
+[2023-01-15T03:57:15+08:00][sql] CONNECT:[ UseTime:0.023563s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-15T03:57:15+08:00][sql] SHOW FULL COLUMNS FROM `blog_article` [ RunTime:0.000846s ]
+[2023-01-15T03:57:15+08:00][sql] SELECT `article_id`,`title` FROM `blog_article` [ RunTime:0.000353s ]
+[2023-01-15T03:57:49+08:00][sql] CONNECT:[ UseTime:0.017893s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-15T03:57:49+08:00][sql] SELECT c2.category2_name as top,c1.category2_name as second,c1.category1_id,c2.category1_id FROM `blog_category2` c1,blog_category2 c2 where c1.category2_id = c2.category1_id [ RunTime:0.000400s ]
+[2023-01-15T03:57:49+08:00][sql] SHOW FULL COLUMNS FROM `blog_category2` [ RunTime:0.000783s ]
+[2023-01-15T03:57:49+08:00][sql] SELECT * FROM `blog_category2` WHERE  `category2_id` = 0 [ RunTime:0.000358s ]
+[2023-01-15T03:57:50+08:00][sql] CONNECT:[ UseTime:0.001155s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-15T03:57:50+08:00][sql] SHOW FULL COLUMNS FROM `blog_article` [ RunTime:0.000907s ]
+[2023-01-15T03:57:50+08:00][sql] SELECT `article_id`,`title` FROM `blog_article` [ RunTime:0.000375s ]
+[2023-01-15T03:58:19+08:00][sql] CONNECT:[ UseTime:0.015026s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-15T03:58:19+08:00][sql] SELECT c2.category2_name as top,c1.category2_name as second,c1.category1_id,c2.category1_id FROM `blog_category2` c1,blog_category2 c2 where c1.category2_id = c2.category1_id [ RunTime:0.000385s ]
+[2023-01-15T03:58:19+08:00][sql] SHOW FULL COLUMNS FROM `blog_category2` [ RunTime:0.000563s ]
+[2023-01-15T03:58:19+08:00][sql] SELECT * FROM `blog_category2` WHERE  `category2_id` = 0 [ RunTime:0.000327s ]
+[2023-01-15T03:58:20+08:00][sql] CONNECT:[ UseTime:0.019885s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-15T03:58:20+08:00][sql] SHOW FULL COLUMNS FROM `blog_article` [ RunTime:0.001058s ]
+[2023-01-15T03:58:20+08:00][sql] SELECT `article_id`,`title` FROM `blog_article` [ RunTime:0.000462s ]
+[2023-01-15T03:58:48+08:00][sql] CONNECT:[ UseTime:0.000860s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-15T03:58:48+08:00][sql] SELECT c2.category2_name as top,c1.category2_name as second,c1.category1_id,c2.category1_id FROM `blog_category2` c1,blog_category2 c2 where c1.category2_id = c2.category1_id [ RunTime:0.000596s ]
+[2023-01-15T03:58:48+08:00][sql] SHOW FULL COLUMNS FROM `blog_category2` [ RunTime:0.001019s ]
+[2023-01-15T03:58:48+08:00][sql] SELECT * FROM `blog_category2` WHERE  `category2_id` = 0 [ RunTime:0.000281s ]
+[2023-01-15T03:58:48+08:00][sql] CONNECT:[ UseTime:0.019208s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-15T03:58:48+08:00][sql] SHOW FULL COLUMNS FROM `blog_article` [ RunTime:0.001108s ]
+[2023-01-15T03:58:48+08:00][sql] SELECT `article_id`,`title` FROM `blog_article` [ RunTime:0.000298s ]
+[2023-01-15T03:59:18+08:00][sql] CONNECT:[ UseTime:0.000774s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-15T03:59:18+08:00][sql] SELECT c2.category2_name as top,c1.category2_name as second,c1.category1_id,c2.category1_id FROM `blog_category2` c1,blog_category2 c2 where c1.category2_id = c2.category1_id [ RunTime:0.000325s ]
+[2023-01-15T03:59:18+08:00][sql] SHOW FULL COLUMNS FROM `blog_category2` [ RunTime:0.000458s ]
+[2023-01-15T03:59:18+08:00][sql] SELECT * FROM `blog_category2` WHERE  `category2_id` = 0 [ RunTime:0.000178s ]
+[2023-01-15T03:59:19+08:00][sql] CONNECT:[ UseTime:0.000751s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-15T03:59:19+08:00][sql] SHOW FULL COLUMNS FROM `blog_article` [ RunTime:0.001595s ]
+[2023-01-15T03:59:19+08:00][sql] SELECT `article_id`,`title` FROM `blog_article` [ RunTime:0.000592s ]
+[2023-01-15T03:59:40+08:00][sql] CONNECT:[ UseTime:0.011169s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-15T03:59:40+08:00][sql] SELECT c2.category2_name as top,c1.category2_name as second,c1.category1_id,c2.category1_id FROM `blog_category2` c1,blog_category2 c2 where c1.category2_id = c2.category1_id [ RunTime:0.000498s ]
+[2023-01-15T03:59:40+08:00][sql] SHOW FULL COLUMNS FROM `blog_category2` [ RunTime:0.000505s ]
+[2023-01-15T03:59:40+08:00][sql] SELECT * FROM `blog_category2` WHERE  `category2_id` = 0 [ RunTime:0.000293s ]
+[2023-01-15T03:59:41+08:00][sql] CONNECT:[ UseTime:0.011057s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-15T03:59:41+08:00][sql] SHOW FULL COLUMNS FROM `blog_article` [ RunTime:0.001288s ]
+[2023-01-15T03:59:41+08:00][sql] SELECT `article_id`,`title` FROM `blog_article` [ RunTime:0.000354s ]
+[2023-01-15T03:59:42+08:00][sql] CONNECT:[ UseTime:0.011766s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-15T03:59:42+08:00][sql] SHOW FULL COLUMNS FROM `blog_article` [ RunTime:0.000684s ]
+[2023-01-15T03:59:42+08:00][sql] SELECT * FROM `blog_article` WHERE  `article_id` = 4 LIMIT 1 [ RunTime:0.000350s ]
+[2023-01-15T03:59:42+08:00][sql] SELECT c2.category2_name as top,c1.category2_name as second,c1.category1_id,c2.category1_id FROM `blog_category2` c1,blog_category2 c2 where c1.category2_id = c2.category1_id [ RunTime:0.000530s ]
+[2023-01-15T04:01:07+08:00][sql] CONNECT:[ UseTime:0.000933s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-15T04:01:07+08:00][sql] SELECT c2.category2_name as top,c1.category2_name as second,c1.category1_id,c2.category1_id FROM `blog_category2` c1,blog_category2 c2 where c1.category2_id = c2.category1_id [ RunTime:0.000542s ]
+[2023-01-15T04:01:07+08:00][sql] SHOW FULL COLUMNS FROM `blog_category2` [ RunTime:0.000779s ]
+[2023-01-15T04:01:07+08:00][sql] SELECT * FROM `blog_category2` WHERE  `category2_id` = 0 [ RunTime:0.000312s ]
+[2023-01-15T04:01:08+08:00][sql] CONNECT:[ UseTime:0.022026s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-15T04:01:08+08:00][sql] SHOW FULL COLUMNS FROM `blog_article` [ RunTime:0.001111s ]
+[2023-01-15T04:01:08+08:00][sql] SELECT `article_id`,`title` FROM `blog_article` [ RunTime:0.000480s ]
+[2023-01-15T04:01:09+08:00][sql] CONNECT:[ UseTime:0.000757s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-15T04:01:09+08:00][sql] SHOW FULL COLUMNS FROM `blog_article` [ RunTime:0.000673s ]
+[2023-01-15T04:01:09+08:00][sql] SELECT * FROM `blog_article` WHERE  `article_id` = 4 LIMIT 1 [ RunTime:0.000370s ]
+[2023-01-15T04:01:09+08:00][sql] SELECT c2.category2_name as top,c1.category2_name as second,c1.category1_id,c2.category1_id FROM `blog_category2` c1,blog_category2 c2 where c1.category2_id = c2.category1_id [ RunTime:0.000922s ]
+[2023-01-15T04:02:16+08:00][sql] CONNECT:[ UseTime:0.018364s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-15T04:02:16+08:00][sql] SELECT c2.category2_name as top,c1.category2_name as second,c1.category1_id,c2.category1_id FROM `blog_category2` c1,blog_category2 c2 where c1.category2_id = c2.category1_id [ RunTime:0.000398s ]
+[2023-01-15T04:02:16+08:00][sql] SHOW FULL COLUMNS FROM `blog_category2` [ RunTime:0.000463s ]
+[2023-01-15T04:02:16+08:00][sql] SELECT * FROM `blog_category2` WHERE  `category2_id` = 0 [ RunTime:0.000243s ]
+[2023-01-15T04:02:17+08:00][sql] CONNECT:[ UseTime:0.012167s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-15T04:02:17+08:00][sql] SHOW FULL COLUMNS FROM `blog_article` [ RunTime:0.000810s ]
+[2023-01-15T04:02:17+08:00][sql] SELECT `article_id`,`title` FROM `blog_article` [ RunTime:0.000365s ]
+[2023-01-15T04:02:18+08:00][sql] CONNECT:[ UseTime:0.000729s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-15T04:02:18+08:00][sql] SHOW FULL COLUMNS FROM `blog_article` [ RunTime:0.000668s ]
+[2023-01-15T04:02:18+08:00][sql] SELECT * FROM `blog_article` WHERE  `article_id` = 4 LIMIT 1 [ RunTime:0.000361s ]
+[2023-01-15T04:02:18+08:00][sql] SELECT c2.category2_name as top,c1.category2_name as second,c1.category1_id,c2.category1_id FROM `blog_category2` c1,blog_category2 c2 where c1.category2_id = c2.category1_id [ RunTime:0.000434s ]
+[2023-01-15T04:02:46+08:00][sql] CONNECT:[ UseTime:0.000913s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-15T04:02:46+08:00][sql] SELECT c2.category2_name as top,c1.category2_name as second,c1.category1_id,c2.category1_id FROM `blog_category2` c1,blog_category2 c2 where c1.category2_id = c2.category1_id [ RunTime:0.000492s ]
+[2023-01-15T04:02:46+08:00][sql] SHOW FULL COLUMNS FROM `blog_category2` [ RunTime:0.000869s ]
+[2023-01-15T04:02:46+08:00][sql] SELECT * FROM `blog_category2` WHERE  `category2_id` = 0 [ RunTime:0.000450s ]
+[2023-01-15T04:02:47+08:00][sql] CONNECT:[ UseTime:0.023768s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-15T04:02:47+08:00][sql] SHOW FULL COLUMNS FROM `blog_article` [ RunTime:0.000726s ]
+[2023-01-15T04:02:47+08:00][sql] SELECT `article_id`,`title` FROM `blog_article` [ RunTime:0.000345s ]
+[2023-01-15T04:02:48+08:00][sql] CONNECT:[ UseTime:0.017277s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-15T04:02:48+08:00][sql] SHOW FULL COLUMNS FROM `blog_article` [ RunTime:0.001179s ]
+[2023-01-15T04:02:48+08:00][sql] SELECT * FROM `blog_article` WHERE  `article_id` = 4 LIMIT 1 [ RunTime:0.000441s ]
+[2023-01-15T04:02:48+08:00][sql] SELECT c2.category2_name as top,c1.category2_name as second,c1.category1_id,c2.category1_id FROM `blog_category2` c1,blog_category2 c2 where c1.category2_id = c2.category1_id [ RunTime:0.000470s ]
+[2023-01-15T04:04:57+08:00][sql] CONNECT:[ UseTime:0.012445s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-15T04:04:57+08:00][sql] SELECT c2.category2_name as top,c1.category2_name as second,c1.category1_id,c2.category1_id FROM `blog_category2` c1,blog_category2 c2 where c1.category2_id = c2.category1_id [ RunTime:0.000497s ]
+[2023-01-15T04:04:57+08:00][sql] SHOW FULL COLUMNS FROM `blog_category2` [ RunTime:0.000478s ]
+[2023-01-15T04:04:57+08:00][sql] SELECT * FROM `blog_category2` WHERE  `category2_id` = 0 [ RunTime:0.000290s ]
+[2023-01-15T04:04:58+08:00][sql] CONNECT:[ UseTime:0.020034s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-15T04:04:58+08:00][sql] SHOW FULL COLUMNS FROM `blog_article` [ RunTime:0.000930s ]
+[2023-01-15T04:04:58+08:00][sql] SELECT `article_id`,`title` FROM `blog_article` [ RunTime:0.000389s ]
+[2023-01-15T04:04:59+08:00][sql] CONNECT:[ UseTime:0.025804s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-15T04:04:59+08:00][sql] SHOW FULL COLUMNS FROM `blog_article` [ RunTime:0.000813s ]
+[2023-01-15T04:04:59+08:00][sql] SELECT * FROM `blog_article` WHERE  `article_id` = 4 LIMIT 1 [ RunTime:0.000521s ]
+[2023-01-15T04:04:59+08:00][sql] SELECT c2.category2_name as top,c1.category2_name as second,c1.category1_id,c2.category1_id FROM `blog_category2` c1,blog_category2 c2 where c1.category2_id = c2.category1_id [ RunTime:0.000458s ]
+[2023-01-15T04:05:54+08:00][sql] CONNECT:[ UseTime:0.000901s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-15T04:05:54+08:00][sql] SHOW FULL COLUMNS FROM `blog_article` [ RunTime:0.001006s ]
+[2023-01-15T04:05:54+08:00][sql] SELECT `article_id`,`title` FROM `blog_article` [ RunTime:0.000424s ]
+[2023-01-15T04:06:28+08:00][sql] CONNECT:[ UseTime:0.000850s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-15T04:06:28+08:00][sql] SELECT c2.category2_name as top,c1.category2_name as second,c1.category1_id,c2.category1_id FROM `blog_category2` c1,blog_category2 c2 where c1.category2_id = c2.category1_id [ RunTime:0.000447s ]
+[2023-01-15T04:06:28+08:00][sql] SHOW FULL COLUMNS FROM `blog_category2` [ RunTime:0.000591s ]
+[2023-01-15T04:06:28+08:00][sql] SELECT * FROM `blog_category2` WHERE  `category2_id` = 0 [ RunTime:0.000348s ]
+[2023-01-15T04:06:29+08:00][sql] CONNECT:[ UseTime:0.021581s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-15T04:06:29+08:00][sql] SHOW FULL COLUMNS FROM `blog_article` [ RunTime:0.000879s ]
+[2023-01-15T04:06:29+08:00][sql] SELECT `article_id`,`title` FROM `blog_article` [ RunTime:0.000346s ]
+[2023-01-15T04:06:30+08:00][sql] CONNECT:[ UseTime:0.020112s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-15T04:06:30+08:00][sql] SHOW FULL COLUMNS FROM `blog_article` [ RunTime:0.002204s ]
+[2023-01-15T04:06:30+08:00][sql] SELECT * FROM `blog_article` WHERE  `article_id` = 4 LIMIT 1 [ RunTime:0.001225s ]
+[2023-01-15T04:06:30+08:00][sql] SELECT c2.category2_name as top,c1.category2_name as second,c1.category1_id,c2.category1_id FROM `blog_category2` c1,blog_category2 c2 where c1.category2_id = c2.category1_id [ RunTime:0.001285s ]
+[2023-01-15T04:06:32+08:00][sql] CONNECT:[ UseTime:0.023100s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-15T04:06:32+08:00][sql] SHOW FULL COLUMNS FROM `blog_article` [ RunTime:0.000681s ]
+[2023-01-15T04:06:32+08:00][sql] SELECT `article_id`,`title` FROM `blog_article` [ RunTime:0.000341s ]
+[2023-01-15T04:06:51+08:00][sql] CONNECT:[ UseTime:0.024873s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-15T04:06:51+08:00][sql] SELECT c2.category2_name as top,c1.category2_name as second,c1.category1_id,c2.category1_id FROM `blog_category2` c1,blog_category2 c2 where c1.category2_id = c2.category1_id [ RunTime:0.000552s ]
+[2023-01-15T04:06:51+08:00][sql] SHOW FULL COLUMNS FROM `blog_category2` [ RunTime:0.000839s ]
+[2023-01-15T04:06:51+08:00][sql] SELECT * FROM `blog_category2` WHERE  `category2_id` = 0 [ RunTime:0.000385s ]
+[2023-01-15T04:06:51+08:00][sql] CONNECT:[ UseTime:0.000790s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-15T04:06:51+08:00][sql] SHOW FULL COLUMNS FROM `blog_article` [ RunTime:0.000555s ]
+[2023-01-15T04:06:51+08:00][sql] SELECT `article_id`,`title` FROM `blog_article` [ RunTime:0.000272s ]
+[2023-01-15T04:06:52+08:00][sql] CONNECT:[ UseTime:0.018641s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-15T04:06:52+08:00][sql] SHOW FULL COLUMNS FROM `blog_article` [ RunTime:0.000695s ]
+[2023-01-15T04:06:52+08:00][sql] SELECT * FROM `blog_article` WHERE  `article_id` = 4 LIMIT 1 [ RunTime:0.000400s ]
+[2023-01-15T04:06:52+08:00][sql] SELECT c2.category2_name as top,c1.category2_name as second,c1.category1_id,c2.category1_id FROM `blog_category2` c1,blog_category2 c2 where c1.category2_id = c2.category1_id [ RunTime:0.000263s ]
+[2023-01-15T04:09:11+08:00][sql] CONNECT:[ UseTime:0.014847s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-15T04:09:11+08:00][sql] SELECT c2.category2_name as top,c1.category2_name as second,c1.category1_id,c2.category1_id FROM `blog_category2` c1,blog_category2 c2 where c1.category2_id = c2.category1_id [ RunTime:0.000503s ]
+[2023-01-15T04:09:11+08:00][sql] SHOW FULL COLUMNS FROM `blog_category2` [ RunTime:0.000521s ]
+[2023-01-15T04:09:11+08:00][sql] SELECT * FROM `blog_category2` WHERE  `category2_id` = 0 [ RunTime:0.000338s ]
+[2023-01-15T04:09:12+08:00][sql] CONNECT:[ UseTime:0.018801s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-15T04:09:12+08:00][sql] SHOW FULL COLUMNS FROM `blog_article` [ RunTime:0.000734s ]
+[2023-01-15T04:09:12+08:00][sql] SELECT `article_id`,`title` FROM `blog_article` [ RunTime:0.000416s ]
+[2023-01-15T04:09:13+08:00][sql] CONNECT:[ UseTime:0.000898s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-15T04:09:13+08:00][sql] SHOW FULL COLUMNS FROM `blog_article` [ RunTime:0.000712s ]
+[2023-01-15T04:09:13+08:00][sql] SELECT * FROM `blog_article` WHERE  `article_id` = 4 LIMIT 1 [ RunTime:0.000413s ]
+[2023-01-15T04:09:13+08:00][sql] SELECT c2.category2_name as top,c1.category2_name as second,c1.category1_id,c2.category1_id FROM `blog_category2` c1,blog_category2 c2 where c1.category2_id = c2.category1_id [ RunTime:0.000387s ]
+[2023-01-15T04:09:19+08:00][sql] CONNECT:[ UseTime:0.024398s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-15T04:09:19+08:00][sql] SHOW FULL COLUMNS FROM `blog_article` [ RunTime:0.001298s ]
+[2023-01-15T04:09:19+08:00][sql] SELECT `article_id`,`title` FROM `blog_article` [ RunTime:0.000347s ]
+[2023-01-15T04:09:20+08:00][sql] CONNECT:[ UseTime:0.000753s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-15T04:09:20+08:00][sql] SHOW FULL COLUMNS FROM `blog_article` [ RunTime:0.000746s ]
+[2023-01-15T04:09:20+08:00][sql] SELECT * FROM `blog_article` WHERE  `article_id` = 7 LIMIT 1 [ RunTime:0.000394s ]
+[2023-01-15T04:09:20+08:00][sql] SELECT c2.category2_name as top,c1.category2_name as second,c1.category1_id,c2.category1_id FROM `blog_category2` c1,blog_category2 c2 where c1.category2_id = c2.category1_id [ RunTime:0.000350s ]
+[2023-01-15T04:10:02+08:00][sql] CONNECT:[ UseTime:0.025001s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-15T04:10:02+08:00][sql] SELECT c2.category2_name as top,c1.category2_name as second,c1.category1_id,c2.category1_id FROM `blog_category2` c1,blog_category2 c2 where c1.category2_id = c2.category1_id [ RunTime:0.001049s ]
+[2023-01-15T04:10:02+08:00][sql] SHOW FULL COLUMNS FROM `blog_category2` [ RunTime:0.000611s ]
+[2023-01-15T04:10:02+08:00][sql] SELECT * FROM `blog_category2` WHERE  `category2_id` = 0 [ RunTime:0.000327s ]
+[2023-01-15T04:10:02+08:00][sql] CONNECT:[ UseTime:0.020033s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-15T04:10:02+08:00][sql] SHOW FULL COLUMNS FROM `blog_article` [ RunTime:0.000843s ]
+[2023-01-15T04:10:02+08:00][sql] SELECT `article_id`,`title` FROM `blog_article` [ RunTime:0.000405s ]
+[2023-01-15T04:10:03+08:00][sql] CONNECT:[ UseTime:0.000897s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-15T04:10:03+08:00][sql] SHOW FULL COLUMNS FROM `blog_article` [ RunTime:0.000723s ]
+[2023-01-15T04:10:03+08:00][sql] SELECT * FROM `blog_article` WHERE  `article_id` = 6 LIMIT 1 [ RunTime:0.000435s ]
+[2023-01-15T04:10:03+08:00][sql] SELECT c2.category2_name as top,c1.category2_name as second,c1.category1_id,c2.category1_id FROM `blog_category2` c1,blog_category2 c2 where c1.category2_id = c2.category1_id [ RunTime:0.000466s ]
+[2023-01-15T04:11:46+08:00][sql] CONNECT:[ UseTime:0.000863s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-15T04:11:46+08:00][sql] SELECT c2.category2_name as top,c1.category2_name as second,c1.category1_id,c2.category1_id FROM `blog_category2` c1,blog_category2 c2 where c1.category2_id = c2.category1_id [ RunTime:0.000368s ]
+[2023-01-15T04:11:46+08:00][sql] SHOW FULL COLUMNS FROM `blog_category2` [ RunTime:0.000813s ]
+[2023-01-15T04:11:46+08:00][sql] SELECT * FROM `blog_category2` WHERE  `category2_id` = 0 [ RunTime:0.000826s ]
+[2023-01-15T04:11:46+08:00][sql] CONNECT:[ UseTime:0.021390s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-15T04:11:46+08:00][sql] SHOW FULL COLUMNS FROM `blog_article` [ RunTime:0.000802s ]
+[2023-01-15T04:11:46+08:00][sql] SELECT `article_id`,`title` FROM `blog_article` [ RunTime:0.000383s ]
+[2023-01-15T04:11:47+08:00][sql] CONNECT:[ UseTime:0.015426s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-15T04:11:47+08:00][sql] SHOW FULL COLUMNS FROM `blog_article` [ RunTime:0.000704s ]
+[2023-01-15T04:11:47+08:00][sql] SELECT * FROM `blog_article` WHERE  `article_id` = 6 LIMIT 1 [ RunTime:0.000372s ]
+[2023-01-15T04:11:47+08:00][sql] SELECT c2.category2_name as top,c1.category2_name as second,c1.category1_id as category1_id,c2.category1_id FROM `blog_category2` c1,blog_category2 c2 where c1.category2_id = c2.category1_id [ RunTime:0.000362s ]
+[2023-01-15T04:11:59+08:00][sql] CONNECT:[ UseTime:0.000802s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-15T04:11:59+08:00][sql] SELECT c2.category2_name as top,c1.category2_name as second,c1.category1_id,c2.category1_id FROM `blog_category2` c1,blog_category2 c2 where c1.category2_id = c2.category1_id [ RunTime:0.000418s ]
+[2023-01-15T04:11:59+08:00][sql] SHOW FULL COLUMNS FROM `blog_category2` [ RunTime:0.000579s ]
+[2023-01-15T04:11:59+08:00][sql] SELECT * FROM `blog_category2` WHERE  `category2_id` = 0 [ RunTime:0.000326s ]
+[2023-01-15T04:12:00+08:00][sql] CONNECT:[ UseTime:0.014634s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-15T04:12:00+08:00][sql] SHOW FULL COLUMNS FROM `blog_article` [ RunTime:0.000892s ]
+[2023-01-15T04:12:00+08:00][sql] SELECT `article_id`,`title` FROM `blog_article` [ RunTime:0.000393s ]
+[2023-01-15T04:12:01+08:00][sql] CONNECT:[ UseTime:0.017176s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-15T04:12:01+08:00][sql] SHOW FULL COLUMNS FROM `blog_article` [ RunTime:0.000723s ]
+[2023-01-15T04:12:01+08:00][sql] SELECT * FROM `blog_article` WHERE  `article_id` = 6 LIMIT 1 [ RunTime:0.000390s ]
+[2023-01-15T04:12:01+08:00][sql] SELECT c2.category2_name as top,c1.category2_name as second,c1.category1_id,c2.category1_id as category1_id FROM `blog_category2` c1,blog_category2 c2 where c1.category2_id = c2.category1_id [ RunTime:0.000341s ]
+[2023-01-15T04:13:00+08:00][sql] CONNECT:[ UseTime:0.021822s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-15T04:13:00+08:00][sql] SELECT c2.category2_name as top,c1.category2_name as second,c1.category1_id,c2.category1_id FROM `blog_category2` c1,blog_category2 c2 where c1.category2_id = c2.category1_id [ RunTime:0.000505s ]
+[2023-01-15T04:13:00+08:00][sql] SHOW FULL COLUMNS FROM `blog_category2` [ RunTime:0.001050s ]
+[2023-01-15T04:13:00+08:00][sql] SELECT * FROM `blog_category2` WHERE  `category2_id` = 0 [ RunTime:0.000520s ]
+[2023-01-15T04:13:00+08:00][sql] CONNECT:[ UseTime:0.015014s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-15T04:13:00+08:00][sql] SHOW FULL COLUMNS FROM `blog_article` [ RunTime:0.000735s ]
+[2023-01-15T04:13:00+08:00][sql] SELECT `article_id`,`title` FROM `blog_article` [ RunTime:0.000332s ]
+[2023-01-15T04:13:02+08:00][sql] CONNECT:[ UseTime:0.015570s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-15T04:13:02+08:00][sql] SHOW FULL COLUMNS FROM `blog_article` [ RunTime:0.000670s ]
+[2023-01-15T04:13:02+08:00][sql] SELECT * FROM `blog_article` WHERE  `article_id` = 6 LIMIT 1 [ RunTime:0.000349s ]
+[2023-01-15T04:13:02+08:00][sql] SELECT c2.category2_name as top,c1.category2_name as second,c1.category1_id,c2.category1_id as category1_id FROM `blog_category2` c1,blog_category2 c2 where c1.category2_id = c2.category1_id [ RunTime:0.000297s ]
+[2023-01-15T04:15:50+08:00][sql] CONNECT:[ UseTime:0.001023s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-15T04:15:50+08:00][sql] SELECT c2.category2_name as top,c1.category2_name as second,c1.category1_id,c2.category1_id FROM `blog_category2` c1,blog_category2 c2 where c1.category2_id = c2.category1_id [ RunTime:0.000717s ]
+[2023-01-15T04:15:50+08:00][sql] SHOW FULL COLUMNS FROM `blog_category2` [ RunTime:0.000635s ]
+[2023-01-15T04:15:50+08:00][sql] SELECT * FROM `blog_category2` WHERE  `category2_id` = 0 [ RunTime:0.000336s ]
+[2023-01-15T04:15:51+08:00][sql] CONNECT:[ UseTime:0.000810s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-15T04:15:51+08:00][sql] SHOW FULL COLUMNS FROM `blog_article` [ RunTime:0.000728s ]
+[2023-01-15T04:15:51+08:00][sql] SELECT `article_id`,`title` FROM `blog_article` [ RunTime:0.000361s ]
+[2023-01-15T04:15:52+08:00][sql] CONNECT:[ UseTime:0.013117s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-15T04:15:52+08:00][sql] SHOW FULL COLUMNS FROM `blog_article` [ RunTime:0.000758s ]
+[2023-01-15T04:15:52+08:00][sql] SELECT * FROM `blog_article` WHERE  `article_id` = 6 LIMIT 1 [ RunTime:0.000392s ]
+[2023-01-15T04:15:52+08:00][sql] SELECT c2.category2_name as top,c1.category2_name as second,c1.category1_id,c2.category1_id as category1_id FROM `blog_category2` c1,blog_category2 c2 where c1.category2_id = c2.category1_id [ RunTime:0.000367s ]
+[2023-01-15T04:16:17+08:00][sql] CONNECT:[ UseTime:0.024825s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-15T04:16:17+08:00][sql] SELECT c2.category2_name as top,c1.category2_name as second,c1.category1_id,c2.category1_id FROM `blog_category2` c1,blog_category2 c2 where c1.category2_id = c2.category1_id [ RunTime:0.000409s ]
+[2023-01-15T04:16:17+08:00][sql] SHOW FULL COLUMNS FROM `blog_category2` [ RunTime:0.000579s ]
+[2023-01-15T04:16:17+08:00][sql] SELECT * FROM `blog_category2` WHERE  `category2_id` = 0 [ RunTime:0.000319s ]
+[2023-01-15T04:16:17+08:00][sql] CONNECT:[ UseTime:0.022589s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-15T04:16:17+08:00][sql] SHOW FULL COLUMNS FROM `blog_article` [ RunTime:0.001003s ]
+[2023-01-15T04:16:17+08:00][sql] SELECT `article_id`,`title` FROM `blog_article` [ RunTime:0.000461s ]
+[2023-01-15T04:16:18+08:00][sql] CONNECT:[ UseTime:0.025721s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-15T04:16:18+08:00][sql] SHOW FULL COLUMNS FROM `blog_article` [ RunTime:0.000934s ]
+[2023-01-15T04:16:18+08:00][sql] SELECT * FROM `blog_article` WHERE  `article_id` = 6 LIMIT 1 [ RunTime:0.000359s ]
+[2023-01-15T04:16:18+08:00][sql] SELECT c2.category2_name as top,c1.category2_name as second,c1.category1_id as category1_id,c2.category1_id FROM `blog_category2` c1,blog_category2 c2 where c1.category2_id = c2.category1_id [ RunTime:0.000363s ]
+[2023-01-15T04:18:01+08:00][sql] CONNECT:[ UseTime:0.021540s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-15T04:18:01+08:00][sql] SELECT c2.category2_name as top,c1.category2_name as second,c1.category1_id,c2.category1_id FROM `blog_category2` c1,blog_category2 c2 where c1.category2_id = c2.category1_id [ RunTime:0.000417s ]
+[2023-01-15T04:18:01+08:00][sql] SHOW FULL COLUMNS FROM `blog_category2` [ RunTime:0.000569s ]
+[2023-01-15T04:18:01+08:00][sql] SELECT * FROM `blog_category2` WHERE  `category2_id` = 0 [ RunTime:0.000268s ]
+[2023-01-15T04:18:02+08:00][sql] CONNECT:[ UseTime:0.000956s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-15T04:18:02+08:00][sql] SHOW FULL COLUMNS FROM `blog_article` [ RunTime:0.000683s ]
+[2023-01-15T04:18:02+08:00][sql] SELECT `article_id`,`title` FROM `blog_article` [ RunTime:0.000266s ]
+[2023-01-15T04:18:03+08:00][sql] CONNECT:[ UseTime:0.018620s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-15T04:18:03+08:00][sql] SHOW FULL COLUMNS FROM `blog_article` [ RunTime:0.002736s ]
+[2023-01-15T04:18:03+08:00][sql] SELECT * FROM `blog_article` WHERE  `article_id` = 6 LIMIT 1 [ RunTime:0.001378s ]
+[2023-01-15T04:18:03+08:00][sql] SELECT c2.category2_name as top,c1.category2_name as second,c1.category1_id,c2.category1_id as category1_id FROM `blog_category2` c1,blog_category2 c2 where c1.category2_id = c2.category1_id [ RunTime:0.001512s ]
+[2023-01-15T04:18:50+08:00][sql] CONNECT:[ UseTime:0.001169s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-15T04:18:50+08:00][sql] SELECT c2.category2_name as top,c1.category2_name as second,c1.category1_id,c2.category1_id FROM `blog_category2` c1,blog_category2 c2 where c1.category2_id = c2.category1_id [ RunTime:0.000468s ]
+[2023-01-15T04:18:50+08:00][sql] SHOW FULL COLUMNS FROM `blog_category2` [ RunTime:0.000659s ]
+[2023-01-15T04:18:50+08:00][sql] SELECT * FROM `blog_category2` WHERE  `category2_id` = 0 [ RunTime:0.000364s ]
+[2023-01-15T04:18:51+08:00][sql] CONNECT:[ UseTime:0.014733s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-15T04:18:51+08:00][sql] SHOW FULL COLUMNS FROM `blog_article` [ RunTime:0.000964s ]
+[2023-01-15T04:18:51+08:00][sql] SELECT `article_id`,`title` FROM `blog_article` [ RunTime:0.000417s ]
+[2023-01-15T04:18:52+08:00][sql] CONNECT:[ UseTime:0.000814s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-15T04:18:52+08:00][sql] SHOW FULL COLUMNS FROM `blog_article` [ RunTime:0.000662s ]
+[2023-01-15T04:18:52+08:00][sql] SELECT * FROM `blog_article` WHERE  `article_id` = 6 LIMIT 1 [ RunTime:0.000372s ]
+[2023-01-15T04:18:52+08:00][sql] SELECT c2.category2_name as top,c1.category2_name as second,c1.category1_id as category2_id ,c2.category1_id as category1_id FROM `blog_category2` c1,blog_category2 c2 where c1.category2_id = c2.category1_id [ RunTime:0.000410s ]
+[2023-01-15T04:19:04+08:00][sql] CONNECT:[ UseTime:0.015463s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-15T04:19:04+08:00][sql] SELECT c2.category2_name as top,c1.category2_name as second,c1.category1_id,c2.category1_id FROM `blog_category2` c1,blog_category2 c2 where c1.category2_id = c2.category1_id [ RunTime:0.000402s ]
+[2023-01-15T04:19:04+08:00][sql] SHOW FULL COLUMNS FROM `blog_category2` [ RunTime:0.000561s ]
+[2023-01-15T04:19:04+08:00][sql] SELECT * FROM `blog_category2` WHERE  `category2_id` = 0 [ RunTime:0.000263s ]
+[2023-01-15T04:19:05+08:00][sql] CONNECT:[ UseTime:0.018650s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-15T04:19:05+08:00][sql] SHOW FULL COLUMNS FROM `blog_article` [ RunTime:0.000609s ]
+[2023-01-15T04:19:05+08:00][sql] SELECT `article_id`,`title` FROM `blog_article` [ RunTime:0.000440s ]
+[2023-01-15T04:19:06+08:00][sql] CONNECT:[ UseTime:0.000712s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-15T04:19:06+08:00][sql] SHOW FULL COLUMNS FROM `blog_article` [ RunTime:0.000590s ]
+[2023-01-15T04:19:06+08:00][sql] SELECT * FROM `blog_article` WHERE  `article_id` = 6 LIMIT 1 [ RunTime:0.000244s ]
+[2023-01-15T04:19:06+08:00][sql] SELECT c2.category2_name as top,c1.category2_name as second,c1.category1_id as category1_id ,c2.category1_id as category2_id FROM `blog_category2` c1,blog_category2 c2 where c1.category2_id = c2.category1_id [ RunTime:0.000323s ]
+[2023-01-15T04:19:39+08:00][sql] CONNECT:[ UseTime:0.024023s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-15T04:19:39+08:00][sql] SELECT c2.category2_name as top,c1.category2_name as second,c1.category1_id,c2.category1_id FROM `blog_category2` c1,blog_category2 c2 where c1.category2_id = c2.category1_id [ RunTime:0.000443s ]
+[2023-01-15T04:19:39+08:00][sql] SHOW FULL COLUMNS FROM `blog_category2` [ RunTime:0.000765s ]
+[2023-01-15T04:19:39+08:00][sql] SELECT * FROM `blog_category2` WHERE  `category2_id` = 0 [ RunTime:0.000845s ]
+[2023-01-15T04:19:40+08:00][sql] CONNECT:[ UseTime:0.023570s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-15T04:19:40+08:00][sql] SHOW FULL COLUMNS FROM `blog_article` [ RunTime:0.001446s ]
+[2023-01-15T04:19:40+08:00][sql] SELECT `article_id`,`title` FROM `blog_article` [ RunTime:0.000698s ]
+[2023-01-15T04:19:41+08:00][sql] CONNECT:[ UseTime:0.020645s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-15T04:19:41+08:00][sql] SHOW FULL COLUMNS FROM `blog_article` [ RunTime:0.000752s ]
+[2023-01-15T04:19:41+08:00][sql] SELECT * FROM `blog_article` WHERE  `article_id` = 6 LIMIT 1 [ RunTime:0.000366s ]
+[2023-01-15T04:19:41+08:00][sql] SELECT c2.category2_name as top,c1.category2_name as second,c1.category1_id as category1_id ,c2.category1_id as category2_id FROM `blog_category2` c1,blog_category2 c2 where c1.category2_id = c2.category1_id [ RunTime:0.000372s ]
+[2023-01-15T04:19:51+08:00][sql] CONNECT:[ UseTime:0.023509s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-15T04:19:51+08:00][sql] SELECT c2.category2_name as top,c1.category2_name as second,c1.category1_id,c2.category1_id FROM `blog_category2` c1,blog_category2 c2 where c1.category2_id = c2.category1_id [ RunTime:0.000507s ]
+[2023-01-15T04:19:51+08:00][sql] SHOW FULL COLUMNS FROM `blog_category2` [ RunTime:0.000652s ]
+[2023-01-15T04:19:51+08:00][sql] SELECT * FROM `blog_category2` WHERE  `category2_id` = 0 [ RunTime:0.000457s ]
+[2023-01-15T04:19:51+08:00][sql] CONNECT:[ UseTime:0.019485s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-15T04:19:51+08:00][sql] SHOW FULL COLUMNS FROM `blog_article` [ RunTime:0.000660s ]
+[2023-01-15T04:19:51+08:00][sql] SELECT `article_id`,`title` FROM `blog_article` [ RunTime:0.000281s ]
+[2023-01-15T04:19:52+08:00][sql] CONNECT:[ UseTime:0.016566s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-15T04:19:52+08:00][sql] SHOW FULL COLUMNS FROM `blog_article` [ RunTime:0.000643s ]
+[2023-01-15T04:19:52+08:00][sql] SELECT * FROM `blog_article` WHERE  `article_id` = 6 LIMIT 1 [ RunTime:0.000286s ]
+[2023-01-15T04:19:52+08:00][sql] SELECT c2.category2_name as top,c1.category2_name as second,c1.category1_id as category1_id ,c2.category1_id as category2_id FROM `blog_category2` c1,blog_category2 c2 where c1.category2_id = c2.category1_id [ RunTime:0.000239s ]
+[2023-01-15T04:20:26+08:00][sql] CONNECT:[ UseTime:0.016065s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-15T04:20:26+08:00][sql] SELECT c2.category2_name as top,c1.category2_name as second,c1.category1_id,c2.category1_id FROM `blog_category2` c1,blog_category2 c2 where c1.category2_id = c2.category1_id [ RunTime:0.000456s ]
+[2023-01-15T04:20:26+08:00][sql] SHOW FULL COLUMNS FROM `blog_category2` [ RunTime:0.000529s ]
+[2023-01-15T04:20:26+08:00][sql] SELECT * FROM `blog_category2` WHERE  `category2_id` = 0 [ RunTime:0.000260s ]
+[2023-01-15T04:20:26+08:00][sql] CONNECT:[ UseTime:0.024245s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-15T04:20:26+08:00][sql] SHOW FULL COLUMNS FROM `blog_article` [ RunTime:0.000646s ]
+[2023-01-15T04:20:26+08:00][sql] SELECT `article_id`,`title` FROM `blog_article` [ RunTime:0.000241s ]
+[2023-01-15T04:20:27+08:00][sql] CONNECT:[ UseTime:0.025478s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-15T04:20:27+08:00][sql] SHOW FULL COLUMNS FROM `blog_article` [ RunTime:0.000690s ]
+[2023-01-15T04:20:27+08:00][sql] SELECT * FROM `blog_article` WHERE  `article_id` = 6 LIMIT 1 [ RunTime:0.000362s ]
+[2023-01-15T04:20:27+08:00][sql] SELECT c2.category2_name as top,c1.category2_name as second,c1.category1_id as category1_id ,c2.category1_id as category2_id FROM `blog_category2` c1,blog_category2 c2 where c1.category2_id = c2.category1_id [ RunTime:0.000333s ]
+[2023-01-15T04:21:12+08:00][sql] CONNECT:[ UseTime:0.000757s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-15T04:21:12+08:00][sql] SELECT c2.category2_name as top,c1.category2_name as second,c1.category1_id,c2.category1_id FROM `blog_category2` c1,blog_category2 c2 where c1.category2_id = c2.category1_id [ RunTime:0.000737s ]
+[2023-01-15T04:21:12+08:00][sql] SHOW FULL COLUMNS FROM `blog_category2` [ RunTime:0.000671s ]
+[2023-01-15T04:21:12+08:00][sql] SELECT * FROM `blog_category2` WHERE  `category2_id` = 0 [ RunTime:0.000349s ]
+[2023-01-15T04:21:12+08:00][sql] CONNECT:[ UseTime:0.021635s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-15T04:21:12+08:00][sql] SHOW FULL COLUMNS FROM `blog_article` [ RunTime:0.000627s ]
+[2023-01-15T04:21:12+08:00][sql] SELECT `article_id`,`title` FROM `blog_article` [ RunTime:0.000298s ]
+[2023-01-15T04:21:13+08:00][sql] CONNECT:[ UseTime:0.014257s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-15T04:21:13+08:00][sql] SHOW FULL COLUMNS FROM `blog_article` [ RunTime:0.000713s ]
+[2023-01-15T04:21:13+08:00][sql] SELECT * FROM `blog_article` WHERE  `article_id` = 6 LIMIT 1 [ RunTime:0.000372s ]
+[2023-01-15T04:21:13+08:00][sql] SELECT c2.category2_name as top,c1.category2_name as second,c1.category1_id as category1_id ,c2.category1_id as category2_id FROM `blog_category2` c1,blog_category2 c2 where c1.category2_id = c2.category1_id [ RunTime:0.000355s ]
+[2023-01-15T04:22:21+08:00][sql] CONNECT:[ UseTime:0.020321s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-15T04:22:21+08:00][sql] SELECT c2.category2_name as top,c1.category2_name as second,c1.category1_id,c2.category1_id FROM `blog_category2` c1,blog_category2 c2 where c1.category2_id = c2.category1_id [ RunTime:0.000537s ]
+[2023-01-15T04:22:21+08:00][sql] SHOW FULL COLUMNS FROM `blog_category2` [ RunTime:0.000688s ]
+[2023-01-15T04:22:21+08:00][sql] SELECT * FROM `blog_category2` WHERE  `category2_id` = 0 [ RunTime:0.000343s ]
+[2023-01-15T04:22:21+08:00][sql] CONNECT:[ UseTime:0.000910s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-15T04:22:21+08:00][sql] SHOW FULL COLUMNS FROM `blog_article` [ RunTime:0.001028s ]
+[2023-01-15T04:22:21+08:00][sql] SELECT `article_id`,`title` FROM `blog_article` [ RunTime:0.000385s ]
+[2023-01-15T04:22:23+08:00][sql] CONNECT:[ UseTime:0.018969s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-15T04:22:23+08:00][sql] SHOW FULL COLUMNS FROM `blog_article` [ RunTime:0.000647s ]
+[2023-01-15T04:22:23+08:00][sql] SELECT * FROM `blog_article` WHERE  `article_id` = 6 LIMIT 1 [ RunTime:0.000364s ]
+[2023-01-15T04:22:23+08:00][sql] SELECT c2.category2_name as top,c1.category2_name as second,c1.category1_id as category1_id ,c2.category1_id as category2_id FROM `blog_category2` c1,blog_category2 c2 where c1.category2_id = c2.category1_id [ RunTime:0.000349s ]
+[2023-01-15T04:22:30+08:00][sql] CONNECT:[ UseTime:0.024106s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-15T04:22:30+08:00][sql] SELECT c2.category2_name as top,c1.category2_name as second,c1.category1_id,c2.category1_id FROM `blog_category2` c1,blog_category2 c2 where c1.category2_id = c2.category1_id [ RunTime:0.000832s ]
+[2023-01-15T04:22:30+08:00][sql] SHOW FULL COLUMNS FROM `blog_category2` [ RunTime:0.001100s ]
+[2023-01-15T04:22:30+08:00][sql] SELECT * FROM `blog_category2` WHERE  `category2_id` = 0 [ RunTime:0.000564s ]
+[2023-01-15T04:22:31+08:00][sql] CONNECT:[ UseTime:0.000829s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-15T04:22:31+08:00][sql] SHOW FULL COLUMNS FROM `blog_article` [ RunTime:0.000699s ]
+[2023-01-15T04:22:31+08:00][sql] SELECT `article_id`,`title` FROM `blog_article` [ RunTime:0.000361s ]
+[2023-01-15T04:22:32+08:00][sql] CONNECT:[ UseTime:0.013141s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-15T04:22:32+08:00][sql] SHOW FULL COLUMNS FROM `blog_article` [ RunTime:0.000711s ]
+[2023-01-15T04:22:32+08:00][sql] SELECT * FROM `blog_article` WHERE  `article_id` = 6 LIMIT 1 [ RunTime:0.000387s ]
+[2023-01-15T04:22:32+08:00][sql] SELECT c2.category2_name as top,c1.category2_name as second,c1.category1_id as category1_id ,c2.category1_id as category2_id FROM `blog_category2` c1,blog_category2 c2 where c1.category2_id = c2.category1_id [ RunTime:0.000359s ]
+[2023-01-15T04:24:20+08:00][sql] CONNECT:[ UseTime:0.001066s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-15T04:24:20+08:00][sql] SELECT c2.category2_name as top,c1.category2_name as second,c1.category1_id,c2.category1_id FROM `blog_category2` c1,blog_category2 c2 where c1.category2_id = c2.category1_id [ RunTime:0.000492s ]
+[2023-01-15T04:24:20+08:00][sql] SHOW FULL COLUMNS FROM `blog_category2` [ RunTime:0.000663s ]
+[2023-01-15T04:24:20+08:00][sql] SELECT * FROM `blog_category2` WHERE  `category2_id` = 0 [ RunTime:0.000335s ]
+[2023-01-15T04:24:21+08:00][sql] CONNECT:[ UseTime:0.024037s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-15T04:24:21+08:00][sql] SHOW FULL COLUMNS FROM `blog_article` [ RunTime:0.000809s ]
+[2023-01-15T04:24:21+08:00][sql] SELECT `article_id`,`title` FROM `blog_article` [ RunTime:0.000357s ]
+[2023-01-15T04:24:22+08:00][sql] CONNECT:[ UseTime:0.025975s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-15T04:24:22+08:00][sql] SHOW FULL COLUMNS FROM `blog_article` [ RunTime:0.000961s ]
+[2023-01-15T04:24:22+08:00][sql] SELECT * FROM `blog_article` WHERE  `article_id` = 6 LIMIT 1 [ RunTime:0.000549s ]
+[2023-01-15T04:24:22+08:00][sql] SELECT c2.category2_name as top,c1.category2_name as second,c1.category1_id as category1_id ,c2.category1_id as category2_id FROM `blog_category2` c1,blog_category2 c2 where c1.category2_id = c2.category1_id [ RunTime:0.000366s ]
+[2023-01-15T04:25:23+08:00][sql] CONNECT:[ UseTime:0.021138s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-15T04:25:23+08:00][sql] SELECT c2.category2_name as top,c1.category2_name as second,c1.category1_id,c2.category1_id FROM `blog_category2` c1,blog_category2 c2 where c1.category2_id = c2.category1_id [ RunTime:0.000424s ]
+[2023-01-15T04:25:23+08:00][sql] SHOW FULL COLUMNS FROM `blog_category2` [ RunTime:0.000503s ]
+[2023-01-15T04:25:23+08:00][sql] SELECT * FROM `blog_category2` WHERE  `category2_id` = 0 [ RunTime:0.000206s ]
+[2023-01-15T04:25:24+08:00][sql] CONNECT:[ UseTime:0.000733s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-15T04:25:24+08:00][sql] SHOW FULL COLUMNS FROM `blog_article` [ RunTime:0.000598s ]
+[2023-01-15T04:25:24+08:00][sql] SELECT `article_id`,`title` FROM `blog_article` [ RunTime:0.000308s ]
+[2023-01-15T04:25:25+08:00][sql] CONNECT:[ UseTime:0.000803s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-15T04:25:25+08:00][sql] SHOW FULL COLUMNS FROM `blog_article` [ RunTime:0.000610s ]
+[2023-01-15T04:25:25+08:00][sql] SELECT * FROM `blog_article` WHERE  `article_id` = 6 LIMIT 1 [ RunTime:0.000462s ]
+[2023-01-15T04:25:25+08:00][sql] SELECT c2.category2_name as top,c1.category2_name as second,c1.category1_id as category1_id ,c2.category1_id as category2_id FROM `blog_category2` c1,blog_category2 c2 where c1.category2_id = c2.category1_id [ RunTime:0.000492s ]
+[2023-01-15T04:26:17+08:00][sql] CONNECT:[ UseTime:0.021909s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-15T04:26:17+08:00][sql] SELECT c2.category2_name as top,c1.category2_name as second,c1.category1_id,c2.category1_id FROM `blog_category2` c1,blog_category2 c2 where c1.category2_id = c2.category1_id [ RunTime:0.000561s ]
+[2023-01-15T04:26:17+08:00][sql] SHOW FULL COLUMNS FROM `blog_category2` [ RunTime:0.000719s ]
+[2023-01-15T04:26:17+08:00][sql] SELECT * FROM `blog_category2` WHERE  `category2_id` = 0 [ RunTime:0.000312s ]
+[2023-01-15T04:26:18+08:00][sql] CONNECT:[ UseTime:0.000802s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-15T04:26:18+08:00][sql] SHOW FULL COLUMNS FROM `blog_article` [ RunTime:0.000754s ]
+[2023-01-15T04:26:18+08:00][sql] SELECT `article_id`,`title` FROM `blog_article` [ RunTime:0.000365s ]
+[2023-01-15T04:26:19+08:00][sql] CONNECT:[ UseTime:0.018050s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-15T04:26:19+08:00][sql] SHOW FULL COLUMNS FROM `blog_article` [ RunTime:0.000585s ]
+[2023-01-15T04:26:19+08:00][sql] SELECT * FROM `blog_article` WHERE  `article_id` = 7 LIMIT 1 [ RunTime:0.000299s ]
+[2023-01-15T04:26:19+08:00][sql] SELECT c2.category2_name as top,c1.category2_name as second,c1.category1_id as category1_id ,c2.category1_id as category2_id FROM `blog_category2` c1,blog_category2 c2 where c1.category2_id = c2.category1_id [ RunTime:0.000271s ]
+[2023-01-15T04:27:20+08:00][sql] CONNECT:[ UseTime:0.000706s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-15T04:27:20+08:00][sql] SELECT c2.category2_name as top,c1.category2_name as second,c1.category1_id,c2.category1_id FROM `blog_category2` c1,blog_category2 c2 where c1.category2_id = c2.category1_id [ RunTime:0.000657s ]
+[2023-01-15T04:27:20+08:00][sql] SHOW FULL COLUMNS FROM `blog_category2` [ RunTime:0.000640s ]
+[2023-01-15T04:27:20+08:00][sql] SELECT * FROM `blog_category2` WHERE  `category2_id` = 0 [ RunTime:0.000301s ]
+[2023-01-15T04:27:21+08:00][sql] CONNECT:[ UseTime:0.020030s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-15T04:27:21+08:00][sql] SHOW FULL COLUMNS FROM `blog_article` [ RunTime:0.001778s ]
+[2023-01-15T04:27:21+08:00][sql] SELECT `article_id`,`title` FROM `blog_article` [ RunTime:0.000718s ]
+[2023-01-15T04:27:22+08:00][sql] CONNECT:[ UseTime:0.000675s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-15T04:27:22+08:00][sql] SHOW FULL COLUMNS FROM `blog_article` [ RunTime:0.000587s ]
+[2023-01-15T04:27:22+08:00][sql] SELECT * FROM `blog_article` WHERE  `article_id` = 6 LIMIT 1 [ RunTime:0.000347s ]
+[2023-01-15T04:27:22+08:00][sql] SELECT c2.category2_name as top,c1.category2_name as second,c1.category1_id as category1_id ,c2.category1_id as category2_id FROM `blog_category2` c1,blog_category2 c2 where c1.category2_id = c2.category1_id [ RunTime:0.000354s ]
+[2023-01-15T04:27:53+08:00][sql] CONNECT:[ UseTime:0.016833s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-15T04:27:53+08:00][sql] SELECT c2.category2_name as top,c1.category2_name as second,c1.category1_id,c2.category1_id FROM `blog_category2` c1,blog_category2 c2 where c1.category2_id = c2.category1_id [ RunTime:0.001012s ]
+[2023-01-15T04:27:53+08:00][sql] SHOW FULL COLUMNS FROM `blog_category2` [ RunTime:0.001524s ]
+[2023-01-15T04:27:53+08:00][sql] SELECT * FROM `blog_category2` WHERE  `category2_id` = 0 [ RunTime:0.000878s ]
+[2023-01-15T04:27:53+08:00][sql] CONNECT:[ UseTime:0.019007s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-15T04:27:53+08:00][sql] SHOW FULL COLUMNS FROM `blog_article` [ RunTime:0.002754s ]
+[2023-01-15T04:27:53+08:00][sql] SELECT `article_id`,`title` FROM `blog_article` [ RunTime:0.001273s ]
+[2023-01-15T04:27:55+08:00][sql] CONNECT:[ UseTime:0.000976s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-15T04:27:55+08:00][sql] SHOW FULL COLUMNS FROM `blog_article` [ RunTime:0.000974s ]
+[2023-01-15T04:27:55+08:00][sql] SELECT * FROM `blog_article` WHERE  `article_id` = 7 LIMIT 1 [ RunTime:0.000407s ]
+[2023-01-15T04:27:55+08:00][sql] SELECT c2.category2_name as top,c1.category2_name as second,c1.category1_id as category1_id ,c2.category1_id as category2_id FROM `blog_category2` c1,blog_category2 c2 where c1.category2_id = c2.category1_id [ RunTime:0.000338s ]
+[2023-01-15T04:29:49+08:00][sql] CONNECT:[ UseTime:0.020022s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-15T04:29:49+08:00][sql] SELECT c2.category2_name as top,c1.category2_name as second,c1.category1_id,c2.category1_id FROM `blog_category2` c1,blog_category2 c2 where c1.category2_id = c2.category1_id [ RunTime:0.000397s ]
+[2023-01-15T04:29:49+08:00][sql] SHOW FULL COLUMNS FROM `blog_category2` [ RunTime:0.000532s ]
+[2023-01-15T04:29:49+08:00][sql] SELECT * FROM `blog_category2` WHERE  `category2_id` = 0 [ RunTime:0.000252s ]
+[2023-01-15T04:29:49+08:00][sql] CONNECT:[ UseTime:0.019698s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-15T04:29:49+08:00][sql] SHOW FULL COLUMNS FROM `blog_article` [ RunTime:0.001843s ]
+[2023-01-15T04:29:49+08:00][sql] SELECT `article_id`,`title` FROM `blog_article` [ RunTime:0.000850s ]
+[2023-01-15T04:29:50+08:00][sql] CONNECT:[ UseTime:0.000898s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-15T04:29:50+08:00][sql] SHOW FULL COLUMNS FROM `blog_article` [ RunTime:0.000734s ]
+[2023-01-15T04:29:50+08:00][sql] SELECT * FROM `blog_article` WHERE  `article_id` = 7 LIMIT 1 [ RunTime:0.000461s ]
+[2023-01-15T04:29:50+08:00][sql] SELECT c2.category2_name as top,c1.category2_name as second,c1.category1_id as category1_id ,c2.category1_id as category2_id FROM `blog_category2` c1,blog_category2 c2 where c1.category2_id = c2.category1_id [ RunTime:0.000343s ]
+[2023-01-15T04:30:18+08:00][sql] CONNECT:[ UseTime:0.000751s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-15T04:30:18+08:00][sql] SELECT c2.category2_name as top,c1.category2_name as second,c1.category1_id,c2.category1_id FROM `blog_category2` c1,blog_category2 c2 where c1.category2_id = c2.category1_id [ RunTime:0.000286s ]
+[2023-01-15T04:30:18+08:00][sql] SHOW FULL COLUMNS FROM `blog_category2` [ RunTime:0.000502s ]
+[2023-01-15T04:30:18+08:00][sql] SELECT * FROM `blog_category2` WHERE  `category2_id` = 0 [ RunTime:0.000224s ]
+[2023-01-15T04:30:18+08:00][sql] CONNECT:[ UseTime:0.019094s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-15T04:30:18+08:00][sql] SHOW FULL COLUMNS FROM `blog_article` [ RunTime:0.000658s ]
+[2023-01-15T04:30:18+08:00][sql] SELECT `article_id`,`title` FROM `blog_article` [ RunTime:0.000255s ]
+[2023-01-15T04:30:20+08:00][sql] CONNECT:[ UseTime:0.000830s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-15T04:30:20+08:00][sql] SHOW FULL COLUMNS FROM `blog_article` [ RunTime:0.000670s ]
+[2023-01-15T04:30:20+08:00][sql] SELECT * FROM `blog_article` WHERE  `article_id` = 7 LIMIT 1 [ RunTime:0.000418s ]
+[2023-01-15T04:30:20+08:00][sql] SELECT c2.category2_name as top,c1.category2_name as second,c1.category1_id as category1_id ,c2.category1_id as category2_id FROM `blog_category2` c1,blog_category2 c2 where c1.category2_id = c2.category1_id [ RunTime:0.000391s ]
+[2023-01-15T04:37:14+08:00][sql] CONNECT:[ UseTime:0.000888s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-15T04:37:14+08:00][sql] SELECT c2.category2_name as top,c1.category2_name as second,c1.category1_id,c2.category1_id FROM `blog_category2` c1,blog_category2 c2 where c1.category2_id = c2.category1_id [ RunTime:0.000463s ]
+[2023-01-15T04:37:14+08:00][sql] SHOW FULL COLUMNS FROM `blog_category2` [ RunTime:0.000565s ]
+[2023-01-15T04:37:14+08:00][sql] SELECT * FROM `blog_category2` WHERE  `category2_id` = 0 [ RunTime:0.000244s ]
+[2023-01-15T04:37:15+08:00][sql] CONNECT:[ UseTime:0.000762s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-15T04:37:15+08:00][sql] SHOW FULL COLUMNS FROM `blog_article` [ RunTime:0.000737s ]
+[2023-01-15T04:37:15+08:00][sql] SELECT `article_id`,`title` FROM `blog_article` [ RunTime:0.000377s ]
+[2023-01-15T04:37:37+08:00][sql] CONNECT:[ UseTime:0.025103s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-15T04:37:37+08:00][sql] SELECT c2.category2_name as top,c1.category2_name as second,c1.category1_id,c2.category1_id FROM `blog_category2` c1,blog_category2 c2 where c1.category2_id = c2.category1_id [ RunTime:0.000579s ]
+[2023-01-15T04:37:37+08:00][sql] SHOW FULL COLUMNS FROM `blog_category2` [ RunTime:0.000725s ]
+[2023-01-15T04:37:37+08:00][sql] SELECT * FROM `blog_category2` WHERE  `category2_id` = 0 [ RunTime:0.000380s ]
+[2023-01-15T04:37:37+08:00][sql] CONNECT:[ UseTime:0.019244s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-15T04:37:37+08:00][sql] SHOW FULL COLUMNS FROM `blog_article` [ RunTime:0.000800s ]
+[2023-01-15T04:37:37+08:00][sql] SELECT `article_id`,`title` FROM `blog_article` [ RunTime:0.000307s ]
+[2023-01-15T04:38:23+08:00][sql] CONNECT:[ UseTime:0.000848s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-15T04:38:23+08:00][sql] SELECT c2.category2_name as top,c1.category2_name as second,c1.category1_id,c2.category1_id FROM `blog_category2` c1,blog_category2 c2 where c1.category2_id = c2.category1_id [ RunTime:0.000738s ]
+[2023-01-15T04:38:23+08:00][sql] SHOW FULL COLUMNS FROM `blog_category2` [ RunTime:0.000569s ]
+[2023-01-15T04:38:23+08:00][sql] SELECT * FROM `blog_category2` WHERE  `category2_id` = 0 [ RunTime:0.000273s ]
+[2023-01-15T04:38:23+08:00][sql] CONNECT:[ UseTime:0.025182s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-15T04:38:23+08:00][sql] SHOW FULL COLUMNS FROM `blog_article` [ RunTime:0.001026s ]
+[2023-01-15T04:38:23+08:00][sql] SELECT `article_id`,`title` FROM `blog_article` [ RunTime:0.000602s ]
+[2023-01-15T04:39:24+08:00][sql] CONNECT:[ UseTime:0.019594s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-15T04:39:24+08:00][sql] SELECT c2.category2_name as top,c1.category2_name as second,c1.category1_id,c2.category1_id FROM `blog_category2` c1,blog_category2 c2 where c1.category2_id = c2.category1_id [ RunTime:0.000445s ]
+[2023-01-15T04:39:24+08:00][sql] SHOW FULL COLUMNS FROM `blog_category2` [ RunTime:0.000488s ]
+[2023-01-15T04:39:24+08:00][sql] SELECT * FROM `blog_category2` WHERE  `category2_id` = 0 [ RunTime:0.000251s ]
+[2023-01-15T04:39:24+08:00][sql] CONNECT:[ UseTime:0.000732s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-15T04:39:24+08:00][sql] SHOW FULL COLUMNS FROM `blog_article` [ RunTime:0.000563s ]
+[2023-01-15T04:39:24+08:00][sql] SELECT `article_id`,`title` FROM `blog_article` [ RunTime:0.000534s ]
+[2023-01-15T04:39:25+08:00][sql] CONNECT:[ UseTime:0.016220s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-15T04:39:25+08:00][sql] SHOW FULL COLUMNS FROM `blog_article` [ RunTime:0.000687s ]
+[2023-01-15T04:39:25+08:00][sql] SELECT * FROM `blog_article` WHERE  `article_id` = 6 LIMIT 1 [ RunTime:0.000402s ]
+[2023-01-15T04:39:25+08:00][sql] SELECT c2.category2_name as top,c1.category2_name as second,c1.category1_id as category1_id ,c2.category1_id as category2_id FROM `blog_category2` c1,blog_category2 c2 where c1.category2_id = c2.category1_id [ RunTime:0.000357s ]
+[2023-01-15T04:39:50+08:00][sql] CONNECT:[ UseTime:0.021076s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-15T04:39:50+08:00][sql] SELECT c2.category2_name as top,c1.category2_name as second,c1.category1_id,c2.category1_id FROM `blog_category2` c1,blog_category2 c2 where c1.category2_id = c2.category1_id [ RunTime:0.000821s ]
+[2023-01-15T04:39:50+08:00][sql] SHOW FULL COLUMNS FROM `blog_category2` [ RunTime:0.000671s ]
+[2023-01-15T04:39:50+08:00][sql] SELECT * FROM `blog_category2` WHERE  `category2_id` = 0 [ RunTime:0.000344s ]
+[2023-01-15T04:39:50+08:00][sql] CONNECT:[ UseTime:0.000967s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-15T04:39:50+08:00][sql] SHOW FULL COLUMNS FROM `blog_article` [ RunTime:0.000660s ]
+[2023-01-15T04:39:50+08:00][sql] SELECT `article_id`,`title` FROM `blog_article` [ RunTime:0.000375s ]
+[2023-01-15T04:39:51+08:00][sql] CONNECT:[ UseTime:0.022418s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-15T04:39:51+08:00][sql] SHOW FULL COLUMNS FROM `blog_article` [ RunTime:0.000643s ]
+[2023-01-15T04:39:51+08:00][sql] SELECT * FROM `blog_article` WHERE  `article_id` = 6 LIMIT 1 [ RunTime:0.000408s ]
+[2023-01-15T04:39:51+08:00][sql] SELECT c2.category2_name as top,c1.category2_name as second,c1.category1_id as category1_id ,c2.category1_id as category2_id FROM `blog_category2` c1,blog_category2 c2 where c1.category2_id = c2.category1_id [ RunTime:0.000342s ]
+[2023-01-15T04:39:52+08:00][sql] CONNECT:[ UseTime:0.018870s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-15T04:39:52+08:00][sql] SHOW FULL COLUMNS FROM `blog_article` [ RunTime:0.001605s ]
+[2023-01-15T04:39:52+08:00][sql] SELECT `article_id`,`title` FROM `blog_article` [ RunTime:0.000788s ]
+[2023-01-15T04:40:05+08:00][sql] CONNECT:[ UseTime:0.000780s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-15T04:40:05+08:00][sql] SHOW FULL COLUMNS FROM `blog_article` [ RunTime:0.000645s ]
+[2023-01-15T04:40:05+08:00][sql] SELECT * FROM `blog_article` WHERE  `article_id` = 8 LIMIT 1 [ RunTime:0.000372s ]
+[2023-01-15T04:40:05+08:00][sql] SELECT c2.category2_name as top,c1.category2_name as second,c1.category1_id as category1_id ,c2.category1_id as category2_id FROM `blog_category2` c1,blog_category2 c2 where c1.category2_id = c2.category1_id [ RunTime:0.000373s ]
+[2023-01-15T04:40:34+08:00][sql] CONNECT:[ UseTime:0.013243s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-15T04:40:34+08:00][sql] SELECT c2.category2_name as top,c1.category2_name as second,c1.category1_id,c2.category1_id FROM `blog_category2` c1,blog_category2 c2 where c1.category2_id = c2.category1_id [ RunTime:0.000381s ]
+[2023-01-15T04:40:34+08:00][sql] SHOW FULL COLUMNS FROM `blog_category2` [ RunTime:0.000595s ]
+[2023-01-15T04:40:34+08:00][sql] SELECT * FROM `blog_category2` WHERE  `category2_id` = 0 [ RunTime:0.000282s ]
+[2023-01-15T04:40:34+08:00][sql] CONNECT:[ UseTime:0.017395s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-15T04:40:34+08:00][sql] SHOW FULL COLUMNS FROM `blog_article` [ RunTime:0.000595s ]
+[2023-01-15T04:40:34+08:00][sql] SELECT `article_id`,`title` FROM `blog_article` [ RunTime:0.000236s ]
+[2023-01-15T04:40:35+08:00][sql] CONNECT:[ UseTime:0.025426s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-15T04:40:35+08:00][sql] SHOW FULL COLUMNS FROM `blog_article` [ RunTime:0.000781s ]
+[2023-01-15T04:40:35+08:00][sql] SELECT * FROM `blog_article` WHERE  `article_id` = 6 LIMIT 1 [ RunTime:0.000388s ]
+[2023-01-15T04:40:35+08:00][sql] SELECT c2.category2_name as top,c1.category2_name as second,c1.category1_id as category1_id ,c2.category1_id as category2_id FROM `blog_category2` c1,blog_category2 c2 where c1.category2_id = c2.category1_id [ RunTime:0.000359s ]
+[2023-01-15T04:40:53+08:00][sql] CONNECT:[ UseTime:0.024273s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-15T04:40:53+08:00][sql] SELECT c2.category2_name as top,c1.category2_name as second,c1.category1_id,c2.category1_id FROM `blog_category2` c1,blog_category2 c2 where c1.category2_id = c2.category1_id [ RunTime:0.000674s ]
+[2023-01-15T04:40:53+08:00][sql] SHOW FULL COLUMNS FROM `blog_category2` [ RunTime:0.001001s ]
+[2023-01-15T04:40:53+08:00][sql] SELECT * FROM `blog_category2` WHERE  `category2_id` = 0 [ RunTime:0.000344s ]
+[2023-01-15T04:40:56+08:00][sql] CONNECT:[ UseTime:0.017719s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-15T04:40:56+08:00][sql] SHOW FULL COLUMNS FROM `blog_article` [ RunTime:0.000652s ]
+[2023-01-15T04:40:56+08:00][sql] SELECT `article_id`,`title` FROM `blog_article` [ RunTime:0.000526s ]
+[2023-01-15T04:40:57+08:00][sql] CONNECT:[ UseTime:0.001141s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-15T04:40:57+08:00][sql] SHOW FULL COLUMNS FROM `blog_article` [ RunTime:0.000699s ]
+[2023-01-15T04:40:57+08:00][sql] SELECT * FROM `blog_article` WHERE  `article_id` = 6 LIMIT 1 [ RunTime:0.000356s ]
+[2023-01-15T04:40:57+08:00][sql] SELECT c2.category2_name as top,c1.category2_name as second,c1.category1_id as category1_id ,c2.category1_id as category2_id FROM `blog_category2` c1,blog_category2 c2 where c1.category2_id = c2.category1_id [ RunTime:0.000257s ]
+[2023-01-15T04:43:05+08:00][sql] CONNECT:[ UseTime:0.000972s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-15T04:43:05+08:00][sql] SELECT c2.category2_name as top,c1.category2_name as second,c1.category1_id,c2.category1_id FROM `blog_category2` c1,blog_category2 c2 where c1.category2_id = c2.category1_id [ RunTime:0.000475s ]
+[2023-01-15T04:43:05+08:00][sql] SHOW FULL COLUMNS FROM `blog_category2` [ RunTime:0.000760s ]
+[2023-01-15T04:43:05+08:00][sql] SELECT * FROM `blog_category2` WHERE  `category2_id` = 0 [ RunTime:0.000400s ]
+[2023-01-15T04:43:05+08:00][sql] CONNECT:[ UseTime:0.018473s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-15T04:43:05+08:00][sql] SHOW FULL COLUMNS FROM `blog_article` [ RunTime:0.000710s ]
+[2023-01-15T04:43:05+08:00][sql] SELECT `article_id`,`title` FROM `blog_article` [ RunTime:0.000363s ]
+[2023-01-15T04:43:06+08:00][sql] CONNECT:[ UseTime:0.025491s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-15T04:43:06+08:00][sql] SHOW FULL COLUMNS FROM `blog_article` [ RunTime:0.000833s ]
+[2023-01-15T04:43:06+08:00][sql] SELECT * FROM `blog_article` WHERE  `article_id` = 6 LIMIT 1 [ RunTime:0.000812s ]
+[2023-01-15T04:43:06+08:00][sql] SELECT c2.category2_name as top,c1.category2_name as second,c1.category1_id as category1_id ,c2.category1_id as category2_id FROM `blog_category2` c1,blog_category2 c2 where c1.category2_id = c2.category1_id [ RunTime:0.000368s ]
+[2023-01-15T04:43:55+08:00][sql] CONNECT:[ UseTime:0.001595s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-15T04:43:55+08:00][sql] SELECT c2.category2_name as top,c1.category2_name as second,c1.category1_id,c2.category1_id FROM `blog_category2` c1,blog_category2 c2 where c1.category2_id = c2.category1_id [ RunTime:0.000279s ]
+[2023-01-15T04:43:55+08:00][sql] SHOW FULL COLUMNS FROM `blog_category2` [ RunTime:0.000446s ]
+[2023-01-15T04:43:55+08:00][sql] SELECT * FROM `blog_category2` WHERE  `category2_id` = 0 [ RunTime:0.000186s ]
+[2023-01-15T04:43:55+08:00][sql] CONNECT:[ UseTime:0.020724s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-15T04:43:55+08:00][sql] SHOW FULL COLUMNS FROM `blog_article` [ RunTime:0.000705s ]
+[2023-01-15T04:43:55+08:00][sql] SELECT `article_id`,`title` FROM `blog_article` [ RunTime:0.000369s ]
+[2023-01-15T04:44:37+08:00][sql] CONNECT:[ UseTime:0.014750s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-15T04:44:37+08:00][sql] SELECT c2.category2_name as top,c1.category2_name as second,c1.category1_id,c2.category1_id FROM `blog_category2` c1,blog_category2 c2 where c1.category2_id = c2.category1_id [ RunTime:0.000422s ]
+[2023-01-15T04:44:37+08:00][sql] SHOW FULL COLUMNS FROM `blog_category2` [ RunTime:0.000597s ]
+[2023-01-15T04:44:37+08:00][sql] SELECT * FROM `blog_category2` WHERE  `category2_id` = 0 [ RunTime:0.000403s ]
+[2023-01-15T04:44:38+08:00][sql] CONNECT:[ UseTime:0.013116s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-15T04:44:38+08:00][sql] SHOW FULL COLUMNS FROM `blog_article` [ RunTime:0.001403s ]
+[2023-01-15T04:44:38+08:00][sql] SELECT `article_id`,`title` FROM `blog_article` [ RunTime:0.000530s ]
+[2023-01-15T04:45:00+08:00][sql] CONNECT:[ UseTime:0.000857s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-15T04:45:00+08:00][sql] SELECT c2.category2_name as top,c1.category2_name as second,c1.category1_id,c2.category1_id FROM `blog_category2` c1,blog_category2 c2 where c1.category2_id = c2.category1_id [ RunTime:0.000506s ]
+[2023-01-15T04:45:00+08:00][sql] SHOW FULL COLUMNS FROM `blog_category2` [ RunTime:0.000727s ]
+[2023-01-15T04:45:00+08:00][sql] SELECT * FROM `blog_category2` WHERE  `category2_id` = 0 [ RunTime:0.000363s ]
+[2023-01-15T04:45:00+08:00][sql] CONNECT:[ UseTime:0.000778s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-15T04:45:00+08:00][sql] SHOW FULL COLUMNS FROM `blog_article` [ RunTime:0.000651s ]
+[2023-01-15T04:45:00+08:00][sql] SELECT `article_id`,`title` FROM `blog_article` [ RunTime:0.000282s ]
+[2023-01-15T04:45:50+08:00][sql] CONNECT:[ UseTime:0.021000s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-15T04:45:50+08:00][sql] SELECT c2.category2_name as top,c1.category2_name as second,c1.category1_id,c2.category1_id FROM `blog_category2` c1,blog_category2 c2 where c1.category2_id = c2.category1_id [ RunTime:0.000431s ]
+[2023-01-15T04:45:50+08:00][sql] SHOW FULL COLUMNS FROM `blog_category2` [ RunTime:0.000585s ]
+[2023-01-15T04:45:50+08:00][sql] SELECT * FROM `blog_category2` WHERE  `category2_id` = 0 [ RunTime:0.000261s ]
+[2023-01-15T04:45:50+08:00][sql] CONNECT:[ UseTime:0.000653s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-15T04:45:50+08:00][sql] SHOW FULL COLUMNS FROM `blog_article` [ RunTime:0.000574s ]
+[2023-01-15T04:45:50+08:00][sql] SELECT `article_id`,`title` FROM `blog_article` [ RunTime:0.000275s ]
+[2023-01-15T04:46:07+08:00][sql] CONNECT:[ UseTime:0.017754s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-15T04:46:07+08:00][sql] SELECT c2.category2_name as top,c1.category2_name as second,c1.category1_id,c2.category1_id FROM `blog_category2` c1,blog_category2 c2 where c1.category2_id = c2.category1_id [ RunTime:0.000437s ]
+[2023-01-15T04:46:07+08:00][sql] SHOW FULL COLUMNS FROM `blog_category2` [ RunTime:0.000537s ]
+[2023-01-15T04:46:07+08:00][sql] SELECT * FROM `blog_category2` WHERE  `category2_id` = 0 [ RunTime:0.000191s ]
+[2023-01-15T04:46:08+08:00][sql] CONNECT:[ UseTime:0.000819s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-15T04:46:08+08:00][sql] SHOW FULL COLUMNS FROM `blog_article` [ RunTime:0.000721s ]
+[2023-01-15T04:46:08+08:00][sql] SELECT `article_id`,`title` FROM `blog_article` [ RunTime:0.000376s ]
+[2023-01-15T04:46:08+08:00][sql] CONNECT:[ UseTime:0.013592s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-15T04:46:08+08:00][sql] SHOW FULL COLUMNS FROM `blog_article` [ RunTime:0.000725s ]
+[2023-01-15T04:46:08+08:00][sql] SELECT * FROM `blog_article` WHERE  `article_id` = 5 LIMIT 1 [ RunTime:0.000412s ]
+[2023-01-15T04:46:08+08:00][sql] SELECT c2.category2_name as top,c1.category2_name as second,c1.category1_id as category1_id ,c2.category1_id as category2_id FROM `blog_category2` c1,blog_category2 c2 where c1.category2_id = c2.category1_id [ RunTime:0.000367s ]
+[2023-01-15T04:46:22+08:00][sql] CONNECT:[ UseTime:0.000749s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-15T04:46:22+08:00][sql] SELECT c2.category2_name as top,c1.category2_name as second,c1.category1_id,c2.category1_id FROM `blog_category2` c1,blog_category2 c2 where c1.category2_id = c2.category1_id [ RunTime:0.000352s ]
+[2023-01-15T04:46:22+08:00][sql] SHOW FULL COLUMNS FROM `blog_category2` [ RunTime:0.000653s ]
+[2023-01-15T04:46:22+08:00][sql] SELECT * FROM `blog_category2` WHERE  `category2_id` = 0 [ RunTime:0.000337s ]
+[2023-01-15T04:46:23+08:00][sql] CONNECT:[ UseTime:0.000644s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-15T04:46:23+08:00][sql] SHOW FULL COLUMNS FROM `blog_article` [ RunTime:0.000516s ]
+[2023-01-15T04:46:23+08:00][sql] SELECT `article_id`,`title` FROM `blog_article` [ RunTime:0.000213s ]
+[2023-01-15T04:46:24+08:00][sql] CONNECT:[ UseTime:0.010452s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-15T04:46:24+08:00][sql] SHOW FULL COLUMNS FROM `blog_article` [ RunTime:0.000653s ]
+[2023-01-15T04:46:24+08:00][sql] SELECT * FROM `blog_article` WHERE  `article_id` = 5 LIMIT 1 [ RunTime:0.000363s ]
+[2023-01-15T04:46:24+08:00][sql] SELECT c2.category2_name as top,c1.category2_name as second,c1.category1_id as category1_id ,c2.category1_id as category2_id FROM `blog_category2` c1,blog_category2 c2 where c1.category2_id = c2.category1_id [ RunTime:0.000271s ]
+[2023-01-15T04:46:26+08:00][sql] CONNECT:[ UseTime:0.012206s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-15T04:46:26+08:00][sql] SHOW FULL COLUMNS FROM `blog_article` [ RunTime:0.000621s ]
+[2023-01-15T04:46:26+08:00][sql] SELECT `article_id`,`title` FROM `blog_article` [ RunTime:0.000229s ]
+[2023-01-15T04:46:27+08:00][sql] CONNECT:[ UseTime:0.001018s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-15T04:46:27+08:00][sql] SHOW FULL COLUMNS FROM `blog_article` [ RunTime:0.000684s ]
+[2023-01-15T04:46:27+08:00][sql] SELECT * FROM `blog_article` WHERE  `article_id` = 4 LIMIT 1 [ RunTime:0.000421s ]
+[2023-01-15T04:46:27+08:00][sql] SELECT c2.category2_name as top,c1.category2_name as second,c1.category1_id as category1_id ,c2.category1_id as category2_id FROM `blog_category2` c1,blog_category2 c2 where c1.category2_id = c2.category1_id [ RunTime:0.000404s ]
+[2023-01-15T04:46:33+08:00][sql] CONNECT:[ UseTime:0.013839s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-15T04:46:33+08:00][sql] SHOW FULL COLUMNS FROM `blog_article` [ RunTime:0.000687s ]
+[2023-01-15T04:46:33+08:00][sql] SELECT `article_id`,`title` FROM `blog_article` [ RunTime:0.000298s ]
+[2023-01-15T04:46:43+08:00][sql] CONNECT:[ UseTime:0.000859s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-15T04:46:43+08:00][sql] SELECT c2.category2_name as top,c1.category2_name as second,c1.category1_id,c2.category1_id FROM `blog_category2` c1,blog_category2 c2 where c1.category2_id = c2.category1_id [ RunTime:0.000490s ]
+[2023-01-15T04:46:43+08:00][sql] SHOW FULL COLUMNS FROM `blog_category2` [ RunTime:0.000644s ]
+[2023-01-15T04:46:43+08:00][sql] SELECT * FROM `blog_category2` WHERE  `category2_id` = 0 [ RunTime:0.000332s ]
+[2023-01-15T04:46:44+08:00][sql] CONNECT:[ UseTime:0.014326s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-15T04:46:44+08:00][sql] SHOW FULL COLUMNS FROM `blog_article` [ RunTime:0.000722s ]
+[2023-01-15T04:46:44+08:00][sql] SELECT `article_id`,`title` FROM `blog_article` [ RunTime:0.000363s ]
+[2023-01-15T04:46:45+08:00][sql] CONNECT:[ UseTime:0.025961s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-15T04:46:45+08:00][sql] SHOW FULL COLUMNS FROM `blog_article` [ RunTime:0.000856s ]
+[2023-01-15T04:46:45+08:00][sql] SELECT * FROM `blog_article` WHERE  `article_id` = 4 LIMIT 1 [ RunTime:0.000412s ]
+[2023-01-15T04:46:45+08:00][sql] SELECT c2.category2_name as top,c1.category2_name as second,c1.category1_id as category1_id ,c2.category1_id as category2_id FROM `blog_category2` c1,blog_category2 c2 where c1.category2_id = c2.category1_id [ RunTime:0.000326s ]
+[2023-01-15T04:46:46+08:00][sql] CONNECT:[ UseTime:0.012527s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-15T04:46:46+08:00][sql] SHOW FULL COLUMNS FROM `blog_article` [ RunTime:0.000683s ]
+[2023-01-15T04:46:46+08:00][sql] SELECT `article_id`,`title` FROM `blog_article` [ RunTime:0.000330s ]
+[2023-01-15T04:46:47+08:00][sql] CONNECT:[ UseTime:0.000763s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-15T04:46:47+08:00][sql] SHOW FULL COLUMNS FROM `blog_article` [ RunTime:0.000609s ]
+[2023-01-15T04:46:47+08:00][sql] SELECT * FROM `blog_article` WHERE  `article_id` = 5 LIMIT 1 [ RunTime:0.000276s ]
+[2023-01-15T04:46:47+08:00][sql] SELECT c2.category2_name as top,c1.category2_name as second,c1.category1_id as category1_id ,c2.category1_id as category2_id FROM `blog_category2` c1,blog_category2 c2 where c1.category2_id = c2.category1_id [ RunTime:0.000258s ]
+[2023-01-15T04:46:48+08:00][sql] CONNECT:[ UseTime:0.000730s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-15T04:46:48+08:00][sql] SHOW FULL COLUMNS FROM `blog_article` [ RunTime:0.000569s ]
+[2023-01-15T04:46:48+08:00][sql] SELECT `article_id`,`title` FROM `blog_article` [ RunTime:0.000266s ]
+[2023-01-15T04:46:50+08:00][sql] CONNECT:[ UseTime:0.019910s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-15T04:46:50+08:00][sql] SHOW FULL COLUMNS FROM `blog_article` [ RunTime:0.000693s ]
+[2023-01-15T04:46:50+08:00][sql] SELECT * FROM `blog_article` WHERE  `article_id` = 4 LIMIT 1 [ RunTime:0.000350s ]
+[2023-01-15T04:46:50+08:00][sql] SELECT c2.category2_name as top,c1.category2_name as second,c1.category1_id as category1_id ,c2.category1_id as category2_id FROM `blog_category2` c1,blog_category2 c2 where c1.category2_id = c2.category1_id [ RunTime:0.000356s ]
+[2023-01-15T04:49:03+08:00][sql] CONNECT:[ UseTime:0.020062s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-15T04:49:03+08:00][sql] SELECT c2.category2_name as top,c1.category2_name as second,c1.category1_id,c2.category1_id FROM `blog_category2` c1,blog_category2 c2 where c1.category2_id = c2.category1_id [ RunTime:0.000470s ]
+[2023-01-15T04:49:03+08:00][sql] SHOW FULL COLUMNS FROM `blog_category2` [ RunTime:0.000580s ]
+[2023-01-15T04:49:03+08:00][sql] SELECT * FROM `blog_category2` WHERE  `category2_id` = 0 [ RunTime:0.000423s ]
+[2023-01-15T04:49:03+08:00][sql] CONNECT:[ UseTime:0.000769s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-15T04:49:03+08:00][sql] SHOW FULL COLUMNS FROM `blog_article` [ RunTime:0.001349s ]
+[2023-01-15T04:49:03+08:00][sql] SELECT `article_id`,`title` FROM `blog_article` [ RunTime:0.000803s ]
+[2023-01-15T04:49:05+08:00][sql] CONNECT:[ UseTime:0.021789s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-15T04:49:05+08:00][sql] SHOW FULL COLUMNS FROM `blog_article` [ RunTime:0.000653s ]
+[2023-01-15T04:49:05+08:00][sql] SELECT * FROM `blog_article` WHERE  `article_id` = 6 LIMIT 1 [ RunTime:0.000420s ]
+[2023-01-15T04:49:05+08:00][sql] SELECT c2.category2_name as top,c1.category2_name as second,c1.category1_id as category1_id ,c2.category1_id as category2_id FROM `blog_category2` c1,blog_category2 c2 where c1.category2_id = c2.category1_id [ RunTime:0.000354s ]
+[2023-01-15T04:51:54+08:00][sql] CONNECT:[ UseTime:0.000863s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-15T04:51:54+08:00][sql] SELECT c2.category2_name as top,c1.category2_name as second,c1.category1_id,c2.category1_id FROM `blog_category2` c1,blog_category2 c2 where c1.category2_id = c2.category1_id [ RunTime:0.000580s ]
+[2023-01-15T04:51:54+08:00][sql] SHOW FULL COLUMNS FROM `blog_category2` [ RunTime:0.000729s ]
+[2023-01-15T04:51:54+08:00][sql] SELECT * FROM `blog_category2` WHERE  `category2_id` = 0 [ RunTime:0.000351s ]
+[2023-01-15T04:51:55+08:00][sql] CONNECT:[ UseTime:0.013910s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-15T04:51:55+08:00][sql] SHOW FULL COLUMNS FROM `blog_article` [ RunTime:0.000726s ]
+[2023-01-15T04:51:55+08:00][sql] SELECT `article_id`,`title` FROM `blog_article` [ RunTime:0.000328s ]
+[2023-01-15T04:51:56+08:00][sql] CONNECT:[ UseTime:0.024147s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-15T04:51:56+08:00][sql] SHOW FULL COLUMNS FROM `blog_article` [ RunTime:0.000922s ]
+[2023-01-15T04:51:56+08:00][sql] SELECT * FROM `blog_article` WHERE  `article_id` = 6 LIMIT 1 [ RunTime:0.000545s ]
+[2023-01-15T04:51:56+08:00][sql] SELECT c2.category2_name as top,c1.category2_name as second,c1.category1_id as category1_id ,c2.category1_id as category2_id FROM `blog_category2` c1,blog_category2 c2 where c1.category2_id = c2.category1_id [ RunTime:0.000375s ]
+[2023-01-15T04:51:58+08:00][sql] CONNECT:[ UseTime:0.024576s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-15T04:51:58+08:00][sql] SHOW FULL COLUMNS FROM `blog_article` [ RunTime:0.000734s ]
+[2023-01-15T04:51:58+08:00][sql] SELECT `article_id`,`title` FROM `blog_article` [ RunTime:0.000305s ]
+[2023-01-15T04:51:59+08:00][sql] CONNECT:[ UseTime:0.018034s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-15T04:51:59+08:00][sql] SHOW FULL COLUMNS FROM `blog_article` [ RunTime:0.000806s ]
+[2023-01-15T04:51:59+08:00][sql] SELECT * FROM `blog_article` WHERE  `article_id` = 7 LIMIT 1 [ RunTime:0.000376s ]
+[2023-01-15T04:51:59+08:00][sql] SELECT c2.category2_name as top,c1.category2_name as second,c1.category1_id as category1_id ,c2.category1_id as category2_id FROM `blog_category2` c1,blog_category2 c2 where c1.category2_id = c2.category1_id [ RunTime:0.000311s ]
+[2023-01-15T04:52:22+08:00][sql] CONNECT:[ UseTime:0.000730s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-15T04:52:22+08:00][sql] SELECT c2.category2_name as top,c1.category2_name as second,c1.category1_id,c2.category1_id FROM `blog_category2` c1,blog_category2 c2 where c1.category2_id = c2.category1_id [ RunTime:0.000345s ]
+[2023-01-15T04:52:22+08:00][sql] SHOW FULL COLUMNS FROM `blog_category2` [ RunTime:0.000555s ]
+[2023-01-15T04:52:22+08:00][sql] SELECT * FROM `blog_category2` WHERE  `category2_id` = 0 [ RunTime:0.000281s ]
+[2023-01-15T04:52:23+08:00][sql] CONNECT:[ UseTime:0.023402s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-15T04:52:23+08:00][sql] SHOW FULL COLUMNS FROM `blog_article` [ RunTime:0.001512s ]
+[2023-01-15T04:52:23+08:00][sql] SELECT `article_id`,`title` FROM `blog_article` [ RunTime:0.000576s ]
+[2023-01-15T04:52:24+08:00][sql] CONNECT:[ UseTime:0.000856s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-15T04:52:24+08:00][sql] SHOW FULL COLUMNS FROM `blog_article` [ RunTime:0.000659s ]
+[2023-01-15T04:52:24+08:00][sql] SELECT * FROM `blog_article` WHERE  `article_id` = 7 LIMIT 1 [ RunTime:0.000515s ]
+[2023-01-15T04:52:24+08:00][sql] SELECT c2.category2_name as top,c1.category2_name as second,c1.category1_id as category1_id ,c2.category1_id as category2_id FROM `blog_category2` c1,blog_category2 c2 where c1.category2_id = c2.category1_id [ RunTime:0.000451s ]
+[2023-01-15T04:53:16+08:00][sql] CONNECT:[ UseTime:0.000959s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-15T04:53:16+08:00][sql] SELECT c2.category2_name as top,c1.category2_name as second,c1.category1_id,c2.category1_id FROM `blog_category2` c1,blog_category2 c2 where c1.category2_id = c2.category1_id [ RunTime:0.000445s ]
+[2023-01-15T04:53:16+08:00][sql] SHOW FULL COLUMNS FROM `blog_category2` [ RunTime:0.000616s ]
+[2023-01-15T04:53:16+08:00][sql] SELECT * FROM `blog_category2` WHERE  `category2_id` = 0 [ RunTime:0.000329s ]
+[2023-01-15T04:53:17+08:00][sql] CONNECT:[ UseTime:0.017949s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-15T04:53:17+08:00][sql] SHOW FULL COLUMNS FROM `blog_article` [ RunTime:0.000671s ]
+[2023-01-15T04:53:17+08:00][sql] SELECT `article_id`,`title` FROM `blog_article` [ RunTime:0.000353s ]
+[2023-01-15T04:53:18+08:00][sql] CONNECT:[ UseTime:0.000695s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-15T04:53:18+08:00][sql] SHOW FULL COLUMNS FROM `blog_article` [ RunTime:0.000602s ]
+[2023-01-15T04:53:18+08:00][sql] SELECT * FROM `blog_article` WHERE  `article_id` = 7 LIMIT 1 [ RunTime:0.000346s ]
+[2023-01-15T04:53:18+08:00][sql] SELECT c2.category2_name as top,c1.category2_name as second,c1.category1_id as category1_id ,c2.category1_id as category2_id FROM `blog_category2` c1,blog_category2 c2 where c1.category2_id = c2.category1_id [ RunTime:0.000314s ]
+[2023-01-15T04:54:35+08:00][sql] CONNECT:[ UseTime:0.021385s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-15T04:54:35+08:00][sql] SELECT c2.category2_name as top,c1.category2_name as second,c1.category1_id,c2.category1_id FROM `blog_category2` c1,blog_category2 c2 where c1.category2_id = c2.category1_id [ RunTime:0.000334s ]
+[2023-01-15T04:54:35+08:00][sql] SHOW FULL COLUMNS FROM `blog_category2` [ RunTime:0.000480s ]
+[2023-01-15T04:54:35+08:00][sql] SELECT * FROM `blog_category2` WHERE  `category2_id` = 0 [ RunTime:0.000234s ]
+[2023-01-15T04:54:35+08:00][sql] CONNECT:[ UseTime:0.001067s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-15T04:54:35+08:00][sql] SHOW FULL COLUMNS FROM `blog_article` [ RunTime:0.000713s ]
+[2023-01-15T04:54:35+08:00][sql] SELECT `article_id`,`title` FROM `blog_article` [ RunTime:0.000368s ]
+[2023-01-15T04:54:36+08:00][sql] CONNECT:[ UseTime:0.013933s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-15T04:54:36+08:00][sql] SHOW FULL COLUMNS FROM `blog_article` [ RunTime:0.000636s ]
+[2023-01-15T04:54:36+08:00][sql] SELECT * FROM `blog_article` WHERE  `article_id` = 9 LIMIT 1 [ RunTime:0.000383s ]
+[2023-01-15T04:54:36+08:00][sql] SELECT c2.category2_name as top,c1.category2_name as second,c1.category1_id as category1_id ,c2.category1_id as category2_id FROM `blog_category2` c1,blog_category2 c2 where c1.category2_id = c2.category1_id [ RunTime:0.000347s ]
+[2023-01-15T04:54:42+08:00][sql] CONNECT:[ UseTime:0.019580s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-15T04:54:42+08:00][sql] SHOW FULL COLUMNS FROM `blog_article` [ RunTime:0.000672s ]
+[2023-01-15T04:54:42+08:00][sql] SELECT `article_id`,`title` FROM `blog_article` [ RunTime:0.000244s ]
+[2023-01-15T04:54:49+08:00][sql] CONNECT:[ UseTime:0.000770s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-15T04:54:49+08:00][sql] SHOW FULL COLUMNS FROM `blog_article` [ RunTime:0.000607s ]
+[2023-01-15T04:54:49+08:00][sql] SELECT * FROM `blog_article` WHERE  `article_id` = 6 LIMIT 1 [ RunTime:0.000307s ]
+[2023-01-15T04:54:49+08:00][sql] SELECT c2.category2_name as top,c1.category2_name as second,c1.category1_id as category1_id ,c2.category1_id as category2_id FROM `blog_category2` c1,blog_category2 c2 where c1.category2_id = c2.category1_id [ RunTime:0.000322s ]
+[2023-01-15T04:56:23+08:00][sql] CONNECT:[ UseTime:0.014346s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-15T04:56:23+08:00][sql] SELECT c2.category2_name as top,c1.category2_name as second,c1.category1_id,c2.category1_id FROM `blog_category2` c1,blog_category2 c2 where c1.category2_id = c2.category1_id [ RunTime:0.000614s ]
+[2023-01-15T04:56:23+08:00][sql] SHOW FULL COLUMNS FROM `blog_category2` [ RunTime:0.000817s ]
+[2023-01-15T04:56:23+08:00][sql] SELECT * FROM `blog_category2` WHERE  `category2_id` = 0 [ RunTime:0.000403s ]
+[2023-01-15T04:56:24+08:00][sql] CONNECT:[ UseTime:0.000661s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-15T04:56:24+08:00][sql] SHOW FULL COLUMNS FROM `blog_article` [ RunTime:0.000534s ]
+[2023-01-15T04:56:24+08:00][sql] SELECT `article_id`,`title` FROM `blog_article` [ RunTime:0.000215s ]
+[2023-01-15T04:56:25+08:00][sql] CONNECT:[ UseTime:0.021941s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-15T04:56:25+08:00][sql] SHOW FULL COLUMNS FROM `blog_article` [ RunTime:0.000641s ]
+[2023-01-15T04:56:25+08:00][sql] SELECT * FROM `blog_article` WHERE  `article_id` = 9 LIMIT 1 [ RunTime:0.000284s ]
+[2023-01-15T04:56:25+08:00][sql] SELECT c2.category2_name as top,c1.category2_name as second,c1.category1_id as category1_id ,c2.category1_id as category2_id FROM `blog_category2` c1,blog_category2 c2 where c1.category2_id = c2.category1_id [ RunTime:0.000216s ]
+[2023-01-15T04:57:48+08:00][sql] CONNECT:[ UseTime:0.000788s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-15T04:57:48+08:00][sql] SELECT c2.category2_name as top,c1.category2_name as second,c1.category1_id,c2.category1_id FROM `blog_category2` c1,blog_category2 c2 where c1.category2_id = c2.category1_id [ RunTime:0.000366s ]
+[2023-01-15T04:57:48+08:00][sql] SHOW FULL COLUMNS FROM `blog_category2` [ RunTime:0.000601s ]
+[2023-01-15T04:57:48+08:00][sql] SELECT * FROM `blog_category2` WHERE  `category2_id` = 0 [ RunTime:0.000325s ]
+[2023-01-15T04:57:49+08:00][sql] CONNECT:[ UseTime:0.001004s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-15T04:57:49+08:00][sql] SHOW FULL COLUMNS FROM `blog_article` [ RunTime:0.000701s ]
+[2023-01-15T04:57:49+08:00][sql] SELECT `article_id`,`title` FROM `blog_article` [ RunTime:0.000381s ]
+[2023-01-15T04:57:50+08:00][sql] CONNECT:[ UseTime:0.000889s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-15T04:57:50+08:00][sql] SHOW FULL COLUMNS FROM `blog_article` [ RunTime:0.000684s ]
+[2023-01-15T04:57:50+08:00][sql] SELECT * FROM `blog_article` WHERE  `article_id` = 8 LIMIT 1 [ RunTime:0.000395s ]
+[2023-01-15T04:57:50+08:00][sql] SELECT c2.category2_name as top,c1.category2_name as second,c1.category1_id as category1_id ,c2.category1_id as category2_id FROM `blog_category2` c1,blog_category2 c2 where c1.category2_id = c2.category1_id [ RunTime:0.000378s ]
+[2023-01-15T04:58:03+08:00][sql] CONNECT:[ UseTime:0.017144s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-15T04:58:03+08:00][sql] SELECT c2.category2_name as top,c1.category2_name as second,c1.category1_id,c2.category1_id FROM `blog_category2` c1,blog_category2 c2 where c1.category2_id = c2.category1_id [ RunTime:0.000464s ]
+[2023-01-15T04:58:03+08:00][sql] SHOW FULL COLUMNS FROM `blog_category2` [ RunTime:0.000593s ]
+[2023-01-15T04:58:03+08:00][sql] SELECT * FROM `blog_category2` WHERE  `category2_id` = 0 [ RunTime:0.000327s ]
+[2023-01-15T04:58:03+08:00][sql] CONNECT:[ UseTime:0.001474s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-15T04:58:03+08:00][sql] SHOW FULL COLUMNS FROM `blog_article` [ RunTime:0.000900s ]
+[2023-01-15T04:58:03+08:00][sql] SELECT `article_id`,`title` FROM `blog_article` [ RunTime:0.000459s ]
+[2023-01-15T04:58:04+08:00][sql] CONNECT:[ UseTime:0.001109s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-15T04:58:04+08:00][sql] SHOW FULL COLUMNS FROM `blog_article` [ RunTime:0.000679s ]
+[2023-01-15T04:58:04+08:00][sql] SELECT * FROM `blog_article` WHERE  `article_id` = 7 LIMIT 1 [ RunTime:0.000421s ]
+[2023-01-15T04:58:04+08:00][sql] SELECT c2.category2_name as top,c1.category2_name as second,c1.category1_id as category1_id ,c2.category1_id as category2_id FROM `blog_category2` c1,blog_category2 c2 where c1.category2_id = c2.category1_id [ RunTime:0.000377s ]
+[2023-01-15T04:58:17+08:00][sql] CONNECT:[ UseTime:0.000667s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-15T04:58:17+08:00][sql] SELECT c2.category2_name as top,c1.category2_name as second,c1.category1_id,c2.category1_id FROM `blog_category2` c1,blog_category2 c2 where c1.category2_id = c2.category1_id [ RunTime:0.000281s ]
+[2023-01-15T04:58:17+08:00][sql] SHOW FULL COLUMNS FROM `blog_category2` [ RunTime:0.000490s ]
+[2023-01-15T04:58:17+08:00][sql] SELECT * FROM `blog_category2` WHERE  `category2_id` = 0 [ RunTime:0.000242s ]
+[2023-01-15T04:58:18+08:00][sql] CONNECT:[ UseTime:0.000831s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-15T04:58:18+08:00][sql] SHOW FULL COLUMNS FROM `blog_article` [ RunTime:0.000629s ]
+[2023-01-15T04:58:18+08:00][sql] SELECT `article_id`,`title` FROM `blog_article` [ RunTime:0.000362s ]
+[2023-01-15T04:58:19+08:00][sql] CONNECT:[ UseTime:0.000764s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-15T04:58:19+08:00][sql] SHOW FULL COLUMNS FROM `blog_article` [ RunTime:0.000730s ]
+[2023-01-15T04:58:19+08:00][sql] SELECT * FROM `blog_article` WHERE  `article_id` = 8 LIMIT 1 [ RunTime:0.000448s ]
+[2023-01-15T04:58:19+08:00][sql] SELECT c2.category2_name as top,c1.category2_name as second,c1.category1_id as category1_id ,c2.category1_id as category2_id FROM `blog_category2` c1,blog_category2 c2 where c1.category2_id = c2.category1_id [ RunTime:0.000395s ]
+[2023-01-15T05:03:56+08:00][sql] CONNECT:[ UseTime:0.000871s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-15T05:03:56+08:00][sql] SELECT c2.category2_name as top,c1.category2_name as second,c1.category1_id,c2.category1_id FROM `blog_category2` c1,blog_category2 c2 where c1.category2_id = c2.category1_id [ RunTime:0.000646s ]
+[2023-01-15T05:03:56+08:00][sql] SHOW FULL COLUMNS FROM `blog_category2` [ RunTime:0.000626s ]
+[2023-01-15T05:03:56+08:00][sql] SELECT * FROM `blog_category2` WHERE  `category2_id` = 0 [ RunTime:0.000351s ]
+[2023-01-15T05:03:56+08:00][sql] CONNECT:[ UseTime:0.010425s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-15T05:03:56+08:00][sql] SHOW FULL COLUMNS FROM `blog_article` [ RunTime:0.000865s ]
+[2023-01-15T05:03:56+08:00][sql] SELECT `article_id`,`title` FROM `blog_article` [ RunTime:0.000514s ]
+[2023-01-15T05:03:57+08:00][sql] CONNECT:[ UseTime:0.016478s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-15T05:03:57+08:00][sql] SHOW FULL COLUMNS FROM `blog_article` [ RunTime:0.000680s ]
+[2023-01-15T05:03:57+08:00][sql] SELECT * FROM `blog_article` WHERE  `article_id` = 6 LIMIT 1 [ RunTime:0.000426s ]
+[2023-01-15T05:03:57+08:00][sql] SELECT c2.category2_name as top,c1.category2_name as second,c1.category1_id as category1_id ,c2.category1_id as category2_id FROM `blog_category2` c1,blog_category2 c2 where c1.category2_id = c2.category1_id [ RunTime:0.000398s ]
+[2023-01-15T05:04:42+08:00][sql] CONNECT:[ UseTime:0.001285s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-15T05:04:42+08:00][sql] SELECT c2.category2_name as top,c1.category2_name as second,c1.category1_id,c2.category1_id FROM `blog_category2` c1,blog_category2 c2 where c1.category2_id = c2.category1_id [ RunTime:0.000410s ]
+[2023-01-15T05:04:42+08:00][sql] SHOW FULL COLUMNS FROM `blog_category2` [ RunTime:0.000533s ]
+[2023-01-15T05:04:42+08:00][sql] SELECT * FROM `blog_category2` WHERE  `category2_id` = 0 [ RunTime:0.000197s ]
+[2023-01-15T05:04:43+08:00][sql] CONNECT:[ UseTime:0.021814s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-15T05:04:43+08:00][sql] SHOW FULL COLUMNS FROM `blog_article` [ RunTime:0.000698s ]
+[2023-01-15T05:04:43+08:00][sql] SELECT `article_id`,`title` FROM `blog_article` [ RunTime:0.000328s ]
+[2023-01-15T05:04:45+08:00][sql] CONNECT:[ UseTime:0.011267s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-15T05:04:45+08:00][sql] SHOW FULL COLUMNS FROM `blog_article` [ RunTime:0.000762s ]
+[2023-01-15T05:04:45+08:00][sql] SELECT * FROM `blog_article` WHERE  `article_id` = 7 LIMIT 1 [ RunTime:0.000498s ]
+[2023-01-15T05:04:45+08:00][sql] SELECT c2.category2_name as top,c1.category2_name as second,c1.category1_id as category1_id ,c2.category1_id as category2_id FROM `blog_category2` c1,blog_category2 c2 where c1.category2_id = c2.category1_id [ RunTime:0.000468s ]
+[2023-01-15T05:05:13+08:00][sql] CONNECT:[ UseTime:0.000902s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-15T05:05:13+08:00][sql] SELECT c2.category2_name as top,c1.category2_name as second,c1.category1_id,c2.category1_id FROM `blog_category2` c1,blog_category2 c2 where c1.category2_id = c2.category1_id [ RunTime:0.000537s ]
+[2023-01-15T05:05:13+08:00][sql] SHOW FULL COLUMNS FROM `blog_category2` [ RunTime:0.000509s ]
+[2023-01-15T05:05:13+08:00][sql] SELECT * FROM `blog_category2` WHERE  `category2_id` = 0 [ RunTime:0.000206s ]
+[2023-01-15T05:05:14+08:00][sql] CONNECT:[ UseTime:0.001300s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-15T05:05:14+08:00][sql] SHOW FULL COLUMNS FROM `blog_article` [ RunTime:0.000986s ]
+[2023-01-15T05:05:14+08:00][sql] SELECT `article_id`,`title` FROM `blog_article` [ RunTime:0.000452s ]
+[2023-01-15T05:05:15+08:00][sql] CONNECT:[ UseTime:0.011283s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-15T05:05:15+08:00][sql] SHOW FULL COLUMNS FROM `blog_article` [ RunTime:0.000614s ]
+[2023-01-15T05:05:15+08:00][sql] SELECT * FROM `blog_article` WHERE  `article_id` = 8 LIMIT 1 [ RunTime:0.000304s ]
+[2023-01-15T05:05:15+08:00][sql] SELECT c2.category2_name as top,c1.category2_name as second,c1.category1_id as category1_id ,c2.category1_id as category2_id FROM `blog_category2` c1,blog_category2 c2 where c1.category2_id = c2.category1_id [ RunTime:0.000430s ]
+[2023-01-15T05:05:43+08:00][sql] CONNECT:[ UseTime:0.000876s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-15T05:05:43+08:00][sql] SELECT c2.category2_name as top,c1.category2_name as second,c1.category1_id,c2.category1_id FROM `blog_category2` c1,blog_category2 c2 where c1.category2_id = c2.category1_id [ RunTime:0.000334s ]
+[2023-01-15T05:05:43+08:00][sql] SHOW FULL COLUMNS FROM `blog_category2` [ RunTime:0.000459s ]
+[2023-01-15T05:05:43+08:00][sql] SELECT * FROM `blog_category2` WHERE  `category2_id` = 0 [ RunTime:0.000187s ]
+[2023-01-15T05:05:43+08:00][sql] CONNECT:[ UseTime:0.000801s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-15T05:05:43+08:00][sql] SHOW FULL COLUMNS FROM `blog_article` [ RunTime:0.000631s ]
+[2023-01-15T05:05:43+08:00][sql] SELECT `article_id`,`title` FROM `blog_article` [ RunTime:0.000374s ]
+[2023-01-15T05:05:44+08:00][sql] CONNECT:[ UseTime:0.000657s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-15T05:05:44+08:00][sql] SHOW FULL COLUMNS FROM `blog_article` [ RunTime:0.000514s ]
+[2023-01-15T05:05:44+08:00][sql] SELECT * FROM `blog_article` WHERE  `article_id` = 6 LIMIT 1 [ RunTime:0.000244s ]
+[2023-01-15T05:05:44+08:00][sql] SELECT c2.category2_name as top,c1.category2_name as second,c1.category1_id as category1_id ,c2.category1_id as category2_id FROM `blog_category2` c1,blog_category2 c2 where c1.category2_id = c2.category1_id [ RunTime:0.000234s ]
+[2023-01-15T05:05:51+08:00][sql] CONNECT:[ UseTime:0.019928s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-15T05:05:51+08:00][sql] SHOW FULL COLUMNS FROM `blog_article` [ RunTime:0.003614s ]
+[2023-01-15T05:05:51+08:00][sql] SELECT `article_id`,`title` FROM `blog_article` [ RunTime:0.000341s ]
+[2023-01-15T05:05:52+08:00][sql] CONNECT:[ UseTime:0.000724s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-15T05:05:52+08:00][sql] SHOW FULL COLUMNS FROM `blog_article` [ RunTime:0.000656s ]
+[2023-01-15T05:05:52+08:00][sql] SELECT * FROM `blog_article` WHERE  `article_id` = 8 LIMIT 1 [ RunTime:0.000345s ]
+[2023-01-15T05:05:52+08:00][sql] SELECT c2.category2_name as top,c1.category2_name as second,c1.category1_id as category1_id ,c2.category1_id as category2_id FROM `blog_category2` c1,blog_category2 c2 where c1.category2_id = c2.category1_id [ RunTime:0.000349s ]
+[2023-01-15T05:06:35+08:00][sql] CONNECT:[ UseTime:0.001924s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-15T05:06:35+08:00][sql] SELECT c2.category2_name as top,c1.category2_name as second,c1.category1_id,c2.category1_id FROM `blog_category2` c1,blog_category2 c2 where c1.category2_id = c2.category1_id [ RunTime:0.000456s ]
+[2023-01-15T05:06:35+08:00][sql] SHOW FULL COLUMNS FROM `blog_category2` [ RunTime:0.000638s ]
+[2023-01-15T05:06:35+08:00][sql] SELECT * FROM `blog_category2` WHERE  `category2_id` = 0 [ RunTime:0.000332s ]
+[2023-01-15T05:06:36+08:00][sql] CONNECT:[ UseTime:0.018357s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-15T05:06:36+08:00][sql] SHOW FULL COLUMNS FROM `blog_article` [ RunTime:0.000610s ]
+[2023-01-15T05:06:36+08:00][sql] SELECT `article_id`,`title` FROM `blog_article` [ RunTime:0.000284s ]
+[2023-01-15T05:06:37+08:00][sql] CONNECT:[ UseTime:0.000722s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-15T05:06:37+08:00][sql] SHOW FULL COLUMNS FROM `blog_article` [ RunTime:0.000835s ]
+[2023-01-15T05:06:37+08:00][sql] SELECT * FROM `blog_article` WHERE  `article_id` = 6 LIMIT 1 [ RunTime:0.000408s ]
+[2023-01-15T05:06:37+08:00][sql] SELECT c2.category2_name as top,c1.category2_name as second,c1.category1_id as category1_id ,c2.category1_id as category2_id FROM `blog_category2` c1,blog_category2 c2 where c1.category2_id = c2.category1_id [ RunTime:0.000340s ]
+[2023-01-15T05:07:34+08:00][sql] CONNECT:[ UseTime:0.000857s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-15T05:07:34+08:00][sql] SELECT c2.category2_name as top,c1.category2_name as second,c1.category1_id,c2.category1_id FROM `blog_category2` c1,blog_category2 c2 where c1.category2_id = c2.category1_id [ RunTime:0.000475s ]
+[2023-01-15T05:07:34+08:00][sql] SHOW FULL COLUMNS FROM `blog_category2` [ RunTime:0.000697s ]
+[2023-01-15T05:07:34+08:00][sql] SELECT * FROM `blog_category2` WHERE  `category2_id` = 0 [ RunTime:0.000363s ]
+[2023-01-15T05:07:35+08:00][sql] CONNECT:[ UseTime:0.021752s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-15T05:07:35+08:00][sql] SHOW FULL COLUMNS FROM `blog_article` [ RunTime:0.000667s ]
+[2023-01-15T05:07:35+08:00][sql] SELECT `article_id`,`title` FROM `blog_article` [ RunTime:0.000291s ]
+[2023-01-15T05:07:35+08:00][sql] CONNECT:[ UseTime:0.000741s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-15T05:07:35+08:00][sql] SHOW FULL COLUMNS FROM `blog_article` [ RunTime:0.000597s ]
+[2023-01-15T05:07:35+08:00][sql] SELECT * FROM `blog_article` WHERE  `article_id` = 8 LIMIT 1 [ RunTime:0.000359s ]
+[2023-01-15T05:07:35+08:00][sql] SELECT c2.category2_name as top,c1.category2_name as second,c1.category1_id as category1_id ,c2.category1_id as category2_id FROM `blog_category2` c1,blog_category2 c2 where c1.category2_id = c2.category1_id [ RunTime:0.000342s ]
+[2023-01-15T05:07:51+08:00][sql] CONNECT:[ UseTime:0.000852s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-15T05:07:51+08:00][sql] SELECT c2.category2_name as top,c1.category2_name as second,c1.category1_id,c2.category1_id FROM `blog_category2` c1,blog_category2 c2 where c1.category2_id = c2.category1_id [ RunTime:0.000489s ]
+[2023-01-15T05:07:51+08:00][sql] SHOW FULL COLUMNS FROM `blog_category2` [ RunTime:0.000783s ]
+[2023-01-15T05:07:51+08:00][sql] SELECT * FROM `blog_category2` WHERE  `category2_id` = 0 [ RunTime:0.000413s ]
+[2023-01-15T05:07:51+08:00][sql] CONNECT:[ UseTime:0.020840s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-15T05:07:51+08:00][sql] SHOW FULL COLUMNS FROM `blog_article` [ RunTime:0.000779s ]
+[2023-01-15T05:07:51+08:00][sql] SELECT `article_id`,`title` FROM `blog_article` [ RunTime:0.000369s ]
+[2023-01-15T05:07:52+08:00][sql] CONNECT:[ UseTime:0.023534s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-15T05:07:52+08:00][sql] SHOW FULL COLUMNS FROM `blog_article` [ RunTime:0.000690s ]
+[2023-01-15T05:07:52+08:00][sql] SELECT * FROM `blog_article` WHERE  `article_id` = 8 LIMIT 1 [ RunTime:0.000366s ]
+[2023-01-15T05:07:52+08:00][sql] SELECT c2.category2_name as top,c1.category2_name as second,c1.category1_id as category1_id ,c2.category1_id as category2_id FROM `blog_category2` c1,blog_category2 c2 where c1.category2_id = c2.category1_id [ RunTime:0.000259s ]
+[2023-01-15T05:07:54+08:00][sql] CONNECT:[ UseTime:0.021126s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-15T05:07:54+08:00][sql] SHOW FULL COLUMNS FROM `blog_article` [ RunTime:0.001258s ]
+[2023-01-15T05:07:54+08:00][sql] SELECT `article_id`,`title` FROM `blog_article` [ RunTime:0.000671s ]
+[2023-01-15T05:07:55+08:00][sql] CONNECT:[ UseTime:0.018271s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-15T05:07:55+08:00][sql] SHOW FULL COLUMNS FROM `blog_article` [ RunTime:0.000759s ]
+[2023-01-15T05:07:55+08:00][sql] SELECT * FROM `blog_article` WHERE  `article_id` = 4 LIMIT 1 [ RunTime:0.000437s ]
+[2023-01-15T05:07:55+08:00][sql] SELECT c2.category2_name as top,c1.category2_name as second,c1.category1_id as category1_id ,c2.category1_id as category2_id FROM `blog_category2` c1,blog_category2 c2 where c1.category2_id = c2.category1_id [ RunTime:0.000434s ]
+[2023-01-15T05:11:24+08:00][sql] CONNECT:[ UseTime:0.000845s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-15T05:11:24+08:00][sql] SELECT c2.category2_name as top,c1.category2_name as second,c1.category1_id,c2.category1_id FROM `blog_category2` c1,blog_category2 c2 where c1.category2_id = c2.category1_id [ RunTime:0.000581s ]
+[2023-01-15T05:11:24+08:00][sql] SHOW FULL COLUMNS FROM `blog_category2` [ RunTime:0.000796s ]
+[2023-01-15T05:11:24+08:00][sql] SELECT * FROM `blog_category2` WHERE  `category2_id` = 0 [ RunTime:0.001607s ]
+[2023-01-15T05:11:26+08:00][sql] CONNECT:[ UseTime:0.000927s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-15T05:11:26+08:00][sql] SHOW FULL COLUMNS FROM `blog_article` [ RunTime:0.001210s ]
+[2023-01-15T05:11:26+08:00][sql] SELECT `article_id`,`title` FROM `blog_article` [ RunTime:0.000459s ]
+[2023-01-15T05:11:27+08:00][sql] CONNECT:[ UseTime:0.000918s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-15T05:11:27+08:00][sql] SHOW FULL COLUMNS FROM `blog_article` [ RunTime:0.000694s ]
+[2023-01-15T05:11:27+08:00][sql] SELECT * FROM `blog_article` WHERE  `article_id` = 7 LIMIT 1 [ RunTime:0.000408s ]
+[2023-01-15T05:11:27+08:00][sql] SELECT c2.category2_name as top,c1.category2_name as second,c1.category1_id as category1_id ,c2.category1_id as category2_id FROM `blog_category2` c1,blog_category2 c2 where c1.category2_id = c2.category1_id [ RunTime:0.000403s ]
+[2023-01-15T05:11:29+08:00][sql] CONNECT:[ UseTime:0.023206s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-15T05:11:29+08:00][sql] SELECT c2.category2_name as top,c1.category2_name as second,c1.category1_id,c2.category1_id FROM `blog_category2` c1,blog_category2 c2 where c1.category2_id = c2.category1_id [ RunTime:0.000670s ]
+[2023-01-15T05:11:29+08:00][sql] SHOW FULL COLUMNS FROM `blog_category2` [ RunTime:0.000834s ]
+[2023-01-15T05:11:29+08:00][sql] SELECT * FROM `blog_category2` WHERE  `category2_id` = 0 [ RunTime:0.000340s ]
+[2023-01-15T05:11:30+08:00][sql] CONNECT:[ UseTime:0.017961s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-15T05:11:30+08:00][sql] SHOW FULL COLUMNS FROM `blog_article` [ RunTime:0.000650s ]
+[2023-01-15T05:11:30+08:00][sql] SELECT `article_id`,`title` FROM `blog_article` [ RunTime:0.000396s ]
+[2023-01-15T05:11:31+08:00][sql] CONNECT:[ UseTime:0.024519s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-15T05:11:31+08:00][sql] SHOW FULL COLUMNS FROM `blog_article` [ RunTime:0.000677s ]
+[2023-01-15T05:11:31+08:00][sql] SELECT * FROM `blog_article` WHERE  `article_id` = 7 LIMIT 1 [ RunTime:0.000387s ]
+[2023-01-15T05:11:31+08:00][sql] SELECT c2.category2_name as top,c1.category2_name as second,c1.category1_id as category1_id ,c2.category1_id as category2_id FROM `blog_category2` c1,blog_category2 c2 where c1.category2_id = c2.category1_id [ RunTime:0.000352s ]
+[2023-01-15T05:19:48+08:00][sql] CONNECT:[ UseTime:0.019654s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-15T05:19:48+08:00][sql] SELECT c2.category2_name as top,c1.category2_name as second,c1.category1_id,c2.category1_id FROM `blog_category2` c1,blog_category2 c2 where c1.category2_id = c2.category1_id [ RunTime:0.000690s ]
+[2023-01-15T05:19:48+08:00][sql] SHOW FULL COLUMNS FROM `blog_category2` [ RunTime:0.000695s ]
+[2023-01-15T05:19:48+08:00][sql] SELECT * FROM `blog_category2` WHERE  `category2_id` = 0 [ RunTime:0.000315s ]
+[2023-01-15T05:19:49+08:00][sql] CONNECT:[ UseTime:0.022802s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-15T05:19:49+08:00][sql] SHOW FULL COLUMNS FROM `blog_article` [ RunTime:0.000917s ]
+[2023-01-15T05:19:49+08:00][sql] SELECT `article_id`,`title` FROM `blog_article` [ RunTime:0.000330s ]
+[2023-01-15T05:19:50+08:00][sql] CONNECT:[ UseTime:0.011272s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-15T05:19:50+08:00][sql] SHOW FULL COLUMNS FROM `blog_article` [ RunTime:0.000951s ]
+[2023-01-15T05:19:50+08:00][sql] SELECT * FROM `blog_article` WHERE  `article_id` = 7 LIMIT 1 [ RunTime:0.000380s ]
+[2023-01-15T05:19:50+08:00][sql] SELECT c2.category2_name as top,c1.category2_name as second,c1.category1_id as category1_id ,c2.category1_id as category2_id FROM `blog_category2` c1,blog_category2 c2 where c1.category2_id = c2.category1_id [ RunTime:0.000413s ]
+[2023-01-15T05:19:59+08:00][sql] CONNECT:[ UseTime:0.013427s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-15T05:19:59+08:00][sql] SHOW FULL COLUMNS FROM `blog_article` [ RunTime:0.000651s ]
+[2023-01-15T05:19:59+08:00][sql] SELECT * FROM `blog_article` WHERE  `article_id` = 7 LIMIT 1 [ RunTime:0.000316s ]
+[2023-01-15T05:19:59+08:00][sql] SELECT c2.category2_name as top,c1.category2_name as second,c1.category1_id as category1_id ,c2.category1_id as category2_id FROM `blog_category2` c1,blog_category2 c2 where c1.category2_id = c2.category1_id [ RunTime:0.000298s ]
+[2023-01-15T05:20:14+08:00][sql] CONNECT:[ UseTime:0.000783s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-15T05:20:14+08:00][sql] SELECT c2.category2_name as top,c1.category2_name as second,c1.category1_id,c2.category1_id FROM `blog_category2` c1,blog_category2 c2 where c1.category2_id = c2.category1_id [ RunTime:0.000327s ]
+[2023-01-15T05:20:14+08:00][sql] SHOW FULL COLUMNS FROM `blog_category2` [ RunTime:0.000524s ]
+[2023-01-15T05:20:14+08:00][sql] SELECT * FROM `blog_category2` WHERE  `category2_id` = 0 [ RunTime:0.000318s ]
+[2023-01-15T05:20:15+08:00][sql] CONNECT:[ UseTime:0.024943s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-15T05:20:15+08:00][sql] SHOW FULL COLUMNS FROM `blog_article` [ RunTime:0.000677s ]
+[2023-01-15T05:20:15+08:00][sql] SELECT `article_id`,`title` FROM `blog_article` [ RunTime:0.000405s ]
+[2023-01-15T05:20:16+08:00][sql] CONNECT:[ UseTime:0.022551s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-15T05:20:16+08:00][sql] SHOW FULL COLUMNS FROM `blog_article` [ RunTime:0.000705s ]
+[2023-01-15T05:20:16+08:00][sql] DELETE FROM `blog_article` WHERE  `article_id` = 7 [ RunTime:0.045048s ]
+[2023-01-15T05:20:17+08:00][sql] CONNECT:[ UseTime:0.000972s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-15T05:20:17+08:00][sql] SHOW FULL COLUMNS FROM `blog_article` [ RunTime:0.000657s ]
+[2023-01-15T05:20:17+08:00][sql] SELECT `article_id`,`title` FROM `blog_article` [ RunTime:0.000299s ]
+[2023-01-15T05:20:18+08:00][sql] CONNECT:[ UseTime:0.012921s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-15T05:20:18+08:00][sql] SHOW FULL COLUMNS FROM `blog_article` [ RunTime:0.000770s ]
+[2023-01-15T05:20:18+08:00][sql] SELECT * FROM `blog_article` WHERE  `article_id` = 5 LIMIT 1 [ RunTime:0.000500s ]
+[2023-01-15T05:20:18+08:00][sql] SELECT c2.category2_name as top,c1.category2_name as second,c1.category1_id as category1_id ,c2.category1_id as category2_id FROM `blog_category2` c1,blog_category2 c2 where c1.category2_id = c2.category1_id [ RunTime:0.000294s ]
+[2023-01-15T05:20:49+08:00][sql] CONNECT:[ UseTime:0.000756s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-15T05:20:49+08:00][sql] SELECT c2.category2_name as top,c1.category2_name as second,c1.category1_id,c2.category1_id FROM `blog_category2` c1,blog_category2 c2 where c1.category2_id = c2.category1_id [ RunTime:0.000313s ]
+[2023-01-15T05:20:49+08:00][sql] SHOW FULL COLUMNS FROM `blog_category2` [ RunTime:0.000490s ]
+[2023-01-15T05:20:49+08:00][sql] SELECT * FROM `blog_category2` WHERE  `category2_id` = 0 [ RunTime:0.000213s ]
+[2023-01-15T05:20:49+08:00][sql] CONNECT:[ UseTime:0.000735s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-15T05:20:49+08:00][sql] SHOW FULL COLUMNS FROM `blog_article` [ RunTime:0.000598s ]
+[2023-01-15T05:20:49+08:00][sql] SELECT `article_id`,`title` FROM `blog_article` [ RunTime:0.000252s ]
+[2023-01-15T05:20:50+08:00][sql] CONNECT:[ UseTime:0.000756s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-15T05:20:50+08:00][sql] SHOW FULL COLUMNS FROM `blog_article` [ RunTime:0.000589s ]
+[2023-01-15T05:20:50+08:00][sql] SELECT * FROM `blog_article` WHERE  `article_id` = 8 LIMIT 1 [ RunTime:0.000275s ]
+[2023-01-15T05:20:50+08:00][sql] SELECT c2.category2_name as top,c1.category2_name as second,c1.category1_id as category1_id ,c2.category1_id as category2_id FROM `blog_category2` c1,blog_category2 c2 where c1.category2_id = c2.category1_id [ RunTime:0.000302s ]
+[2023-01-15T05:22:59+08:00][sql] CONNECT:[ UseTime:0.001140s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-15T05:22:59+08:00][sql] SELECT c2.category2_name as top,c1.category2_name as second,c1.category1_id,c2.category1_id FROM `blog_category2` c1,blog_category2 c2 where c1.category2_id = c2.category1_id [ RunTime:0.000505s ]
+[2023-01-15T05:22:59+08:00][sql] SHOW FULL COLUMNS FROM `blog_category2` [ RunTime:0.000635s ]
+[2023-01-15T05:22:59+08:00][sql] SELECT * FROM `blog_category2` WHERE  `category2_id` = 0 [ RunTime:0.000357s ]
+[2023-01-15T05:22:59+08:00][sql] CONNECT:[ UseTime:0.024183s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-15T05:22:59+08:00][sql] SHOW FULL COLUMNS FROM `blog_article` [ RunTime:0.000669s ]
+[2023-01-15T05:22:59+08:00][sql] SELECT `article_id`,`title` FROM `blog_article` [ RunTime:0.000344s ]
+[2023-01-15T05:23:00+08:00][sql] CONNECT:[ UseTime:0.022888s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-15T05:23:00+08:00][sql] SHOW FULL COLUMNS FROM `blog_article` [ RunTime:0.000728s ]
+[2023-01-15T05:23:00+08:00][sql] SELECT * FROM `blog_article` WHERE  `article_id` = 6 LIMIT 1 [ RunTime:0.000393s ]
+[2023-01-15T05:23:00+08:00][sql] SELECT c2.category2_name as top,c1.category2_name as second,c1.category1_id as category1_id ,c2.category1_id as category2_id FROM `blog_category2` c1,blog_category2 c2 where c1.category2_id = c2.category1_id [ RunTime:0.000366s ]
+[2023-01-15T05:23:17+08:00][sql] CONNECT:[ UseTime:0.021476s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-15T05:23:17+08:00][sql] SHOW FULL COLUMNS FROM `blog_article` [ RunTime:0.000579s ]
+[2023-01-15T05:23:17+08:00][sql] SELECT * FROM `blog_article` WHERE  `article_id` = 6 LIMIT 1 [ RunTime:0.000278s ]
+[2023-01-15T05:23:17+08:00][sql] SELECT c2.category2_name as top,c1.category2_name as second,c1.category1_id as category1_id ,c2.category1_id as category2_id FROM `blog_category2` c1,blog_category2 c2 where c1.category2_id = c2.category1_id [ RunTime:0.000221s ]
+[2023-01-15T05:23:27+08:00][sql] CONNECT:[ UseTime:0.019197s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-15T05:23:27+08:00][sql] SELECT c2.category2_name as top,c1.category2_name as second,c1.category1_id,c2.category1_id FROM `blog_category2` c1,blog_category2 c2 where c1.category2_id = c2.category1_id [ RunTime:0.000344s ]
+[2023-01-15T05:23:27+08:00][sql] SHOW FULL COLUMNS FROM `blog_category2` [ RunTime:0.000463s ]
+[2023-01-15T05:23:27+08:00][sql] SELECT * FROM `blog_category2` WHERE  `category2_id` = 0 [ RunTime:0.000198s ]
+[2023-01-15T05:23:27+08:00][sql] CONNECT:[ UseTime:0.000686s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-15T05:23:27+08:00][sql] SHOW FULL COLUMNS FROM `blog_article` [ RunTime:0.000570s ]
+[2023-01-15T05:23:27+08:00][sql] SELECT `article_id`,`title` FROM `blog_article` [ RunTime:0.000237s ]
+[2023-01-15T05:23:28+08:00][sql] CONNECT:[ UseTime:0.000636s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-15T05:23:28+08:00][sql] SHOW FULL COLUMNS FROM `blog_article` [ RunTime:0.000547s ]
+[2023-01-15T05:23:28+08:00][sql] SELECT * FROM `blog_article` WHERE  `article_id` = 8 LIMIT 1 [ RunTime:0.000271s ]
+[2023-01-15T05:23:28+08:00][sql] SELECT c2.category2_name as top,c1.category2_name as second,c1.category1_id as category1_id ,c2.category1_id as category2_id FROM `blog_category2` c1,blog_category2 c2 where c1.category2_id = c2.category1_id [ RunTime:0.000214s ]
+[2023-01-15T05:23:29+08:00][sql] CONNECT:[ UseTime:0.020041s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-15T05:23:29+08:00][sql] SHOW FULL COLUMNS FROM `blog_article` [ RunTime:0.000702s ]
+[2023-01-15T05:23:29+08:00][sql] SELECT * FROM `blog_article` WHERE  `article_id` = 8 LIMIT 1 [ RunTime:0.000358s ]
+[2023-01-15T05:23:29+08:00][sql] SELECT c2.category2_name as top,c1.category2_name as second,c1.category1_id as category1_id ,c2.category1_id as category2_id FROM `blog_category2` c1,blog_category2 c2 where c1.category2_id = c2.category1_id [ RunTime:0.000357s ]
+[2023-01-15T05:24:26+08:00][sql] CONNECT:[ UseTime:0.001848s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-15T05:24:26+08:00][sql] SELECT c2.category2_name as top,c1.category2_name as second,c1.category1_id,c2.category1_id FROM `blog_category2` c1,blog_category2 c2 where c1.category2_id = c2.category1_id [ RunTime:0.000580s ]
+[2023-01-15T05:24:26+08:00][sql] SHOW FULL COLUMNS FROM `blog_category2` [ RunTime:0.000947s ]
+[2023-01-15T05:24:26+08:00][sql] SELECT * FROM `blog_category2` WHERE  `category2_id` = 0 [ RunTime:0.000253s ]
+[2023-01-15T05:24:26+08:00][sql] CONNECT:[ UseTime:0.000942s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-15T05:24:26+08:00][sql] SHOW FULL COLUMNS FROM `blog_article` [ RunTime:0.000727s ]
+[2023-01-15T05:24:26+08:00][sql] SELECT `article_id`,`title` FROM `blog_article` [ RunTime:0.000332s ]
+[2023-01-15T05:24:27+08:00][sql] CONNECT:[ UseTime:0.025289s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-15T05:24:27+08:00][sql] SHOW FULL COLUMNS FROM `blog_article` [ RunTime:0.000637s ]
+[2023-01-15T05:24:27+08:00][sql] SELECT * FROM `blog_article` WHERE  `article_id` = 8 LIMIT 1 [ RunTime:0.000379s ]
+[2023-01-15T05:24:27+08:00][sql] SELECT c2.category2_name as top,c1.category2_name as second,c1.category1_id as category1_id ,c2.category1_id as category2_id FROM `blog_category2` c1,blog_category2 c2 where c1.category2_id = c2.category1_id [ RunTime:0.000413s ]
+[2023-01-15T05:24:28+08:00][sql] CONNECT:[ UseTime:0.001009s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-15T05:24:28+08:00][sql] SHOW FULL COLUMNS FROM `blog_article` [ RunTime:0.001066s ]
+[2023-01-15T05:24:28+08:00][sql] SELECT * FROM `blog_article` WHERE  `article_id` = 8 LIMIT 1 [ RunTime:0.000303s ]
+[2023-01-15T05:24:28+08:00][sql] SELECT c2.category2_name as top,c1.category2_name as second,c1.category1_id as category1_id ,c2.category1_id as category2_id FROM `blog_category2` c1,blog_category2 c2 where c1.category2_id = c2.category1_id [ RunTime:0.000286s ]
+[2023-01-15T05:24:29+08:00][sql] CONNECT:[ UseTime:0.012033s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-15T05:24:29+08:00][sql] SHOW FULL COLUMNS FROM `blog_article` [ RunTime:0.000588s ]
+[2023-01-15T05:24:29+08:00][sql] SELECT * FROM `blog_article` WHERE  `article_id` = 8 LIMIT 1 [ RunTime:0.000301s ]
+[2023-01-15T05:24:29+08:00][sql] SELECT c2.category2_name as top,c1.category2_name as second,c1.category1_id as category1_id ,c2.category1_id as category2_id FROM `blog_category2` c1,blog_category2 c2 where c1.category2_id = c2.category1_id [ RunTime:0.000256s ]
+[2023-01-15T05:25:03+08:00][sql] CONNECT:[ UseTime:0.000896s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-15T05:25:03+08:00][sql] SELECT c2.category2_name as top,c1.category2_name as second,c1.category1_id,c2.category1_id FROM `blog_category2` c1,blog_category2 c2 where c1.category2_id = c2.category1_id [ RunTime:0.000448s ]
+[2023-01-15T05:25:03+08:00][sql] SHOW FULL COLUMNS FROM `blog_category2` [ RunTime:0.000493s ]
+[2023-01-15T05:25:03+08:00][sql] SELECT * FROM `blog_category2` WHERE  `category2_id` = 0 [ RunTime:0.000260s ]
+[2023-01-15T05:25:03+08:00][sql] CONNECT:[ UseTime:0.000804s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-15T05:25:03+08:00][sql] SHOW FULL COLUMNS FROM `blog_article` [ RunTime:0.000633s ]
+[2023-01-15T05:25:03+08:00][sql] SELECT `article_id`,`title` FROM `blog_article` [ RunTime:0.000375s ]
+[2023-01-15T05:25:04+08:00][sql] CONNECT:[ UseTime:0.013016s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-15T05:25:04+08:00][sql] SHOW FULL COLUMNS FROM `blog_article` [ RunTime:0.000660s ]
+[2023-01-15T05:25:04+08:00][sql] SELECT * FROM `blog_article` WHERE  `article_id` = 8 LIMIT 1 [ RunTime:0.000370s ]
+[2023-01-15T05:25:04+08:00][sql] SELECT c2.category2_name as top,c1.category2_name as second,c1.category1_id as category1_id ,c2.category1_id as category2_id FROM `blog_category2` c1,blog_category2 c2 where c1.category2_id = c2.category1_id [ RunTime:0.000432s ]
+[2023-01-15T05:25:06+08:00][sql] CONNECT:[ UseTime:0.011652s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-15T05:25:06+08:00][sql] SHOW FULL COLUMNS FROM `blog_article` [ RunTime:0.000644s ]
+[2023-01-15T05:25:06+08:00][sql] SELECT * FROM `blog_article` WHERE  `article_id` = 8 LIMIT 1 [ RunTime:0.000379s ]
+[2023-01-15T05:25:06+08:00][sql] SELECT c2.category2_name as top,c1.category2_name as second,c1.category1_id as category1_id ,c2.category1_id as category2_id FROM `blog_category2` c1,blog_category2 c2 where c1.category2_id = c2.category1_id [ RunTime:0.000365s ]
+[2023-01-15T05:25:31+08:00][sql] CONNECT:[ UseTime:0.001027s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-15T05:25:31+08:00][sql] SELECT c2.category2_name as top,c1.category2_name as second,c1.category1_id,c2.category1_id FROM `blog_category2` c1,blog_category2 c2 where c1.category2_id = c2.category1_id [ RunTime:0.000644s ]
+[2023-01-15T05:25:31+08:00][sql] SHOW FULL COLUMNS FROM `blog_category2` [ RunTime:0.000683s ]
+[2023-01-15T05:25:31+08:00][sql] SELECT * FROM `blog_category2` WHERE  `category2_id` = 0 [ RunTime:0.000358s ]
+[2023-01-15T05:25:32+08:00][sql] CONNECT:[ UseTime:0.000923s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-15T05:25:32+08:00][sql] SHOW FULL COLUMNS FROM `blog_article` [ RunTime:0.002455s ]
+[2023-01-15T05:25:32+08:00][sql] SELECT `article_id`,`title` FROM `blog_article` [ RunTime:0.000573s ]
+[2023-01-15T05:25:33+08:00][sql] CONNECT:[ UseTime:0.020942s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-15T05:25:33+08:00][sql] SHOW FULL COLUMNS FROM `blog_article` [ RunTime:0.000581s ]
+[2023-01-15T05:25:33+08:00][sql] SELECT * FROM `blog_article` WHERE  `article_id` = 8 LIMIT 1 [ RunTime:0.000347s ]
+[2023-01-15T05:25:33+08:00][sql] SELECT c2.category2_name as top,c1.category2_name as second,c1.category1_id as category1_id ,c2.category1_id as category2_id FROM `blog_category2` c1,blog_category2 c2 where c1.category2_id = c2.category1_id [ RunTime:0.000287s ]
+[2023-01-15T05:25:34+08:00][sql] CONNECT:[ UseTime:0.023687s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-15T05:25:34+08:00][sql] SHOW FULL COLUMNS FROM `blog_article` [ RunTime:0.000740s ]
+[2023-01-15T05:25:34+08:00][sql] SELECT * FROM `blog_article` WHERE  `article_id` = 8 LIMIT 1 [ RunTime:0.000367s ]
+[2023-01-15T05:25:34+08:00][sql] SELECT c2.category2_name as top,c1.category2_name as second,c1.category1_id as category1_id ,c2.category1_id as category2_id FROM `blog_category2` c1,blog_category2 c2 where c1.category2_id = c2.category1_id [ RunTime:0.000362s ]
+[2023-01-15T05:25:35+08:00][sql] CONNECT:[ UseTime:0.010592s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-15T05:25:35+08:00][sql] SHOW FULL COLUMNS FROM `blog_article` [ RunTime:0.000613s ]
+[2023-01-15T05:25:35+08:00][sql] SELECT * FROM `blog_article` WHERE  `article_id` = 8 LIMIT 1 [ RunTime:0.000357s ]
+[2023-01-15T05:25:35+08:00][sql] SELECT c2.category2_name as top,c1.category2_name as second,c1.category1_id as category1_id ,c2.category1_id as category2_id FROM `blog_category2` c1,blog_category2 c2 where c1.category2_id = c2.category1_id [ RunTime:0.000285s ]
+[2023-01-15T05:25:36+08:00][sql] CONNECT:[ UseTime:0.012415s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-15T05:25:36+08:00][sql] SELECT c2.category2_name as top,c1.category2_name as second,c1.category1_id,c2.category1_id FROM `blog_category2` c1,blog_category2 c2 where c1.category2_id = c2.category1_id [ RunTime:0.000420s ]
+[2023-01-15T05:25:36+08:00][sql] SHOW FULL COLUMNS FROM `blog_category2` [ RunTime:0.000599s ]
+[2023-01-15T05:25:36+08:00][sql] SELECT * FROM `blog_category2` WHERE  `category2_id` = 0 [ RunTime:0.000376s ]
+[2023-01-15T05:25:37+08:00][sql] CONNECT:[ UseTime:0.001296s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-15T05:25:37+08:00][sql] SELECT c2.category2_name as top,c1.category2_name as second,c1.category1_id,c2.category1_id FROM `blog_category2` c1,blog_category2 c2 where c1.category2_id = c2.category1_id [ RunTime:0.000603s ]
+[2023-01-15T05:25:37+08:00][sql] SHOW FULL COLUMNS FROM `blog_category2` [ RunTime:0.000720s ]
+[2023-01-15T05:25:37+08:00][sql] SELECT * FROM `blog_category2` WHERE  `category2_id` = 0 [ RunTime:0.000391s ]
+[2023-01-15T05:25:37+08:00][sql] CONNECT:[ UseTime:0.018993s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-15T05:25:37+08:00][sql] SHOW FULL COLUMNS FROM `blog_article` [ RunTime:0.003089s ]
+[2023-01-15T05:25:37+08:00][sql] SELECT `article_id`,`title` FROM `blog_article` [ RunTime:0.001398s ]
+[2023-01-15T05:25:38+08:00][sql] CONNECT:[ UseTime:0.020938s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-15T05:25:38+08:00][sql] SHOW FULL COLUMNS FROM `blog_article` [ RunTime:0.000707s ]
+[2023-01-15T05:25:38+08:00][sql] SELECT * FROM `blog_article` WHERE  `article_id` = 4 LIMIT 1 [ RunTime:0.000402s ]
+[2023-01-15T05:25:38+08:00][sql] SELECT c2.category2_name as top,c1.category2_name as second,c1.category1_id as category1_id ,c2.category1_id as category2_id FROM `blog_category2` c1,blog_category2 c2 where c1.category2_id = c2.category1_id [ RunTime:0.000388s ]
+[2023-01-15T05:25:39+08:00][sql] CONNECT:[ UseTime:0.000894s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-15T05:25:39+08:00][sql] SHOW FULL COLUMNS FROM `blog_article` [ RunTime:0.000683s ]
+[2023-01-15T05:25:39+08:00][sql] SELECT * FROM `blog_article` WHERE  `article_id` = 4 LIMIT 1 [ RunTime:0.000434s ]
+[2023-01-15T05:25:39+08:00][sql] SELECT c2.category2_name as top,c1.category2_name as second,c1.category1_id as category1_id ,c2.category1_id as category2_id FROM `blog_category2` c1,blog_category2 c2 where c1.category2_id = c2.category1_id [ RunTime:0.000649s ]
+[2023-01-15T05:25:40+08:00][sql] CONNECT:[ UseTime:0.020548s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-15T05:25:40+08:00][sql] SHOW FULL COLUMNS FROM `blog_article` [ RunTime:0.000762s ]
+[2023-01-15T05:25:40+08:00][sql] SELECT `article_id`,`title` FROM `blog_article` [ RunTime:0.000334s ]
+[2023-01-15T05:25:41+08:00][sql] CONNECT:[ UseTime:0.022086s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-15T05:25:41+08:00][sql] SHOW FULL COLUMNS FROM `blog_article` [ RunTime:0.000708s ]
+[2023-01-15T05:25:41+08:00][sql] SELECT * FROM `blog_article` WHERE  `article_id` = 9 LIMIT 1 [ RunTime:0.000449s ]
+[2023-01-15T05:25:41+08:00][sql] SELECT c2.category2_name as top,c1.category2_name as second,c1.category1_id as category1_id ,c2.category1_id as category2_id FROM `blog_category2` c1,blog_category2 c2 where c1.category2_id = c2.category1_id [ RunTime:0.000376s ]
+[2023-01-15T05:25:43+08:00][sql] CONNECT:[ UseTime:0.023887s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-15T05:25:43+08:00][sql] SHOW FULL COLUMNS FROM `blog_article` [ RunTime:0.001079s ]
+[2023-01-15T05:25:43+08:00][sql] SELECT * FROM `blog_article` WHERE  `article_id` = 9 LIMIT 1 [ RunTime:0.000353s ]
+[2023-01-15T05:25:43+08:00][sql] SELECT c2.category2_name as top,c1.category2_name as second,c1.category1_id as category1_id ,c2.category1_id as category2_id FROM `blog_category2` c1,blog_category2 c2 where c1.category2_id = c2.category1_id [ RunTime:0.000366s ]
+[2023-01-15T05:27:19+08:00][sql] CONNECT:[ UseTime:0.000711s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-15T05:27:19+08:00][sql] SELECT c2.category2_name as top,c1.category2_name as second,c1.category1_id,c2.category1_id FROM `blog_category2` c1,blog_category2 c2 where c1.category2_id = c2.category1_id [ RunTime:0.000461s ]
+[2023-01-15T05:27:19+08:00][sql] SHOW FULL COLUMNS FROM `blog_category2` [ RunTime:0.000584s ]
+[2023-01-15T05:27:19+08:00][sql] SELECT * FROM `blog_category2` WHERE  `category2_id` = 0 [ RunTime:0.000217s ]
+[2023-01-15T05:27:20+08:00][sql] CONNECT:[ UseTime:0.013086s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-15T05:27:20+08:00][sql] SHOW FULL COLUMNS FROM `blog_article` [ RunTime:0.000928s ]
+[2023-01-15T05:27:20+08:00][sql] SELECT `article_id`,`title` FROM `blog_article` [ RunTime:0.000344s ]
+[2023-01-15T05:27:21+08:00][sql] CONNECT:[ UseTime:0.022608s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-15T05:27:21+08:00][sql] SHOW FULL COLUMNS FROM `blog_article` [ RunTime:0.000706s ]
+[2023-01-15T05:27:21+08:00][sql] SELECT * FROM `blog_article` WHERE  `article_id` = 9 LIMIT 1 [ RunTime:0.000502s ]
+[2023-01-15T05:27:21+08:00][sql] SELECT c2.category2_name as top,c1.category2_name as second,c1.category1_id as category1_id ,c2.category1_id as category2_id FROM `blog_category2` c1,blog_category2 c2 where c1.category2_id = c2.category1_id [ RunTime:0.000449s ]
+[2023-01-15T05:27:22+08:00][sql] CONNECT:[ UseTime:0.019396s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-15T05:27:22+08:00][sql] SHOW FULL COLUMNS FROM `blog_article` [ RunTime:0.002353s ]
+[2023-01-15T05:27:22+08:00][sql] SELECT * FROM `blog_article` WHERE  `article_id` = 9 LIMIT 1 [ RunTime:0.001205s ]
+[2023-01-15T05:27:22+08:00][sql] SELECT c2.category2_name as top,c1.category2_name as second,c1.category1_id as category1_id ,c2.category1_id as category2_id FROM `blog_category2` c1,blog_category2 c2 where c1.category2_id = c2.category1_id [ RunTime:0.001313s ]
+[2023-01-15T05:27:23+08:00][sql] CONNECT:[ UseTime:0.010785s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-15T05:27:23+08:00][sql] SHOW FULL COLUMNS FROM `blog_article` [ RunTime:0.001033s ]
+[2023-01-15T05:27:23+08:00][sql] SELECT * FROM `blog_article` WHERE  `article_id` = 9 LIMIT 1 [ RunTime:0.000449s ]
+[2023-01-15T05:27:23+08:00][sql] SELECT c2.category2_name as top,c1.category2_name as second,c1.category1_id as category1_id ,c2.category1_id as category2_id FROM `blog_category2` c1,blog_category2 c2 where c1.category2_id = c2.category1_id [ RunTime:0.000415s ]
+[2023-01-15T05:27:24+08:00][sql] CONNECT:[ UseTime:0.019043s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-15T05:27:24+08:00][sql] SHOW FULL COLUMNS FROM `blog_article` [ RunTime:0.000867s ]
+[2023-01-15T05:27:24+08:00][sql] SELECT * FROM `blog_article` WHERE  `article_id` = 9 LIMIT 1 [ RunTime:0.000450s ]
+[2023-01-15T05:27:24+08:00][sql] SELECT c2.category2_name as top,c1.category2_name as second,c1.category1_id as category1_id ,c2.category1_id as category2_id FROM `blog_category2` c1,blog_category2 c2 where c1.category2_id = c2.category1_id [ RunTime:0.000443s ]
+[2023-01-15T05:27:57+08:00][sql] CONNECT:[ UseTime:0.011656s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-15T05:27:57+08:00][sql] SELECT c2.category2_name as top,c1.category2_name as second,c1.category1_id,c2.category1_id FROM `blog_category2` c1,blog_category2 c2 where c1.category2_id = c2.category1_id [ RunTime:0.000851s ]
+[2023-01-15T05:27:57+08:00][sql] SHOW FULL COLUMNS FROM `blog_category2` [ RunTime:0.001012s ]
+[2023-01-15T05:27:57+08:00][sql] SELECT * FROM `blog_category2` WHERE  `category2_id` = 0 [ RunTime:0.000542s ]
+[2023-01-15T05:27:57+08:00][sql] CONNECT:[ UseTime:0.021250s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-15T05:27:57+08:00][sql] SHOW FULL COLUMNS FROM `blog_article` [ RunTime:0.000767s ]
+[2023-01-15T05:27:57+08:00][sql] SELECT `article_id`,`title` FROM `blog_article` [ RunTime:0.000258s ]
+[2023-01-15T05:27:58+08:00][sql] CONNECT:[ UseTime:0.020081s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-15T05:27:58+08:00][sql] SHOW FULL COLUMNS FROM `blog_article` [ RunTime:0.000999s ]
+[2023-01-15T05:27:58+08:00][sql] SELECT * FROM `blog_article` WHERE  `article_id` = 8 LIMIT 1 [ RunTime:0.000412s ]
+[2023-01-15T05:27:58+08:00][sql] SELECT c2.category2_name as top,c1.category2_name as second,c1.category1_id as category1_id ,c2.category1_id as category2_id FROM `blog_category2` c1,blog_category2 c2 where c1.category2_id = c2.category1_id [ RunTime:0.000363s ]
+[2023-01-15T05:28:00+08:00][sql] CONNECT:[ UseTime:0.011776s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-15T05:28:00+08:00][sql] SHOW FULL COLUMNS FROM `blog_article` [ RunTime:0.000693s ]
+[2023-01-15T05:28:00+08:00][sql] SELECT * FROM `blog_article` WHERE  `article_id` = 8 LIMIT 1 [ RunTime:0.000355s ]
+[2023-01-15T05:28:00+08:00][sql] SELECT c2.category2_name as top,c1.category2_name as second,c1.category1_id as category1_id ,c2.category1_id as category2_id FROM `blog_category2` c1,blog_category2 c2 where c1.category2_id = c2.category1_id [ RunTime:0.000357s ]
+[2023-01-15T05:28:01+08:00][sql] CONNECT:[ UseTime:0.001036s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-15T05:28:01+08:00][sql] SHOW FULL COLUMNS FROM `blog_article` [ RunTime:0.001188s ]
+[2023-01-15T05:28:01+08:00][sql] SELECT * FROM `blog_article` WHERE  `article_id` = 8 LIMIT 1 [ RunTime:0.000386s ]
+[2023-01-15T05:28:01+08:00][sql] SELECT c2.category2_name as top,c1.category2_name as second,c1.category1_id as category1_id ,c2.category1_id as category2_id FROM `blog_category2` c1,blog_category2 c2 where c1.category2_id = c2.category1_id [ RunTime:0.000369s ]
+[2023-01-15T05:28:04+08:00][sql] CONNECT:[ UseTime:0.023415s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-15T05:28:04+08:00][sql] SHOW FULL COLUMNS FROM `blog_article` [ RunTime:0.000710s ]
+[2023-01-15T05:28:04+08:00][sql] SELECT * FROM `blog_article` WHERE  `article_id` = 8 LIMIT 1 [ RunTime:0.000352s ]
+[2023-01-15T05:28:04+08:00][sql] SELECT c2.category2_name as top,c1.category2_name as second,c1.category1_id as category1_id ,c2.category1_id as category2_id FROM `blog_category2` c1,blog_category2 c2 where c1.category2_id = c2.category1_id [ RunTime:0.000362s ]
+[2023-01-15T05:28:09+08:00][sql] CONNECT:[ UseTime:0.013872s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-15T05:28:09+08:00][sql] SHOW FULL COLUMNS FROM `blog_article` [ RunTime:0.000678s ]
+[2023-01-15T05:28:09+08:00][sql] SELECT `article_id`,`title` FROM `blog_article` [ RunTime:0.000324s ]
+[2023-01-15T05:28:11+08:00][sql] CONNECT:[ UseTime:0.022800s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-15T05:28:11+08:00][sql] SHOW FULL COLUMNS FROM `blog_article` [ RunTime:0.000755s ]
+[2023-01-15T05:28:11+08:00][sql] SELECT * FROM `blog_article` WHERE  `article_id` = 4 LIMIT 1 [ RunTime:0.000384s ]
+[2023-01-15T05:28:11+08:00][sql] SELECT c2.category2_name as top,c1.category2_name as second,c1.category1_id as category1_id ,c2.category1_id as category2_id FROM `blog_category2` c1,blog_category2 c2 where c1.category2_id = c2.category1_id [ RunTime:0.000340s ]
+[2023-01-15T05:29:08+08:00][sql] CONNECT:[ UseTime:0.022341s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-15T05:29:08+08:00][sql] SELECT c2.category2_name as top,c1.category2_name as second,c1.category1_id,c2.category1_id FROM `blog_category2` c1,blog_category2 c2 where c1.category2_id = c2.category1_id [ RunTime:0.000560s ]
+[2023-01-15T05:29:08+08:00][sql] SHOW FULL COLUMNS FROM `blog_category2` [ RunTime:0.000678s ]
+[2023-01-15T05:29:08+08:00][sql] SELECT * FROM `blog_category2` WHERE  `category2_id` = 0 [ RunTime:0.000426s ]
+[2023-01-15T05:29:09+08:00][sql] CONNECT:[ UseTime:0.001278s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-15T05:29:09+08:00][sql] SHOW FULL COLUMNS FROM `blog_article` [ RunTime:0.000772s ]
+[2023-01-15T05:29:09+08:00][sql] SELECT `article_id`,`title` FROM `blog_article` [ RunTime:0.000381s ]
+[2023-01-15T05:29:10+08:00][sql] CONNECT:[ UseTime:0.023455s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-15T05:29:10+08:00][sql] SHOW FULL COLUMNS FROM `blog_article` [ RunTime:0.002542s ]
+[2023-01-15T05:29:10+08:00][sql] SELECT * FROM `blog_article` WHERE  `article_id` = 9 LIMIT 1 [ RunTime:0.001461s ]
+[2023-01-15T05:29:10+08:00][sql] SELECT c2.category2_name as top,c1.category2_name as second,c1.category1_id as category1_id ,c2.category1_id as category2_id FROM `blog_category2` c1,blog_category2 c2 where c1.category2_id = c2.category1_id [ RunTime:0.001389s ]
+[2023-01-15T05:29:11+08:00][sql] CONNECT:[ UseTime:0.000887s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-15T05:29:11+08:00][sql] SHOW FULL COLUMNS FROM `blog_article` [ RunTime:0.000720s ]
+[2023-01-15T05:29:11+08:00][sql] SELECT * FROM `blog_article` WHERE  `article_id` = 9 LIMIT 1 [ RunTime:0.000431s ]
+[2023-01-15T05:29:11+08:00][sql] SELECT c2.category2_name as top,c1.category2_name as second,c1.category1_id as category1_id ,c2.category1_id as category2_id FROM `blog_category2` c1,blog_category2 c2 where c1.category2_id = c2.category1_id [ RunTime:0.000579s ]
+[2023-01-15T05:29:12+08:00][sql] CONNECT:[ UseTime:0.018507s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-15T05:29:12+08:00][sql] SHOW FULL COLUMNS FROM `blog_article` [ RunTime:0.000759s ]
+[2023-01-15T05:29:12+08:00][sql] SELECT * FROM `blog_article` WHERE  `article_id` = 9 LIMIT 1 [ RunTime:0.000372s ]
+[2023-01-15T05:29:12+08:00][sql] SELECT c2.category2_name as top,c1.category2_name as second,c1.category1_id as category1_id ,c2.category1_id as category2_id FROM `blog_category2` c1,blog_category2 c2 where c1.category2_id = c2.category1_id [ RunTime:0.000504s ]
+[2023-01-15T05:29:13+08:00][sql] CONNECT:[ UseTime:0.017964s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-15T05:29:13+08:00][sql] SHOW FULL COLUMNS FROM `blog_article` [ RunTime:0.001100s ]
+[2023-01-15T05:29:13+08:00][sql] SELECT * FROM `blog_article` WHERE  `article_id` = 9 LIMIT 1 [ RunTime:0.000576s ]
+[2023-01-15T05:29:13+08:00][sql] SELECT c2.category2_name as top,c1.category2_name as second,c1.category1_id as category1_id ,c2.category1_id as category2_id FROM `blog_category2` c1,blog_category2 c2 where c1.category2_id = c2.category1_id [ RunTime:0.000575s ]
+[2023-01-15T05:29:55+08:00][sql] CONNECT:[ UseTime:0.000711s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-15T05:29:55+08:00][sql] SELECT c2.category2_name as top,c1.category2_name as second,c1.category1_id,c2.category1_id FROM `blog_category2` c1,blog_category2 c2 where c1.category2_id = c2.category1_id [ RunTime:0.000357s ]
+[2023-01-15T05:29:55+08:00][sql] SHOW FULL COLUMNS FROM `blog_category2` [ RunTime:0.000492s ]
+[2023-01-15T05:29:55+08:00][sql] SELECT * FROM `blog_category2` WHERE  `category2_id` = 0 [ RunTime:0.000220s ]
+[2023-01-15T05:29:55+08:00][sql] CONNECT:[ UseTime:0.022073s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-15T05:29:55+08:00][sql] SHOW FULL COLUMNS FROM `blog_article` [ RunTime:0.000759s ]
+[2023-01-15T05:29:55+08:00][sql] SELECT `article_id`,`title` FROM `blog_article` [ RunTime:0.000352s ]
+[2023-01-15T05:29:56+08:00][sql] CONNECT:[ UseTime:0.024198s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-15T05:29:56+08:00][sql] SHOW FULL COLUMNS FROM `blog_article` [ RunTime:0.002173s ]
+[2023-01-15T05:29:56+08:00][sql] SELECT * FROM `blog_article` WHERE  `article_id` = 9 LIMIT 1 [ RunTime:0.001235s ]
+[2023-01-15T05:29:56+08:00][sql] SELECT c2.category2_name as top,c1.category2_name as second,c1.category1_id as category1_id ,c2.category1_id as category2_id FROM `blog_category2` c1,blog_category2 c2 where c1.category2_id = c2.category1_id [ RunTime:0.001218s ]
+[2023-01-15T05:29:58+08:00][sql] CONNECT:[ UseTime:0.010892s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-15T05:29:58+08:00][sql] SHOW FULL COLUMNS FROM `blog_article` [ RunTime:0.000653s ]
+[2023-01-15T05:29:58+08:00][sql] SELECT * FROM `blog_article` WHERE  `article_id` = 9 LIMIT 1 [ RunTime:0.000377s ]
+[2023-01-15T05:29:58+08:00][sql] SELECT c2.category2_name as top,c1.category2_name as second,c1.category1_id as category1_id ,c2.category1_id as category2_id FROM `blog_category2` c1,blog_category2 c2 where c1.category2_id = c2.category1_id [ RunTime:0.000307s ]
+[2023-01-15T05:29:59+08:00][sql] CONNECT:[ UseTime:0.023636s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-15T05:29:59+08:00][sql] SHOW FULL COLUMNS FROM `blog_article` [ RunTime:0.000778s ]
+[2023-01-15T05:29:59+08:00][sql] SELECT * FROM `blog_article` WHERE  `article_id` = 9 LIMIT 1 [ RunTime:0.000336s ]
+[2023-01-15T05:29:59+08:00][sql] SELECT c2.category2_name as top,c1.category2_name as second,c1.category1_id as category1_id ,c2.category1_id as category2_id FROM `blog_category2` c1,blog_category2 c2 where c1.category2_id = c2.category1_id [ RunTime:0.000299s ]
+[2023-01-15T05:29:59+08:00][sql] CONNECT:[ UseTime:0.021601s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-15T05:29:59+08:00][sql] SHOW FULL COLUMNS FROM `blog_article` [ RunTime:0.000955s ]
+[2023-01-15T05:29:59+08:00][sql] SELECT * FROM `blog_article` WHERE  `article_id` = 9 LIMIT 1 [ RunTime:0.000353s ]
+[2023-01-15T05:29:59+08:00][sql] SELECT c2.category2_name as top,c1.category2_name as second,c1.category1_id as category1_id ,c2.category1_id as category2_id FROM `blog_category2` c1,blog_category2 c2 where c1.category2_id = c2.category1_id [ RunTime:0.000535s ]
+[2023-01-15T05:31:03+08:00][sql] CONNECT:[ UseTime:0.001540s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-15T05:31:03+08:00][sql] SELECT c2.category2_name as top,c1.category2_name as second,c1.category1_id,c2.category1_id FROM `blog_category2` c1,blog_category2 c2 where c1.category2_id = c2.category1_id [ RunTime:0.000413s ]
+[2023-01-15T05:31:03+08:00][sql] SHOW FULL COLUMNS FROM `blog_category2` [ RunTime:0.000590s ]
+[2023-01-15T05:31:03+08:00][sql] SELECT * FROM `blog_category2` WHERE  `category2_id` = 0 [ RunTime:0.000290s ]
+[2023-01-15T05:31:03+08:00][sql] CONNECT:[ UseTime:0.015148s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-15T05:31:03+08:00][sql] SHOW FULL COLUMNS FROM `blog_article` [ RunTime:0.000710s ]
+[2023-01-15T05:31:03+08:00][sql] SELECT `article_id`,`title` FROM `blog_article` [ RunTime:0.000328s ]
+[2023-01-15T05:31:04+08:00][sql] CONNECT:[ UseTime:0.023631s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-15T05:31:04+08:00][sql] SHOW FULL COLUMNS FROM `blog_article` [ RunTime:0.000815s ]
+[2023-01-15T05:31:04+08:00][sql] SELECT * FROM `blog_article` WHERE  `article_id` = 9 LIMIT 1 [ RunTime:0.000605s ]
+[2023-01-15T05:31:04+08:00][sql] SELECT c2.category2_name as top,c1.category2_name as second,c1.category1_id as category1_id ,c2.category1_id as category2_id FROM `blog_category2` c1,blog_category2 c2 where c1.category2_id = c2.category1_id [ RunTime:0.000367s ]
+[2023-01-15T05:31:20+08:00][sql] CONNECT:[ UseTime:0.018562s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-15T05:31:20+08:00][sql] SELECT c2.category2_name as top,c1.category2_name as second,c1.category1_id,c2.category1_id FROM `blog_category2` c1,blog_category2 c2 where c1.category2_id = c2.category1_id [ RunTime:0.000570s ]
+[2023-01-15T05:31:20+08:00][sql] SHOW FULL COLUMNS FROM `blog_category2` [ RunTime:0.000688s ]
+[2023-01-15T05:31:20+08:00][sql] SELECT * FROM `blog_category2` WHERE  `category2_id` = 0 [ RunTime:0.000355s ]
+[2023-01-15T05:31:20+08:00][sql] CONNECT:[ UseTime:0.011510s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-15T05:31:20+08:00][sql] SHOW FULL COLUMNS FROM `blog_article` [ RunTime:0.001167s ]
+[2023-01-15T05:31:20+08:00][sql] SELECT `article_id`,`title` FROM `blog_article` [ RunTime:0.000468s ]
+[2023-01-15T05:31:21+08:00][sql] CONNECT:[ UseTime:0.001172s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-15T05:31:21+08:00][sql] SHOW FULL COLUMNS FROM `blog_article` [ RunTime:0.000772s ]
+[2023-01-15T05:31:21+08:00][sql] SELECT * FROM `blog_article` WHERE  `article_id` = 6 LIMIT 1 [ RunTime:0.000380s ]
+[2023-01-15T05:31:21+08:00][sql] SELECT c2.category2_name as top,c1.category2_name as second,c1.category1_id as category1_id ,c2.category1_id as category2_id FROM `blog_category2` c1,blog_category2 c2 where c1.category2_id = c2.category1_id [ RunTime:0.000338s ]
+[2023-01-15T05:32:04+08:00][sql] CONNECT:[ UseTime:0.001472s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-15T05:32:04+08:00][sql] SELECT c2.category2_name as top,c1.category2_name as second,c1.category1_id,c2.category1_id FROM `blog_category2` c1,blog_category2 c2 where c1.category2_id = c2.category1_id [ RunTime:0.000585s ]
+[2023-01-15T05:32:04+08:00][sql] SHOW FULL COLUMNS FROM `blog_category2` [ RunTime:0.000650s ]
+[2023-01-15T05:32:04+08:00][sql] SELECT * FROM `blog_category2` WHERE  `category2_id` = 0 [ RunTime:0.000767s ]
+[2023-01-15T05:32:04+08:00][sql] CONNECT:[ UseTime:0.017349s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-15T05:32:04+08:00][sql] SHOW FULL COLUMNS FROM `blog_article` [ RunTime:0.000859s ]
+[2023-01-15T05:32:04+08:00][sql] SELECT `article_id`,`title` FROM `blog_article` [ RunTime:0.001750s ]
+[2023-01-15T05:32:06+08:00][sql] CONNECT:[ UseTime:0.000794s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-15T05:32:06+08:00][sql] SHOW FULL COLUMNS FROM `blog_article` [ RunTime:0.000698s ]
+[2023-01-15T05:32:06+08:00][sql] SELECT * FROM `blog_article` WHERE  `article_id` = 5 LIMIT 1 [ RunTime:0.000392s ]
+[2023-01-15T05:32:06+08:00][sql] SELECT c2.category2_name as top,c1.category2_name as second,c1.category1_id as category1_id ,c2.category1_id as category2_id FROM `blog_category2` c1,blog_category2 c2 where c1.category2_id = c2.category1_id [ RunTime:0.000367s ]

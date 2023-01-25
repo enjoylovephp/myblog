@@ -1,0 +1,6 @@
+[2022-12-04T01:36:48+08:00][sql] CONNECT:[ UseTime:0.107402s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2022-12-04T01:36:48+08:00][sql] SHOW FULL COLUMNS FROM `blog_article` [ RunTime:0.243875s ]
+[2022-12-04T01:36:48+08:00][sql] SELECT * FROM `blog_article` LIMIT 100 [ RunTime:0.003904s ]
+[2022-12-04T10:03:23+08:00][sql] CONNECT:[ UseTime:0.005708s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2022-12-04T10:03:23+08:00][sql] SHOW FULL COLUMNS FROM `blog_article` [ RunTime:0.031542s ]
+[2022-12-04T10:03:23+08:00][sql] SELECT * FROM `blog_article` LIMIT 100 [ RunTime:0.000500s ]

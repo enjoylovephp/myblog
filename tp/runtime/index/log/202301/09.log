@@ -1,0 +1,31 @@
+[2023-01-09T20:17:12+08:00][sql] CONNECT:[ UseTime:0.000833s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-09T20:17:12+08:00][sql] SHOW FULL COLUMNS FROM `blog_article` [ RunTime:0.057719s ]
+[2023-01-09T20:17:12+08:00][sql] SELECT * FROM `blog_article` LIMIT 100 [ RunTime:0.000776s ]
+[2023-01-09T20:17:13+08:00][sql] CONNECT:[ UseTime:0.000843s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-09T20:17:13+08:00][sql] SHOW FULL COLUMNS FROM `blog_article` [ RunTime:0.000900s ]
+[2023-01-09T20:17:13+08:00][sql] SELECT * FROM `blog_article` WHERE  `article_id` = 1 LIMIT 1 [ RunTime:0.045482s ]
+[2023-01-09T20:53:02+08:00][sql] CONNECT:[ UseTime:0.016377s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-09T20:53:02+08:00][sql] SHOW FULL COLUMNS FROM `blog_article` [ RunTime:0.001400s ]
+[2023-01-09T20:53:02+08:00][sql] SELECT * FROM `blog_article` LIMIT 100 [ RunTime:0.000801s ]
+[2023-01-09T20:56:28+08:00][sql] CONNECT:[ UseTime:0.001068s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-09T20:56:28+08:00][sql] SHOW FULL COLUMNS FROM `blog_article` [ RunTime:0.001102s ]
+[2023-01-09T20:56:28+08:00][sql] SELECT * FROM `blog_article` LIMIT 100 [ RunTime:0.000455s ]
+[2023-01-09T20:56:28+08:00][sql] SHOW FULL COLUMNS FROM `blog_category2` [ RunTime:0.000776s ]
+[2023-01-09T20:56:28+08:00][sql] SELECT * FROM `blog_category2` [ RunTime:0.000240s ]
+[2023-01-09T20:56:28+08:00][error] [0]call_user_func_array() expects parameter 1 to be a valid callback, class 'think\Template' does not have a method 'assgin'
+[2023-01-09T20:58:05+08:00][sql] CONNECT:[ UseTime:0.025575s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-09T20:58:05+08:00][sql] SHOW FULL COLUMNS FROM `blog_article` [ RunTime:0.000944s ]
+[2023-01-09T20:58:05+08:00][sql] SELECT * FROM `blog_article` LIMIT 100 [ RunTime:0.000290s ]
+[2023-01-09T20:58:05+08:00][sql] SHOW FULL COLUMNS FROM `blog_category2` [ RunTime:0.000488s ]
+[2023-01-09T20:58:05+08:00][sql] SELECT * FROM `blog_category2` [ RunTime:0.000242s ]
+[2023-01-09T20:58:05+08:00][error] [0]call_user_func_array() expects parameter 1 to be a valid callback, class 'think\Template' does not have a method 'assgin'
+[2023-01-09T20:58:23+08:00][sql] CONNECT:[ UseTime:0.011862s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-09T20:58:23+08:00][sql] SHOW FULL COLUMNS FROM `blog_article` [ RunTime:0.001656s ]
+[2023-01-09T20:58:23+08:00][sql] SELECT * FROM `blog_article` LIMIT 100 [ RunTime:0.000584s ]
+[2023-01-09T20:58:23+08:00][sql] SHOW FULL COLUMNS FROM `blog_category2` [ RunTime:0.001423s ]
+[2023-01-09T20:58:23+08:00][sql] SELECT * FROM `blog_category2` [ RunTime:0.000525s ]
+[2023-01-09T20:58:32+08:00][sql] CONNECT:[ UseTime:0.000916s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-09T20:58:32+08:00][sql] SHOW FULL COLUMNS FROM `blog_article` [ RunTime:0.000942s ]
+[2023-01-09T20:58:32+08:00][sql] SELECT * FROM `blog_article` LIMIT 100 [ RunTime:0.000641s ]
+[2023-01-09T20:58:32+08:00][sql] SHOW FULL COLUMNS FROM `blog_category2` [ RunTime:0.000767s ]
+[2023-01-09T20:58:32+08:00][sql] SELECT * FROM `blog_category2` [ RunTime:0.000405s ]

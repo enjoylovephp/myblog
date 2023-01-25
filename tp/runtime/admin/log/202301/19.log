@@ -1,0 +1,670 @@
+[2023-01-19T13:06:51+08:00][sql] CONNECT:[ UseTime:0.041436s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-19T13:06:51+08:00][error] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'c2.category2_name' in 'field list'
+[2023-01-19T13:10:12+08:00][sql] CONNECT:[ UseTime:0.000785s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-19T13:10:12+08:00][sql] SELECT c2.category_name as top,c1.category_name as second,c1.category2_id,c2.category2_id FROM `blog_category2` c1,blog_category2 c2 where c1.category1_id = c2.category2_id [ RunTime:0.000678s ]
+[2023-01-19T13:10:12+08:00][sql] SHOW FULL COLUMNS FROM `blog_category2` [ RunTime:0.000527s ]
+[2023-01-19T13:10:12+08:00][sql] SELECT * FROM `blog_category2` WHERE  `category2_id` = 0 [ RunTime:0.000301s ]
+[2023-01-19T13:11:15+08:00][sql] CONNECT:[ UseTime:0.000848s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-19T13:11:15+08:00][sql] SELECT c2.category_name as top,c1.category_name as second,c1.category1_id,c2.category2_id FROM `blog_category2` c1,blog_category2 c2 where c1.category1_id = c2.category2_id [ RunTime:0.000786s ]
+[2023-01-19T13:11:15+08:00][sql] SHOW FULL COLUMNS FROM `blog_category2` [ RunTime:0.000638s ]
+[2023-01-19T13:11:15+08:00][sql] SELECT * FROM `blog_category2` WHERE  `category2_id` = 0 [ RunTime:0.000243s ]
+[2023-01-19T13:11:28+08:00][sql] CONNECT:[ UseTime:0.021898s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-19T13:11:28+08:00][sql] SELECT c2.category_name as top,c1.category_name as second,c1.category2_id,c2.category1_id FROM `blog_category2` c1,blog_category2 c2 where c1.category1_id = c2.category2_id [ RunTime:0.001531s ]
+[2023-01-19T13:11:28+08:00][sql] SHOW FULL COLUMNS FROM `blog_category2` [ RunTime:0.001245s ]
+[2023-01-19T13:11:28+08:00][sql] SELECT * FROM `blog_category2` WHERE  `category2_id` = 0 [ RunTime:0.000653s ]
+[2023-01-19T13:11:58+08:00][sql] CONNECT:[ UseTime:0.000839s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-19T13:11:58+08:00][sql] SELECT c2.category_name as top,c1.category_name as second,c1.category1_id,c2.category1_id FROM `blog_category2` c1,blog_category2 c2 where c1.category1_id = c2.category2_id [ RunTime:0.000688s ]
+[2023-01-19T13:11:58+08:00][sql] SHOW FULL COLUMNS FROM `blog_category2` [ RunTime:0.000498s ]
+[2023-01-19T13:11:58+08:00][sql] SELECT * FROM `blog_category2` WHERE  `category2_id` = 0 [ RunTime:0.000215s ]
+[2023-01-19T13:13:01+08:00][sql] CONNECT:[ UseTime:0.001300s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-19T13:13:01+08:00][sql] SELECT c2.category_name as top,c1.category_name as second,c1.category2_id,c2.category1_id FROM `blog_category2` c1,blog_category2 c2 where c1.category1_id = c2.category2_id [ RunTime:0.000616s ]
+[2023-01-19T13:13:01+08:00][sql] SHOW FULL COLUMNS FROM `blog_category2` [ RunTime:0.000511s ]
+[2023-01-19T13:13:01+08:00][sql] SELECT * FROM `blog_category2` WHERE  `category2_id` = 0 [ RunTime:0.000171s ]
+[2023-01-19T13:13:53+08:00][sql] CONNECT:[ UseTime:0.001191s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-19T13:13:53+08:00][sql] SELECT c2.category_name as top,c1.category_name as second,c1.category2_id as category2_id,c2.category1_id as category1_id FROM `blog_category2` c1,blog_category2 c2 where c1.category1_id = c2.category2_id [ RunTime:0.000980s ]
+[2023-01-19T13:13:53+08:00][sql] SHOW FULL COLUMNS FROM `blog_category2` [ RunTime:0.000645s ]
+[2023-01-19T13:13:53+08:00][sql] SELECT * FROM `blog_category2` WHERE  `category2_id` = 0 [ RunTime:0.000336s ]
+[2023-01-19T13:14:33+08:00][sql] CONNECT:[ UseTime:0.020241s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-19T13:14:33+08:00][sql] SELECT c2.category_name as top,c1.category_name as second,c1.category2_id as category2_id,c1.category1_id as category1_id FROM `blog_category2` c1,blog_category2 c2 where c1.category1_id = c2.category2_id [ RunTime:0.001047s ]
+[2023-01-19T13:14:33+08:00][sql] SHOW FULL COLUMNS FROM `blog_category2` [ RunTime:0.000815s ]
+[2023-01-19T13:14:33+08:00][sql] SELECT * FROM `blog_category2` WHERE  `category2_id` = 0 [ RunTime:0.000393s ]
+[2023-01-19T13:15:46+08:00][sql] CONNECT:[ UseTime:0.000967s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-19T13:15:46+08:00][sql] SELECT c2.category_name as top,c1.category_name as second,c1.category2_id as category2_id,c1.category1_id as category1_id FROM `blog_category2` c1,blog_category2 c2 where c1.category1_id = c2.category2_id [ RunTime:0.001835s ]
+[2023-01-19T13:15:54+08:00][sql] CONNECT:[ UseTime:0.000874s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-19T13:15:54+08:00][sql] SHOW FULL COLUMNS FROM `blog_category2` [ RunTime:0.000888s ]
+[2023-01-19T13:15:54+08:00][sql] SELECT * FROM `blog_category2` [ RunTime:0.000349s ]
+[2023-01-19T13:15:59+08:00][sql] CONNECT:[ UseTime:0.018481s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-19T13:15:59+08:00][sql] SHOW FULL COLUMNS FROM `blog_category2` [ RunTime:0.000878s ]
+[2023-01-19T13:15:59+08:00][error] [10501]SQLSTATE[HY000]: General error: 1364 Field 'category2_id' doesn't have a default value
+[2023-01-19T13:16:41+08:00][sql] CONNECT:[ UseTime:0.023229s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-19T13:16:41+08:00][sql] SHOW FULL COLUMNS FROM `blog_category2` [ RunTime:0.001208s ]
+[2023-01-19T13:16:41+08:00][sql] SELECT * FROM `blog_category2` [ RunTime:0.000272s ]
+[2023-01-19T13:16:43+08:00][sql] CONNECT:[ UseTime:0.000852s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-19T13:16:43+08:00][sql] SHOW FULL COLUMNS FROM `blog_category2` [ RunTime:0.000879s ]
+[2023-01-19T13:16:43+08:00][sql] INSERT INTO `blog_category2` SET `category1_id` = 0 , `category_name` = 'a' [ RunTime:0.000392s ]
+[2023-01-19T13:18:46+08:00][sql] CONNECT:[ UseTime:0.001269s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-19T13:18:46+08:00][sql] SELECT c2.category_name as top,c1.category_name as second,c1.category2_id as category2_id,c1.category1_id as category1_id FROM `blog_category2` c1,blog_category2 c2 where c1.category1_id = c2.category2_id [ RunTime:0.000775s ]
+[2023-01-19T13:18:47+08:00][sql] CONNECT:[ UseTime:0.004451s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-19T13:18:47+08:00][sql] SHOW FULL COLUMNS FROM `blog_category2` [ RunTime:0.001334s ]
+[2023-01-19T13:18:47+08:00][sql] SELECT * FROM `blog_category2` [ RunTime:0.000463s ]
+[2023-01-19T13:19:14+08:00][sql] CONNECT:[ UseTime:0.001423s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-19T13:19:14+08:00][sql] SELECT c2.category_name as top,c1.category_name as second,c1.category2_id as category2_id,c1.category1_id as category1_id FROM `blog_category2` c1,blog_category2 c2 where c1.category1_id = c2.category2_id [ RunTime:0.001669s ]
+[2023-01-19T13:19:15+08:00][sql] CONNECT:[ UseTime:0.000821s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-19T13:19:15+08:00][sql] SHOW FULL COLUMNS FROM `blog_category2` [ RunTime:0.000707s ]
+[2023-01-19T13:19:15+08:00][sql] SELECT * FROM `blog_category2` [ RunTime:0.000210s ]
+[2023-01-19T13:21:44+08:00][sql] CONNECT:[ UseTime:0.011442s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-19T13:21:44+08:00][sql] SELECT c2.category_name as top,c1.category_name as second,c1.category2_id as category2_id,c1.category1_id as category1_id FROM `blog_category2` c1,blog_category2 c2 where c1.category1_id = c2.category2_id [ RunTime:0.000826s ]
+[2023-01-19T13:21:44+08:00][sql] CONNECT:[ UseTime:0.000797s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-19T13:21:44+08:00][sql] SHOW FULL COLUMNS FROM `blog_category2` [ RunTime:0.000896s ]
+[2023-01-19T13:21:44+08:00][sql] SELECT * FROM `blog_category2` [ RunTime:0.000206s ]
+[2023-01-19T13:22:12+08:00][sql] CONNECT:[ UseTime:0.013474s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-19T13:22:12+08:00][sql] SELECT c2.category_name as top,c1.category_name as second,c1.category2_id as category2_id,c1.category1_id as category1_id FROM `blog_category2` c1,blog_category2 c2 where c1.category1_id = c2.category2_id [ RunTime:0.001855s ]
+[2023-01-19T13:22:13+08:00][sql] CONNECT:[ UseTime:0.001111s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-19T13:22:13+08:00][sql] SHOW FULL COLUMNS FROM `blog_category2` [ RunTime:0.001116s ]
+[2023-01-19T13:22:13+08:00][sql] SELECT * FROM `blog_category2` [ RunTime:0.000374s ]
+[2023-01-19T13:22:16+08:00][sql] CONNECT:[ UseTime:0.023545s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-19T13:22:16+08:00][sql] SHOW FULL COLUMNS FROM `blog_category2` [ RunTime:0.000913s ]
+[2023-01-19T13:22:16+08:00][error] [10501]SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '20' for key 'PRIMARY'
+[2023-01-19T13:23:02+08:00][sql] CONNECT:[ UseTime:0.000841s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-19T13:23:02+08:00][sql] SELECT c2.category_name as top,c1.category_name as second,c1.category2_id as category2_id,c1.category1_id as category1_id FROM `blog_category2` c1,blog_category2 c2 where c1.category1_id = c2.category2_id [ RunTime:0.000647s ]
+[2023-01-19T13:23:04+08:00][sql] CONNECT:[ UseTime:0.017026s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-19T13:23:04+08:00][sql] SHOW FULL COLUMNS FROM `blog_category2` [ RunTime:0.000841s ]
+[2023-01-19T13:23:04+08:00][sql] SELECT * FROM `blog_category2` [ RunTime:0.000268s ]
+[2023-01-19T13:23:07+08:00][sql] CONNECT:[ UseTime:0.000759s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-19T13:23:07+08:00][sql] SHOW FULL COLUMNS FROM `blog_category2` [ RunTime:0.000772s ]
+[2023-01-19T13:23:07+08:00][sql] INSERT INTO `blog_category2` SET `category1_id` = 20 , `category_name` = 'test' [ RunTime:0.000328s ]
+[2023-01-19T13:23:25+08:00][sql] CONNECT:[ UseTime:0.018883s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-19T13:23:25+08:00][sql] SHOW FULL COLUMNS FROM `blog_category2` [ RunTime:0.000944s ]
+[2023-01-19T13:23:25+08:00][sql] SELECT * FROM `blog_category2` [ RunTime:0.000248s ]
+[2023-01-19T13:23:29+08:00][sql] CONNECT:[ UseTime:0.000880s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-19T13:23:29+08:00][sql] SHOW FULL COLUMNS FROM `blog_category2` [ RunTime:0.000564s ]
+[2023-01-19T13:23:29+08:00][sql] INSERT INTO `blog_category2` SET `category1_id` = 20 , `category_name` = 'test1' [ RunTime:0.000291s ]
+[2023-01-19T13:23:30+08:00][sql] CONNECT:[ UseTime:0.019533s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-19T13:23:30+08:00][sql] SHOW FULL COLUMNS FROM `blog_category2` [ RunTime:0.000667s ]
+[2023-01-19T13:23:30+08:00][sql] SELECT * FROM `blog_category2` [ RunTime:0.000276s ]
+[2023-01-19T13:23:36+08:00][sql] CONNECT:[ UseTime:0.000738s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-19T13:23:36+08:00][sql] SHOW FULL COLUMNS FROM `blog_category2` [ RunTime:0.000560s ]
+[2023-01-19T13:23:36+08:00][sql] INSERT INTO `blog_category2` SET `category1_id` = 1 , `category_name` = 'r1' [ RunTime:0.000252s ]
+[2023-01-19T13:28:16+08:00][sql] CONNECT:[ UseTime:0.000762s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-19T13:28:16+08:00][sql] SHOW FULL COLUMNS FROM `blog_category2` [ RunTime:0.000614s ]
+[2023-01-19T13:28:16+08:00][sql] SELECT * FROM `blog_category2` [ RunTime:0.000240s ]
+[2023-01-19T13:28:16+08:00][sql] CONNECT:[ UseTime:0.001216s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-19T13:28:16+08:00][sql] SHOW FULL COLUMNS FROM `blog_category2` [ RunTime:0.000870s ]
+[2023-01-19T13:28:16+08:00][sql] SELECT * FROM `blog_category2` [ RunTime:0.000424s ]
+[2023-01-19T13:28:16+08:00][sql] CONNECT:[ UseTime:0.017246s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-19T13:28:16+08:00][sql] SHOW FULL COLUMNS FROM `blog_category2` [ RunTime:0.000650s ]
+[2023-01-19T13:28:16+08:00][sql] SELECT * FROM `blog_category2` [ RunTime:0.000253s ]
+[2023-01-19T13:28:17+08:00][sql] CONNECT:[ UseTime:0.013373s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-19T13:28:17+08:00][sql] SHOW FULL COLUMNS FROM `blog_category2` [ RunTime:0.000637s ]
+[2023-01-19T13:28:17+08:00][sql] SELECT * FROM `blog_category2` [ RunTime:0.000380s ]
+[2023-01-19T13:28:17+08:00][sql] CONNECT:[ UseTime:0.020990s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-19T13:28:17+08:00][sql] SHOW FULL COLUMNS FROM `blog_category2` [ RunTime:0.000706s ]
+[2023-01-19T13:28:17+08:00][sql] SELECT * FROM `blog_category2` [ RunTime:0.000356s ]
+[2023-01-19T13:28:17+08:00][sql] CONNECT:[ UseTime:0.001061s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-19T13:28:17+08:00][sql] SHOW FULL COLUMNS FROM `blog_category2` [ RunTime:0.000905s ]
+[2023-01-19T13:28:17+08:00][sql] SELECT * FROM `blog_category2` [ RunTime:0.000335s ]
+[2023-01-19T13:28:18+08:00][sql] CONNECT:[ UseTime:0.000805s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-19T13:28:18+08:00][sql] SHOW FULL COLUMNS FROM `blog_category2` [ RunTime:0.000667s ]
+[2023-01-19T13:28:18+08:00][sql] SELECT * FROM `blog_category2` [ RunTime:0.000245s ]
+[2023-01-19T13:28:18+08:00][sql] CONNECT:[ UseTime:0.019725s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-19T13:28:18+08:00][sql] SHOW FULL COLUMNS FROM `blog_category2` [ RunTime:0.001592s ]
+[2023-01-19T13:28:18+08:00][sql] SELECT * FROM `blog_category2` [ RunTime:0.000769s ]
+[2023-01-19T13:28:20+08:00][sql] CONNECT:[ UseTime:0.000751s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-19T13:28:20+08:00][sql] SHOW FULL COLUMNS FROM `blog_category2` [ RunTime:0.000602s ]
+[2023-01-19T13:28:20+08:00][sql] SELECT * FROM `blog_category2` [ RunTime:0.000228s ]
+[2023-01-19T13:29:15+08:00][sql] CONNECT:[ UseTime:0.026024s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-19T13:29:15+08:00][sql] SELECT c2.category_name as top,c1.category_name as second,c1.category2_id as category2_id,c1.category1_id as category1_id FROM `blog_category2` c1,blog_category2 c2 where c1.category1_id = c2.category2_id [ RunTime:0.005136s ]
+[2023-01-19T13:29:16+08:00][sql] CONNECT:[ UseTime:0.001070s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-19T13:29:16+08:00][sql] SHOW FULL COLUMNS FROM `blog_category2` [ RunTime:0.000584s ]
+[2023-01-19T13:29:16+08:00][sql] SELECT * FROM `blog_category2` [ RunTime:0.000177s ]
+[2023-01-19T13:29:19+08:00][sql] CONNECT:[ UseTime:0.017223s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-19T13:29:19+08:00][sql] SHOW FULL COLUMNS FROM `blog_category2` [ RunTime:0.001574s ]
+[2023-01-19T13:29:19+08:00][sql] SELECT * FROM `blog_category2` [ RunTime:0.000511s ]
+[2023-01-19T13:29:29+08:00][sql] CONNECT:[ UseTime:0.000858s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-19T13:29:29+08:00][sql] SHOW FULL COLUMNS FROM `blog_article` [ RunTime:0.004161s ]
+[2023-01-19T13:29:29+08:00][sql] SELECT `article_id`,`title` FROM `blog_article` [ RunTime:0.000393s ]
+[2023-01-19T13:29:32+08:00][sql] CONNECT:[ UseTime:0.020011s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-19T13:29:32+08:00][sql] SHOW FULL COLUMNS FROM `blog_article` [ RunTime:0.003197s ]
+[2023-01-19T13:29:32+08:00][sql] SELECT * FROM `blog_article` WHERE  `article_id` = 5 LIMIT 1 [ RunTime:0.029901s ]
+[2023-01-19T13:29:32+08:00][error] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'c2.category2_name' in 'field list'
+[2023-01-19T13:30:23+08:00][sql] CONNECT:[ UseTime:0.000928s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-19T13:30:23+08:00][sql] SELECT c2.category_name as top,c1.category_name as second,c1.category2_id as category2_id,c1.category1_id as category1_id FROM `blog_category2` c1,blog_category2 c2 where c1.category1_id = c2.category2_id [ RunTime:0.000540s ]
+[2023-01-19T13:30:24+08:00][sql] CONNECT:[ UseTime:0.000910s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-19T13:30:24+08:00][sql] SHOW FULL COLUMNS FROM `blog_article` [ RunTime:0.000772s ]
+[2023-01-19T13:30:24+08:00][sql] SELECT `article_id`,`title` FROM `blog_article` [ RunTime:0.000369s ]
+[2023-01-19T13:30:25+08:00][sql] CONNECT:[ UseTime:0.017184s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-19T13:30:25+08:00][sql] SHOW FULL COLUMNS FROM `blog_article` [ RunTime:0.000950s ]
+[2023-01-19T13:30:25+08:00][sql] SELECT * FROM `blog_article` WHERE  `article_id` = 6 LIMIT 1 [ RunTime:0.000420s ]
+[2023-01-19T13:30:25+08:00][sql] SELECT c2.category_name as top,c1.category_name as second,c1.category1_id as category1_id ,c2.category1_id as category2_id FROM `blog_category2` c1,blog_category2 c2 where c1.category2_id = c2.category1_id [ RunTime:0.000318s ]
+[2023-01-19T13:30:47+08:00][sql] CONNECT:[ UseTime:0.021596s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-19T13:30:47+08:00][sql] SELECT c2.category_name as top,c1.category_name as second,c1.category2_id as category2_id,c1.category1_id as category1_id FROM `blog_category2` c1,blog_category2 c2 where c1.category1_id = c2.category2_id [ RunTime:0.000513s ]
+[2023-01-19T13:30:48+08:00][sql] CONNECT:[ UseTime:0.019599s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-19T13:30:48+08:00][sql] SHOW FULL COLUMNS FROM `blog_article` [ RunTime:0.001113s ]
+[2023-01-19T13:30:48+08:00][sql] SELECT `article_id`,`title` FROM `blog_article` [ RunTime:0.000459s ]
+[2023-01-19T13:30:49+08:00][sql] CONNECT:[ UseTime:0.000728s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-19T13:30:49+08:00][sql] SHOW FULL COLUMNS FROM `blog_article` [ RunTime:0.000843s ]
+[2023-01-19T13:30:49+08:00][sql] SELECT * FROM `blog_article` WHERE  `article_id` = 6 LIMIT 1 [ RunTime:0.000321s ]
+[2023-01-19T13:30:49+08:00][sql] SELECT c2.category_name as top,c1.category_name as second,c1.category1_id as category2_id ,c2.category1_id as category1_id FROM `blog_category2` c1,blog_category2 c2 where c1.category2_id = c2.category1_id [ RunTime:0.000499s ]
+[2023-01-19T13:36:40+08:00][sql] CONNECT:[ UseTime:0.000949s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-19T13:36:40+08:00][sql] SELECT c2.category_name as top,c1.category_name as second,c1.category2_id as category2_id,c1.category1_id as category1_id FROM `blog_category2` c1,blog_category2 c2 where c1.category1_id = c2.category2_id [ RunTime:0.000413s ]
+[2023-01-19T13:36:41+08:00][sql] CONNECT:[ UseTime:0.000745s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-19T13:36:41+08:00][sql] SHOW FULL COLUMNS FROM `blog_article` [ RunTime:0.000824s ]
+[2023-01-19T13:36:41+08:00][sql] SELECT `article_id`,`title` FROM `blog_article` [ RunTime:0.000370s ]
+[2023-01-19T13:36:42+08:00][sql] CONNECT:[ UseTime:0.014586s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-19T13:36:42+08:00][sql] SHOW FULL COLUMNS FROM `blog_article` [ RunTime:0.000987s ]
+[2023-01-19T13:36:42+08:00][sql] SELECT * FROM `blog_article` WHERE  `article_id` = 6 LIMIT 1 [ RunTime:0.000412s ]
+[2023-01-19T13:36:42+08:00][sql] SELECT c2.category_name as top,c1.category_name as second,c1.category2_id as category2_id,c1.category1_id as category1_id FROM `blog_category2` c1,blog_category2 c2 where c1.category1_id = c2.category2_id [ RunTime:0.000537s ]
+[2023-01-19T13:36:49+08:00][sql] CONNECT:[ UseTime:0.022158s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-19T13:36:49+08:00][sql] SHOW FULL COLUMNS FROM `blog_article` [ RunTime:0.000927s ]
+[2023-01-19T13:36:49+08:00][sql] SELECT `article_id`,`title` FROM `blog_article` [ RunTime:0.000266s ]
+[2023-01-19T13:36:50+08:00][sql] CONNECT:[ UseTime:0.025116s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-19T13:36:50+08:00][sql] SHOW FULL COLUMNS FROM `blog_article` [ RunTime:0.000843s ]
+[2023-01-19T13:36:50+08:00][sql] SELECT * FROM `blog_article` WHERE  `article_id` = 6 LIMIT 1 [ RunTime:0.000288s ]
+[2023-01-19T13:36:50+08:00][sql] SELECT c2.category_name as top,c1.category_name as second,c1.category2_id as category2_id,c1.category1_id as category1_id FROM `blog_category2` c1,blog_category2 c2 where c1.category1_id = c2.category2_id [ RunTime:0.000434s ]
+[2023-01-19T13:36:53+08:00][sql] CONNECT:[ UseTime:0.000805s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-19T13:36:53+08:00][sql] SHOW FULL COLUMNS FROM `blog_article` [ RunTime:0.000735s ]
+[2023-01-19T13:36:53+08:00][sql] SELECT `article_id`,`title` FROM `blog_article` [ RunTime:0.000324s ]
+[2023-01-19T13:36:55+08:00][sql] CONNECT:[ UseTime:0.016430s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-19T13:36:55+08:00][sql] SHOW FULL COLUMNS FROM `blog_article` [ RunTime:0.001266s ]
+[2023-01-19T13:36:55+08:00][sql] SELECT * FROM `blog_article` WHERE  `article_id` = 5 LIMIT 1 [ RunTime:0.000593s ]
+[2023-01-19T13:36:55+08:00][sql] SELECT c2.category_name as top,c1.category_name as second,c1.category2_id as category2_id,c1.category1_id as category1_id FROM `blog_category2` c1,blog_category2 c2 where c1.category1_id = c2.category2_id [ RunTime:0.000586s ]
+[2023-01-19T13:36:57+08:00][sql] CONNECT:[ UseTime:0.000792s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-19T13:36:57+08:00][sql] SHOW FULL COLUMNS FROM `blog_article` [ RunTime:0.000797s ]
+[2023-01-19T13:36:57+08:00][sql] SELECT `article_id`,`title` FROM `blog_article` [ RunTime:0.000249s ]
+[2023-01-19T13:36:58+08:00][sql] CONNECT:[ UseTime:0.000748s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-19T13:36:58+08:00][sql] SHOW FULL COLUMNS FROM `blog_article` [ RunTime:0.000644s ]
+[2023-01-19T13:36:58+08:00][sql] SELECT * FROM `blog_article` WHERE  `article_id` = 4 LIMIT 1 [ RunTime:0.000317s ]
+[2023-01-19T13:36:58+08:00][sql] SELECT c2.category_name as top,c1.category_name as second,c1.category2_id as category2_id,c1.category1_id as category1_id FROM `blog_category2` c1,blog_category2 c2 where c1.category1_id = c2.category2_id [ RunTime:0.000461s ]
+[2023-01-19T14:00:51+08:00][sql] CONNECT:[ UseTime:0.019514s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-19T14:00:51+08:00][sql] SHOW FULL COLUMNS FROM `blog_article` [ RunTime:0.001078s ]
+[2023-01-19T14:00:51+08:00][sql] SELECT `article_id`,`title` FROM `blog_article` [ RunTime:0.000370s ]
+[2023-01-19T14:00:52+08:00][sql] CONNECT:[ UseTime:0.017958s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-19T14:00:52+08:00][sql] SHOW FULL COLUMNS FROM `blog_article` [ RunTime:0.004338s ]
+[2023-01-19T14:00:52+08:00][sql] SELECT * FROM `blog_article` WHERE  `article_id` = 5 LIMIT 1 [ RunTime:0.000510s ]
+[2023-01-19T14:00:52+08:00][sql] SELECT c2.category_name as top,c1.category_name as second,c1.category2_id as category2_id,c1.category1_id as category1_id FROM `blog_category2` c1,blog_category2 c2 where c1.category1_id = c2.category2_id [ RunTime:0.000693s ]
+[2023-01-19T14:01:06+08:00][sql] CONNECT:[ UseTime:0.001067s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-19T14:01:06+08:00][sql] SELECT c2.category_name as top,c1.category_name as second,c1.category2_id as category2_id,c1.category1_id as category1_id FROM `blog_category2` c1,blog_category2 c2 where c1.category1_id = c2.category2_id [ RunTime:0.004463s ]
+[2023-01-19T14:01:06+08:00][sql] CONNECT:[ UseTime:0.021752s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-19T14:01:06+08:00][sql] SHOW FULL COLUMNS FROM `blog_article` [ RunTime:0.000746s ]
+[2023-01-19T14:01:06+08:00][sql] SELECT `article_id`,`title` FROM `blog_article` [ RunTime:0.000333s ]
+[2023-01-19T14:01:07+08:00][sql] CONNECT:[ UseTime:0.000910s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-19T14:01:07+08:00][sql] SHOW FULL COLUMNS FROM `blog_article` [ RunTime:0.000988s ]
+[2023-01-19T14:01:07+08:00][sql] SELECT * FROM `blog_article` WHERE  `article_id` = 4 LIMIT 1 [ RunTime:0.000331s ]
+[2023-01-19T14:01:07+08:00][sql] SELECT c2.category_name as top,c1.category_name as second,c1.category2_id as category2_id,c1.category1_id as category1_id FROM `blog_category2` c1,blog_category2 c2 where c1.category1_id = c2.category2_id [ RunTime:0.000228s ]
+[2023-01-19T14:01:36+08:00][sql] CONNECT:[ UseTime:0.000814s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-19T14:01:36+08:00][sql] SELECT c2.category_name as top,c1.category_name as second,c1.category2_id as category2_id,c1.category1_id as category1_id FROM `blog_category2` c1,blog_category2 c2 where c1.category1_id = c2.category2_id [ RunTime:0.000447s ]
+[2023-01-19T14:01:37+08:00][sql] CONNECT:[ UseTime:0.000807s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-19T14:01:37+08:00][sql] SHOW FULL COLUMNS FROM `blog_article` [ RunTime:0.000616s ]
+[2023-01-19T14:01:37+08:00][sql] SELECT `article_id`,`title` FROM `blog_article` [ RunTime:0.000264s ]
+[2023-01-19T14:01:38+08:00][sql] CONNECT:[ UseTime:0.022297s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-19T14:01:38+08:00][sql] SHOW FULL COLUMNS FROM `blog_article` [ RunTime:0.005863s ]
+[2023-01-19T14:01:38+08:00][sql] SELECT * FROM `blog_article` WHERE  `article_id` = 4 LIMIT 1 [ RunTime:0.000351s ]
+[2023-01-19T14:01:38+08:00][sql] SELECT c2.category_name as top,c1.category_name as second,c1.category2_id as category2_id,c1.category1_id as category1_id FROM `blog_category2` c1,blog_category2 c2 where c1.category1_id = c2.category2_id [ RunTime:0.000273s ]
+[2023-01-19T14:04:46+08:00][sql] CONNECT:[ UseTime:0.023950s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-19T14:04:46+08:00][sql] SHOW FULL COLUMNS FROM `blog_article` [ RunTime:0.001248s ]
+[2023-01-19T14:04:46+08:00][sql] SELECT `article_id`,`title` FROM `blog_article` [ RunTime:0.000412s ]
+[2023-01-19T14:04:47+08:00][sql] CONNECT:[ UseTime:0.018727s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-19T14:04:47+08:00][sql] SHOW FULL COLUMNS FROM `blog_article` [ RunTime:0.000799s ]
+[2023-01-19T14:04:47+08:00][sql] SELECT * FROM `blog_article` WHERE  `article_id` = 4 LIMIT 1 [ RunTime:0.000275s ]
+[2023-01-19T14:04:47+08:00][sql] SELECT c2.category_name as top,c1.category_name as second,c1.category2_id as category2_id,c1.category1_id as category1_id FROM `blog_category2` c1,blog_category2 c2 where c1.category1_id = c2.category2_id [ RunTime:0.000229s ]
+[2023-01-19T14:04:55+08:00][sql] CONNECT:[ UseTime:0.001274s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-19T14:04:55+08:00][sql] SHOW FULL COLUMNS FROM `blog_article` [ RunTime:0.000600s ]
+[2023-01-19T14:04:55+08:00][error] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'id' in 'where clause'
+[2023-01-19T14:06:49+08:00][sql] CONNECT:[ UseTime:0.000763s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-19T14:06:49+08:00][sql] SELECT c2.category_name as top,c1.category_name as second,c1.category2_id as category2_id,c1.category1_id as category1_id FROM `blog_category2` c1,blog_category2 c2 where c1.category1_id = c2.category2_id [ RunTime:0.000420s ]
+[2023-01-19T14:06:50+08:00][sql] CONNECT:[ UseTime:0.023771s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-19T14:06:50+08:00][sql] SHOW FULL COLUMNS FROM `blog_article` [ RunTime:0.001114s ]
+[2023-01-19T14:06:50+08:00][sql] SELECT `article_id`,`title` FROM `blog_article` [ RunTime:0.000608s ]
+[2023-01-19T14:06:51+08:00][sql] CONNECT:[ UseTime:0.000732s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-19T14:06:51+08:00][sql] SHOW FULL COLUMNS FROM `blog_article` [ RunTime:0.000749s ]
+[2023-01-19T14:06:51+08:00][sql] SELECT * FROM `blog_article` WHERE  `article_id` = 4 LIMIT 1 [ RunTime:0.000342s ]
+[2023-01-19T14:06:51+08:00][sql] SELECT c2.category_name as top,c1.category_name as second,c1.category2_id as category2_id,c1.category1_id as category1_id FROM `blog_category2` c1,blog_category2 c2 where c1.category1_id = c2.category2_id [ RunTime:0.000309s ]
+[2023-01-19T14:06:56+08:00][sql] CONNECT:[ UseTime:0.000885s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-19T14:06:56+08:00][sql] SHOW FULL COLUMNS FROM `blog_article` [ RunTime:0.000751s ]
+[2023-01-19T14:06:56+08:00][error] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'id' in 'where clause'
+[2023-01-19T14:08:54+08:00][sql] CONNECT:[ UseTime:0.001120s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-19T14:08:54+08:00][sql] SELECT c2.category_name as top,c1.category_name as second,c1.category2_id as category2_id,c1.category1_id as category1_id FROM `blog_category2` c1,blog_category2 c2 where c1.category1_id = c2.category2_id [ RunTime:0.001506s ]
+[2023-01-19T14:08:54+08:00][sql] CONNECT:[ UseTime:0.000793s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-19T14:08:54+08:00][sql] SHOW FULL COLUMNS FROM `blog_article` [ RunTime:0.000771s ]
+[2023-01-19T14:08:54+08:00][sql] SELECT `article_id`,`title` FROM `blog_article` [ RunTime:0.000262s ]
+[2023-01-19T14:08:56+08:00][sql] CONNECT:[ UseTime:0.010263s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-19T14:08:56+08:00][sql] SHOW FULL COLUMNS FROM `blog_article` [ RunTime:0.000854s ]
+[2023-01-19T14:08:56+08:00][sql] DELETE FROM `blog_article` WHERE  `article_id` = 4 [ RunTime:0.058899s ]
+[2023-01-19T14:08:57+08:00][sql] CONNECT:[ UseTime:0.000765s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-19T14:08:57+08:00][sql] SHOW FULL COLUMNS FROM `blog_article` [ RunTime:0.004181s ]
+[2023-01-19T14:08:57+08:00][sql] SELECT `article_id`,`title` FROM `blog_article` [ RunTime:0.000366s ]
+[2023-01-19T14:08:58+08:00][sql] CONNECT:[ UseTime:0.000986s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-19T14:08:58+08:00][sql] SHOW FULL COLUMNS FROM `blog_article` [ RunTime:0.000919s ]
+[2023-01-19T14:08:58+08:00][sql] SELECT * FROM `blog_article` WHERE  `article_id` = 5 LIMIT 1 [ RunTime:0.000434s ]
+[2023-01-19T14:08:58+08:00][sql] SELECT c2.category_name as top,c1.category_name as second,c1.category2_id as category2_id,c1.category1_id as category1_id FROM `blog_category2` c1,blog_category2 c2 where c1.category1_id = c2.category2_id [ RunTime:0.000383s ]
+[2023-01-19T14:09:05+08:00][sql] CONNECT:[ UseTime:0.000953s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-19T14:09:05+08:00][sql] SHOW FULL COLUMNS FROM `blog_article` [ RunTime:0.000888s ]
+[2023-01-19T14:09:05+08:00][error] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'id' in 'where clause'
+[2023-01-19T14:10:17+08:00][sql] CONNECT:[ UseTime:0.000917s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-19T14:10:17+08:00][sql] SELECT c2.category_name as top,c1.category_name as second,c1.category2_id as category2_id,c1.category1_id as category1_id FROM `blog_category2` c1,blog_category2 c2 where c1.category1_id = c2.category2_id [ RunTime:0.000357s ]
+[2023-01-19T14:10:18+08:00][sql] CONNECT:[ UseTime:0.001098s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-19T14:10:18+08:00][sql] SHOW FULL COLUMNS FROM `blog_article` [ RunTime:0.000863s ]
+[2023-01-19T14:10:18+08:00][sql] SELECT `article_id`,`title` FROM `blog_article` [ RunTime:0.000339s ]
+[2023-01-19T14:10:19+08:00][sql] CONNECT:[ UseTime:0.014747s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-19T14:10:19+08:00][sql] SHOW FULL COLUMNS FROM `blog_article` [ RunTime:0.001139s ]
+[2023-01-19T14:10:19+08:00][sql] SELECT * FROM `blog_article` WHERE  `article_id` = 5 LIMIT 1 [ RunTime:0.000349s ]
+[2023-01-19T14:10:19+08:00][sql] SELECT c2.category_name as top,c1.category_name as second,c1.category2_id as category2_id,c1.category1_id as category1_id FROM `blog_category2` c1,blog_category2 c2 where c1.category1_id = c2.category2_id [ RunTime:0.000320s ]
+[2023-01-19T14:10:22+08:00][sql] CONNECT:[ UseTime:0.018552s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-19T14:10:22+08:00][sql] SHOW FULL COLUMNS FROM `blog_article` [ RunTime:0.000802s ]
+[2023-01-19T14:10:22+08:00][error] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'id' in 'where clause'
+[2023-01-19T14:12:48+08:00][sql] CONNECT:[ UseTime:0.000972s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-19T14:12:48+08:00][sql] SELECT c2.category_name as top,c1.category_name as second,c1.category2_id as category2_id,c1.category1_id as category1_id FROM `blog_category2` c1,blog_category2 c2 where c1.category1_id = c2.category2_id [ RunTime:0.000444s ]
+[2023-01-19T14:12:48+08:00][sql] CONNECT:[ UseTime:0.019078s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-19T14:12:48+08:00][sql] SHOW FULL COLUMNS FROM `blog_article` [ RunTime:0.000704s ]
+[2023-01-19T14:12:48+08:00][sql] SELECT `article_id`,`title` FROM `blog_article` [ RunTime:0.000354s ]
+[2023-01-19T14:12:50+08:00][sql] CONNECT:[ UseTime:0.020785s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-19T14:12:50+08:00][sql] SHOW FULL COLUMNS FROM `blog_article` [ RunTime:0.000758s ]
+[2023-01-19T14:12:50+08:00][sql] SELECT * FROM `blog_article` WHERE  `article_id` = 5 LIMIT 1 [ RunTime:0.000297s ]
+[2023-01-19T14:12:50+08:00][sql] SELECT c2.category_name as top,c1.category_name as second,c1.category2_id as category2_id,c1.category1_id as category1_id FROM `blog_category2` c1,blog_category2 c2 where c1.category1_id = c2.category2_id [ RunTime:0.000215s ]
+[2023-01-19T14:12:52+08:00][sql] CONNECT:[ UseTime:0.000981s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-19T14:12:52+08:00][sql] SHOW FULL COLUMNS FROM `blog_article` [ RunTime:0.000794s ]
+[2023-01-19T14:12:52+08:00][error] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'id' in 'where clause'
+[2023-01-19T14:12:54+08:00][sql] CONNECT:[ UseTime:0.017519s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-19T14:12:54+08:00][sql] SHOW FULL COLUMNS FROM `blog_article` [ RunTime:0.000746s ]
+[2023-01-19T14:12:54+08:00][error] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'id' in 'where clause'
+[2023-01-19T14:13:12+08:00][sql] CONNECT:[ UseTime:0.000763s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-19T14:13:12+08:00][sql] SELECT c2.category_name as top,c1.category_name as second,c1.category2_id as category2_id,c1.category1_id as category1_id FROM `blog_category2` c1,blog_category2 c2 where c1.category1_id = c2.category2_id [ RunTime:0.000859s ]
+[2023-01-19T14:13:14+08:00][sql] CONNECT:[ UseTime:0.000836s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-19T14:13:14+08:00][sql] SHOW FULL COLUMNS FROM `blog_article` [ RunTime:0.000946s ]
+[2023-01-19T14:13:14+08:00][sql] SELECT `article_id`,`title` FROM `blog_article` [ RunTime:0.000418s ]
+[2023-01-19T14:13:15+08:00][sql] CONNECT:[ UseTime:0.000830s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-19T14:13:15+08:00][sql] SHOW FULL COLUMNS FROM `blog_article` [ RunTime:0.000800s ]
+[2023-01-19T14:13:15+08:00][sql] SELECT * FROM `blog_article` WHERE  `article_id` = 5 LIMIT 1 [ RunTime:0.000376s ]
+[2023-01-19T14:13:15+08:00][sql] SELECT c2.category_name as top,c1.category_name as second,c1.category2_id as category2_id,c1.category1_id as category1_id FROM `blog_category2` c1,blog_category2 c2 where c1.category1_id = c2.category2_id [ RunTime:0.000389s ]
+[2023-01-19T14:13:17+08:00][sql] CONNECT:[ UseTime:0.017431s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-19T14:13:17+08:00][sql] SHOW FULL COLUMNS FROM `blog_article` [ RunTime:0.000761s ]
+[2023-01-19T14:13:17+08:00][sql] SELECT * FROM `blog_article` WHERE  `article_id` = 5 LIMIT 1 [ RunTime:0.000326s ]
+[2023-01-19T14:13:17+08:00][sql] SELECT c2.category_name as top,c1.category_name as second,c1.category2_id as category2_id,c1.category1_id as category1_id FROM `blog_category2` c1,blog_category2 c2 where c1.category1_id = c2.category2_id [ RunTime:0.000248s ]
+[2023-01-19T14:14:40+08:00][sql] CONNECT:[ UseTime:0.000765s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-19T14:14:40+08:00][sql] SELECT c2.category_name as top,c1.category_name as second,c1.category2_id as category2_id,c1.category1_id as category1_id FROM `blog_category2` c1,blog_category2 c2 where c1.category1_id = c2.category2_id [ RunTime:0.000395s ]
+[2023-01-19T14:14:41+08:00][sql] CONNECT:[ UseTime:0.000904s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-19T14:14:41+08:00][sql] SHOW FULL COLUMNS FROM `blog_article` [ RunTime:0.001187s ]
+[2023-01-19T14:14:41+08:00][sql] SELECT `article_id`,`title` FROM `blog_article` [ RunTime:0.000372s ]
+[2023-01-19T14:14:42+08:00][sql] CONNECT:[ UseTime:0.000856s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-19T14:14:42+08:00][sql] SHOW FULL COLUMNS FROM `blog_article` [ RunTime:0.000649s ]
+[2023-01-19T14:14:42+08:00][sql] SELECT * FROM `blog_article` WHERE  `article_id` = 5 LIMIT 1 [ RunTime:0.000438s ]
+[2023-01-19T14:14:42+08:00][sql] SELECT c2.category_name as top,c1.category_name as second,c1.category2_id as category2_id,c1.category1_id as category1_id FROM `blog_category2` c1,blog_category2 c2 where c1.category1_id = c2.category2_id [ RunTime:0.000447s ]
+[2023-01-19T14:14:44+08:00][sql] CONNECT:[ UseTime:0.001021s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-19T14:14:44+08:00][sql] SHOW FULL COLUMNS FROM `blog_article` [ RunTime:0.000881s ]
+[2023-01-19T14:14:44+08:00][error] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'id' in 'where clause'
+[2023-01-19T14:15:16+08:00][sql] CONNECT:[ UseTime:0.001444s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-19T14:15:16+08:00][sql] SELECT c2.category_name as top,c1.category_name as second,c1.category2_id as category2_id,c1.category1_id as category1_id FROM `blog_category2` c1,blog_category2 c2 where c1.category1_id = c2.category2_id [ RunTime:0.000467s ]
+[2023-01-19T14:15:16+08:00][sql] CONNECT:[ UseTime:0.000737s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-19T14:15:16+08:00][sql] SHOW FULL COLUMNS FROM `blog_article` [ RunTime:0.000676s ]
+[2023-01-19T14:15:16+08:00][sql] SELECT `article_id`,`title` FROM `blog_article` [ RunTime:0.000275s ]
+[2023-01-19T14:15:17+08:00][sql] CONNECT:[ UseTime:0.019364s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-19T14:15:17+08:00][sql] SHOW FULL COLUMNS FROM `blog_article` [ RunTime:0.000661s ]
+[2023-01-19T14:15:17+08:00][sql] SELECT * FROM `blog_article` WHERE  `article_id` = 5 LIMIT 1 [ RunTime:0.000257s ]
+[2023-01-19T14:15:17+08:00][sql] SELECT c2.category_name as top,c1.category_name as second,c1.category2_id as category2_id,c1.category1_id as category1_id FROM `blog_category2` c1,blog_category2 c2 where c1.category1_id = c2.category2_id [ RunTime:0.000240s ]
+[2023-01-19T14:15:19+08:00][sql] CONNECT:[ UseTime:0.000923s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-19T14:15:19+08:00][sql] SHOW FULL COLUMNS FROM `blog_article` [ RunTime:0.000621s ]
+[2023-01-19T14:15:19+08:00][error] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'id' in 'where clause'
+[2023-01-19T14:15:48+08:00][sql] CONNECT:[ UseTime:0.011772s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-19T14:15:48+08:00][sql] SELECT c2.category_name as top,c1.category_name as second,c1.category2_id as category2_id,c1.category1_id as category1_id FROM `blog_category2` c1,blog_category2 c2 where c1.category1_id = c2.category2_id [ RunTime:0.000770s ]
+[2023-01-19T14:15:48+08:00][sql] CONNECT:[ UseTime:0.000868s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-19T14:15:48+08:00][sql] SHOW FULL COLUMNS FROM `blog_article` [ RunTime:0.000727s ]
+[2023-01-19T14:15:48+08:00][sql] SELECT `article_id`,`title` FROM `blog_article` [ RunTime:0.000351s ]
+[2023-01-19T14:15:49+08:00][sql] CONNECT:[ UseTime:0.001067s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-19T14:15:49+08:00][sql] SHOW FULL COLUMNS FROM `blog_article` [ RunTime:0.001078s ]
+[2023-01-19T14:15:49+08:00][sql] SELECT * FROM `blog_article` WHERE  `article_id` = 5 LIMIT 1 [ RunTime:0.000527s ]
+[2023-01-19T14:15:49+08:00][sql] SELECT c2.category_name as top,c1.category_name as second,c1.category2_id as category2_id,c1.category1_id as category1_id FROM `blog_category2` c1,blog_category2 c2 where c1.category1_id = c2.category2_id [ RunTime:0.000691s ]
+[2023-01-19T14:15:51+08:00][sql] CONNECT:[ UseTime:0.023755s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-19T14:15:51+08:00][sql] SHOW FULL COLUMNS FROM `blog_article` [ RunTime:0.001323s ]
+[2023-01-19T14:15:51+08:00][error] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'id' in 'where clause'
+[2023-01-19T14:15:59+08:00][sql] CONNECT:[ UseTime:0.000754s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-19T14:15:59+08:00][sql] SHOW FULL COLUMNS FROM `blog_article` [ RunTime:0.000713s ]
+[2023-01-19T14:15:59+08:00][sql] SELECT `article_id`,`title` FROM `blog_article` [ RunTime:0.000205s ]
+[2023-01-19T14:16:00+08:00][sql] CONNECT:[ UseTime:0.001047s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-19T14:16:00+08:00][sql] SHOW FULL COLUMNS FROM `blog_article` [ RunTime:0.000649s ]
+[2023-01-19T14:16:00+08:00][sql] SELECT * FROM `blog_article` WHERE  `article_id` = 5 LIMIT 1 [ RunTime:0.000271s ]
+[2023-01-19T14:16:00+08:00][sql] SELECT c2.category_name as top,c1.category_name as second,c1.category2_id as category2_id,c1.category1_id as category1_id FROM `blog_category2` c1,blog_category2 c2 where c1.category1_id = c2.category2_id [ RunTime:0.000278s ]
+[2023-01-19T14:16:05+08:00][sql] CONNECT:[ UseTime:0.001407s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-19T14:16:05+08:00][sql] SHOW FULL COLUMNS FROM `blog_article` [ RunTime:0.000677s ]
+[2023-01-19T14:16:05+08:00][error] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'id' in 'where clause'
+[2023-01-19T14:16:25+08:00][sql] CONNECT:[ UseTime:0.000799s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-19T14:16:25+08:00][sql] SELECT c2.category_name as top,c1.category_name as second,c1.category2_id as category2_id,c1.category1_id as category1_id FROM `blog_category2` c1,blog_category2 c2 where c1.category1_id = c2.category2_id [ RunTime:0.000592s ]
+[2023-01-19T14:16:28+08:00][sql] CONNECT:[ UseTime:0.000746s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-19T14:16:28+08:00][sql] SHOW FULL COLUMNS FROM `blog_article` [ RunTime:0.000787s ]
+[2023-01-19T14:16:28+08:00][sql] SELECT `article_id`,`title` FROM `blog_article` [ RunTime:0.000444s ]
+[2023-01-19T14:16:29+08:00][sql] CONNECT:[ UseTime:0.000739s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-19T14:16:29+08:00][sql] SHOW FULL COLUMNS FROM `blog_article` [ RunTime:0.000585s ]
+[2023-01-19T14:16:29+08:00][sql] SELECT * FROM `blog_article` WHERE  `article_id` = 5 LIMIT 1 [ RunTime:0.000318s ]
+[2023-01-19T14:16:29+08:00][sql] SELECT c2.category_name as top,c1.category_name as second,c1.category2_id as category2_id,c1.category1_id as category1_id FROM `blog_category2` c1,blog_category2 c2 where c1.category1_id = c2.category2_id [ RunTime:0.000255s ]
+[2023-01-19T14:16:30+08:00][sql] CONNECT:[ UseTime:0.001161s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-19T14:16:30+08:00][sql] SHOW FULL COLUMNS FROM `blog_article` [ RunTime:0.000656s ]
+[2023-01-19T14:16:30+08:00][error] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'id' in 'where clause'
+[2023-01-19T14:16:40+08:00][sql] CONNECT:[ UseTime:0.000797s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-19T14:16:40+08:00][sql] SELECT c2.category_name as top,c1.category_name as second,c1.category2_id as category2_id,c1.category1_id as category1_id FROM `blog_category2` c1,blog_category2 c2 where c1.category1_id = c2.category2_id [ RunTime:0.000406s ]
+[2023-01-19T14:16:41+08:00][sql] CONNECT:[ UseTime:0.016604s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-19T14:16:41+08:00][sql] SHOW FULL COLUMNS FROM `blog_article` [ RunTime:0.000651s ]
+[2023-01-19T14:16:41+08:00][sql] SELECT `article_id`,`title` FROM `blog_article` [ RunTime:0.000208s ]
+[2023-01-19T14:16:42+08:00][sql] CONNECT:[ UseTime:0.014037s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-19T14:16:42+08:00][sql] SHOW FULL COLUMNS FROM `blog_article` [ RunTime:0.000884s ]
+[2023-01-19T14:16:42+08:00][sql] SELECT * FROM `blog_article` WHERE  `article_id` = 5 LIMIT 1 [ RunTime:0.000445s ]
+[2023-01-19T14:16:42+08:00][sql] SELECT c2.category_name as top,c1.category_name as second,c1.category2_id as category2_id,c1.category1_id as category1_id FROM `blog_category2` c1,blog_category2 c2 where c1.category1_id = c2.category2_id [ RunTime:0.000379s ]
+[2023-01-19T14:16:46+08:00][sql] CONNECT:[ UseTime:0.017409s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-19T14:16:46+08:00][sql] SHOW FULL COLUMNS FROM `blog_article` [ RunTime:0.000712s ]
+[2023-01-19T14:16:46+08:00][error] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'id' in 'where clause'
+[2023-01-19T14:17:29+08:00][sql] CONNECT:[ UseTime:0.018533s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-19T14:17:29+08:00][sql] SELECT c2.category_name as top,c1.category_name as second,c1.category2_id as category2_id,c1.category1_id as category1_id FROM `blog_category2` c1,blog_category2 c2 where c1.category1_id = c2.category2_id [ RunTime:0.000404s ]
+[2023-01-19T14:17:29+08:00][sql] CONNECT:[ UseTime:0.020929s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-19T14:17:29+08:00][sql] SHOW FULL COLUMNS FROM `blog_article` [ RunTime:0.000950s ]
+[2023-01-19T14:17:29+08:00][sql] SELECT `article_id`,`title` FROM `blog_article` [ RunTime:0.000389s ]
+[2023-01-19T14:17:30+08:00][sql] CONNECT:[ UseTime:0.000673s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-19T14:17:30+08:00][sql] SHOW FULL COLUMNS FROM `blog_article` [ RunTime:0.000580s ]
+[2023-01-19T14:17:30+08:00][sql] SELECT * FROM `blog_article` WHERE  `article_id` = 5 LIMIT 1 [ RunTime:0.000239s ]
+[2023-01-19T14:17:30+08:00][sql] SELECT c2.category_name as top,c1.category_name as second,c1.category2_id as category2_id,c1.category1_id as category1_id FROM `blog_category2` c1,blog_category2 c2 where c1.category1_id = c2.category2_id [ RunTime:0.000215s ]
+[2023-01-19T14:17:34+08:00][sql] CONNECT:[ UseTime:0.012927s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-19T14:17:34+08:00][sql] SHOW FULL COLUMNS FROM `blog_article` [ RunTime:0.000922s ]
+[2023-01-19T14:17:34+08:00][error] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'id' in 'where clause'
+[2023-01-19T14:18:11+08:00][sql] CONNECT:[ UseTime:0.020690s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-19T14:18:11+08:00][sql] SELECT c2.category_name as top,c1.category_name as second,c1.category2_id as category2_id,c1.category1_id as category1_id FROM `blog_category2` c1,blog_category2 c2 where c1.category1_id = c2.category2_id [ RunTime:0.000589s ]
+[2023-01-19T14:18:13+08:00][sql] CONNECT:[ UseTime:0.000879s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-19T14:18:13+08:00][sql] SHOW FULL COLUMNS FROM `blog_article` [ RunTime:0.000667s ]
+[2023-01-19T14:18:13+08:00][sql] SELECT `article_id`,`title` FROM `blog_article` [ RunTime:0.000369s ]
+[2023-01-19T14:18:14+08:00][sql] CONNECT:[ UseTime:0.022281s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-19T14:18:14+08:00][sql] SHOW FULL COLUMNS FROM `blog_article` [ RunTime:0.000627s ]
+[2023-01-19T14:18:14+08:00][sql] SELECT * FROM `blog_article` WHERE  `article_id` = 5 LIMIT 1 [ RunTime:0.000331s ]
+[2023-01-19T14:18:14+08:00][sql] SELECT c2.category_name as top,c1.category_name as second,c1.category2_id as category2_id,c1.category1_id as category1_id FROM `blog_category2` c1,blog_category2 c2 where c1.category1_id = c2.category2_id [ RunTime:0.000376s ]
+[2023-01-19T14:18:15+08:00][sql] CONNECT:[ UseTime:0.000813s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-19T14:18:15+08:00][sql] SHOW FULL COLUMNS FROM `blog_article` [ RunTime:0.000591s ]
+[2023-01-19T14:18:15+08:00][error] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'id' in 'where clause'
+[2023-01-19T14:18:37+08:00][sql] CONNECT:[ UseTime:0.000758s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-19T14:18:37+08:00][sql] SELECT c2.category_name as top,c1.category_name as second,c1.category2_id as category2_id,c1.category1_id as category1_id FROM `blog_category2` c1,blog_category2 c2 where c1.category1_id = c2.category2_id [ RunTime:0.000392s ]
+[2023-01-19T14:18:38+08:00][sql] CONNECT:[ UseTime:0.000935s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-19T14:18:38+08:00][sql] SHOW FULL COLUMNS FROM `blog_article` [ RunTime:0.000656s ]
+[2023-01-19T14:18:38+08:00][sql] SELECT `article_id`,`title` FROM `blog_article` [ RunTime:0.000187s ]
+[2023-01-19T14:18:39+08:00][sql] CONNECT:[ UseTime:0.023150s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-19T14:18:39+08:00][sql] SHOW FULL COLUMNS FROM `blog_article` [ RunTime:0.000694s ]
+[2023-01-19T14:18:39+08:00][sql] DELETE FROM `blog_article` WHERE  `article_id` = 5 [ RunTime:0.000499s ]
+[2023-01-19T14:18:41+08:00][sql] CONNECT:[ UseTime:0.000822s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-19T14:18:41+08:00][sql] SHOW FULL COLUMNS FROM `blog_article` [ RunTime:0.000604s ]
+[2023-01-19T14:18:41+08:00][sql] SELECT `article_id`,`title` FROM `blog_article` [ RunTime:0.000209s ]
+[2023-01-19T14:18:42+08:00][sql] CONNECT:[ UseTime:0.017000s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-19T14:18:42+08:00][sql] SHOW FULL COLUMNS FROM `blog_article` [ RunTime:0.000653s ]
+[2023-01-19T14:18:42+08:00][sql] SELECT * FROM `blog_article` WHERE  `article_id` = 6 LIMIT 1 [ RunTime:0.000305s ]
+[2023-01-19T14:18:42+08:00][sql] SELECT c2.category_name as top,c1.category_name as second,c1.category2_id as category2_id,c1.category1_id as category1_id FROM `blog_category2` c1,blog_category2 c2 where c1.category1_id = c2.category2_id [ RunTime:0.000296s ]
+[2023-01-19T14:18:43+08:00][sql] CONNECT:[ UseTime:0.019323s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-19T14:18:43+08:00][sql] SHOW FULL COLUMNS FROM `blog_article` [ RunTime:0.000762s ]
+[2023-01-19T14:18:43+08:00][error] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'id' in 'where clause'
+[2023-01-19T14:19:02+08:00][sql] CONNECT:[ UseTime:0.000726s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-19T14:19:02+08:00][sql] SELECT c2.category_name as top,c1.category_name as second,c1.category2_id as category2_id,c1.category1_id as category1_id FROM `blog_category2` c1,blog_category2 c2 where c1.category1_id = c2.category2_id [ RunTime:0.000320s ]
+[2023-01-19T14:19:02+08:00][sql] CONNECT:[ UseTime:0.022422s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-19T14:19:02+08:00][sql] SHOW FULL COLUMNS FROM `blog_article` [ RunTime:0.005761s ]
+[2023-01-19T14:19:02+08:00][sql] SELECT `article_id`,`title` FROM `blog_article` [ RunTime:0.000320s ]
+[2023-01-19T14:19:03+08:00][sql] CONNECT:[ UseTime:0.022916s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-19T14:19:03+08:00][sql] SHOW FULL COLUMNS FROM `blog_article` [ RunTime:0.000739s ]
+[2023-01-19T14:19:03+08:00][sql] SELECT * FROM `blog_article` WHERE  `article_id` = 6 LIMIT 1 [ RunTime:0.000372s ]
+[2023-01-19T14:19:03+08:00][sql] SELECT c2.category_name as top,c1.category_name as second,c1.category2_id as category2_id,c1.category1_id as category1_id FROM `blog_category2` c1,blog_category2 c2 where c1.category1_id = c2.category2_id [ RunTime:0.000270s ]
+[2023-01-19T14:19:06+08:00][sql] CONNECT:[ UseTime:0.000968s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-19T14:19:06+08:00][sql] SHOW FULL COLUMNS FROM `blog_article` [ RunTime:0.000729s ]
+[2023-01-19T14:19:06+08:00][sql] SELECT `article_id`,`title` FROM `blog_article` [ RunTime:0.000226s ]
+[2023-01-19T14:19:50+08:00][sql] CONNECT:[ UseTime:0.022458s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-19T14:19:50+08:00][sql] SELECT c2.category_name as top,c1.category_name as second,c1.category2_id as category2_id,c1.category1_id as category1_id FROM `blog_category2` c1,blog_category2 c2 where c1.category1_id = c2.category2_id [ RunTime:0.000859s ]
+[2023-01-19T14:19:51+08:00][sql] CONNECT:[ UseTime:0.021510s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-19T14:19:51+08:00][sql] SHOW FULL COLUMNS FROM `blog_article` [ RunTime:0.000682s ]
+[2023-01-19T14:19:51+08:00][sql] SELECT `article_id`,`title` FROM `blog_article` [ RunTime:0.000354s ]
+[2023-01-19T14:19:52+08:00][sql] CONNECT:[ UseTime:0.017157s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-19T14:19:52+08:00][sql] SHOW FULL COLUMNS FROM `blog_article` [ RunTime:0.000795s ]
+[2023-01-19T14:19:52+08:00][sql] SELECT * FROM `blog_article` WHERE  `article_id` = 6 LIMIT 1 [ RunTime:0.000342s ]
+[2023-01-19T14:19:52+08:00][sql] SELECT c2.category_name as top,c1.category_name as second,c1.category2_id as category2_id,c1.category1_id as category1_id FROM `blog_category2` c1,blog_category2 c2 where c1.category1_id = c2.category2_id [ RunTime:0.000372s ]
+[2023-01-19T14:19:54+08:00][sql] CONNECT:[ UseTime:0.000964s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-19T14:19:54+08:00][sql] SHOW FULL COLUMNS FROM `blog_article` [ RunTime:0.000754s ]
+[2023-01-19T14:19:54+08:00][error] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'id' in 'where clause'
+[2023-01-19T14:19:56+08:00][sql] CONNECT:[ UseTime:0.001276s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-19T14:19:56+08:00][sql] SHOW FULL COLUMNS FROM `blog_article` [ RunTime:0.000625s ]
+[2023-01-19T14:19:56+08:00][error] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'id' in 'where clause'
+[2023-01-19T14:19:57+08:00][sql] CONNECT:[ UseTime:0.000738s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-19T14:19:57+08:00][sql] SHOW FULL COLUMNS FROM `blog_article` [ RunTime:0.000741s ]
+[2023-01-19T14:19:57+08:00][error] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'id' in 'where clause'
+[2023-01-19T14:21:36+08:00][sql] CONNECT:[ UseTime:0.023657s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-19T14:21:36+08:00][sql] SELECT c2.category_name as top,c1.category_name as second,c1.category2_id as category2_id,c1.category1_id as category1_id FROM `blog_category2` c1,blog_category2 c2 where c1.category1_id = c2.category2_id [ RunTime:0.000286s ]
+[2023-01-19T14:21:36+08:00][sql] CONNECT:[ UseTime:0.000817s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-19T14:21:36+08:00][sql] SHOW FULL COLUMNS FROM `blog_article` [ RunTime:0.000752s ]
+[2023-01-19T14:21:36+08:00][sql] SELECT `article_id`,`title` FROM `blog_article` [ RunTime:0.000205s ]
+[2023-01-19T14:21:38+08:00][sql] CONNECT:[ UseTime:0.010634s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-19T14:21:38+08:00][sql] SHOW FULL COLUMNS FROM `blog_article` [ RunTime:0.001254s ]
+[2023-01-19T14:21:38+08:00][sql] SELECT * FROM `blog_article` WHERE  `article_id` = 6 LIMIT 1 [ RunTime:0.000381s ]
+[2023-01-19T14:21:38+08:00][sql] SELECT c2.category_name as top,c1.category_name as second,c1.category2_id as category2_id,c1.category1_id as category1_id FROM `blog_category2` c1,blog_category2 c2 where c1.category1_id = c2.category2_id [ RunTime:0.000367s ]
+[2023-01-19T14:21:42+08:00][sql] CONNECT:[ UseTime:0.021221s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-19T14:21:42+08:00][sql] SHOW FULL COLUMNS FROM `blog_article` [ RunTime:0.000723s ]
+[2023-01-19T14:21:42+08:00][error] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'id' in 'where clause'
+[2023-01-19T14:21:46+08:00][sql] CONNECT:[ UseTime:0.022821s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-19T14:21:46+08:00][sql] SHOW FULL COLUMNS FROM `blog_article` [ RunTime:0.000837s ]
+[2023-01-19T14:21:46+08:00][sql] SELECT `article_id`,`title` FROM `blog_article` [ RunTime:0.000235s ]
+[2023-01-19T14:21:48+08:00][sql] CONNECT:[ UseTime:0.012721s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-19T14:21:48+08:00][sql] SHOW FULL COLUMNS FROM `blog_article` [ RunTime:0.000757s ]
+[2023-01-19T14:21:48+08:00][sql] SELECT * FROM `blog_article` WHERE  `article_id` = 6 LIMIT 1 [ RunTime:0.000335s ]
+[2023-01-19T14:21:48+08:00][sql] SELECT c2.category_name as top,c1.category_name as second,c1.category2_id as category2_id,c1.category1_id as category1_id FROM `blog_category2` c1,blog_category2 c2 where c1.category1_id = c2.category2_id [ RunTime:0.005701s ]
+[2023-01-19T14:22:17+08:00][sql] CONNECT:[ UseTime:0.000774s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-19T14:22:17+08:00][sql] SELECT c2.category_name as top,c1.category_name as second,c1.category2_id as category2_id,c1.category1_id as category1_id FROM `blog_category2` c1,blog_category2 c2 where c1.category1_id = c2.category2_id [ RunTime:0.000455s ]
+[2023-01-19T14:22:18+08:00][sql] CONNECT:[ UseTime:0.020728s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-19T14:22:18+08:00][sql] SHOW FULL COLUMNS FROM `blog_article` [ RunTime:0.006182s ]
+[2023-01-19T14:22:18+08:00][sql] SELECT `article_id`,`title` FROM `blog_article` [ RunTime:0.000426s ]
+[2023-01-19T14:22:19+08:00][sql] CONNECT:[ UseTime:0.000825s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-19T14:22:19+08:00][sql] SHOW FULL COLUMNS FROM `blog_article` [ RunTime:0.001139s ]
+[2023-01-19T14:22:19+08:00][sql] SELECT * FROM `blog_article` WHERE  `article_id` = 6 LIMIT 1 [ RunTime:0.000403s ]
+[2023-01-19T14:22:19+08:00][sql] SELECT c2.category_name as top,c1.category_name as second,c1.category2_id as category2_id,c1.category1_id as category1_id FROM `blog_category2` c1,blog_category2 c2 where c1.category1_id = c2.category2_id [ RunTime:0.000392s ]
+[2023-01-19T14:22:21+08:00][sql] CONNECT:[ UseTime:0.000733s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-19T14:22:21+08:00][sql] SHOW FULL COLUMNS FROM `blog_article` [ RunTime:0.000940s ]
+[2023-01-19T14:22:21+08:00][error] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'id' in 'where clause'
+[2023-01-19T14:23:09+08:00][sql] CONNECT:[ UseTime:0.000802s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-19T14:23:09+08:00][sql] SELECT c2.category_name as top,c1.category_name as second,c1.category2_id as category2_id,c1.category1_id as category1_id FROM `blog_category2` c1,blog_category2 c2 where c1.category1_id = c2.category2_id [ RunTime:0.000353s ]
+[2023-01-19T14:23:10+08:00][sql] CONNECT:[ UseTime:0.000797s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-19T14:23:10+08:00][sql] SHOW FULL COLUMNS FROM `blog_article` [ RunTime:0.000758s ]
+[2023-01-19T14:23:10+08:00][sql] SELECT `article_id`,`title` FROM `blog_article` [ RunTime:0.000355s ]
+[2023-01-19T14:23:10+08:00][sql] CONNECT:[ UseTime:0.000770s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-19T14:23:10+08:00][sql] SHOW FULL COLUMNS FROM `blog_article` [ RunTime:0.000733s ]
+[2023-01-19T14:23:10+08:00][sql] SELECT * FROM `blog_article` WHERE  `article_id` = 6 LIMIT 1 [ RunTime:0.000272s ]
+[2023-01-19T14:23:10+08:00][sql] SELECT c2.category_name as top,c1.category_name as second,c1.category2_id as category2_id,c1.category1_id as category1_id FROM `blog_category2` c1,blog_category2 c2 where c1.category1_id = c2.category2_id [ RunTime:0.000426s ]
+[2023-01-19T14:23:13+08:00][sql] CONNECT:[ UseTime:0.024658s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-19T14:23:13+08:00][sql] SHOW FULL COLUMNS FROM `blog_article` [ RunTime:0.000721s ]
+[2023-01-19T14:23:13+08:00][error] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'id' in 'where clause'
+[2023-01-19T14:23:26+08:00][sql] CONNECT:[ UseTime:0.000768s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-19T14:23:26+08:00][sql] SELECT c2.category_name as top,c1.category_name as second,c1.category2_id as category2_id,c1.category1_id as category1_id FROM `blog_category2` c1,blog_category2 c2 where c1.category1_id = c2.category2_id [ RunTime:0.000348s ]
+[2023-01-19T14:23:27+08:00][sql] CONNECT:[ UseTime:0.022239s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-19T14:23:27+08:00][sql] SHOW FULL COLUMNS FROM `blog_article` [ RunTime:0.007091s ]
+[2023-01-19T14:23:27+08:00][sql] SELECT `article_id`,`title` FROM `blog_article` [ RunTime:0.000556s ]
+[2023-01-19T14:23:28+08:00][sql] CONNECT:[ UseTime:0.022873s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-19T14:23:28+08:00][sql] SHOW FULL COLUMNS FROM `blog_article` [ RunTime:0.000857s ]
+[2023-01-19T14:23:28+08:00][sql] SELECT * FROM `blog_article` WHERE  `article_id` = 6 LIMIT 1 [ RunTime:0.000363s ]
+[2023-01-19T14:23:28+08:00][sql] SELECT c2.category_name as top,c1.category_name as second,c1.category2_id as category2_id,c1.category1_id as category1_id FROM `blog_category2` c1,blog_category2 c2 where c1.category1_id = c2.category2_id [ RunTime:0.000273s ]
+[2023-01-19T14:23:29+08:00][sql] CONNECT:[ UseTime:0.000809s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-19T14:23:29+08:00][sql] SHOW FULL COLUMNS FROM `blog_article` [ RunTime:0.000745s ]
+[2023-01-19T14:23:29+08:00][error] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'id' in 'where clause'
+[2023-01-19T14:25:38+08:00][sql] CONNECT:[ UseTime:0.000777s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-19T14:25:38+08:00][sql] SELECT c2.category_name as top,c1.category_name as second,c1.category2_id as category2_id,c1.category1_id as category1_id FROM `blog_category2` c1,blog_category2 c2 where c1.category1_id = c2.category2_id [ RunTime:0.000366s ]
+[2023-01-19T14:25:39+08:00][sql] CONNECT:[ UseTime:0.017395s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-19T14:25:39+08:00][sql] SHOW FULL COLUMNS FROM `blog_article` [ RunTime:0.000783s ]
+[2023-01-19T14:25:39+08:00][sql] SELECT `article_id`,`title` FROM `blog_article` [ RunTime:0.000394s ]
+[2023-01-19T14:25:41+08:00][sql] CONNECT:[ UseTime:0.010395s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-19T14:25:41+08:00][sql] SHOW FULL COLUMNS FROM `blog_article` [ RunTime:0.000699s ]
+[2023-01-19T14:25:41+08:00][sql] SELECT * FROM `blog_article` WHERE  `article_id` = 6 LIMIT 1 [ RunTime:0.000387s ]
+[2023-01-19T14:25:41+08:00][sql] SELECT c2.category_name as top,c1.category_name as second,c1.category2_id as category2_id,c1.category1_id as category1_id FROM `blog_category2` c1,blog_category2 c2 where c1.category1_id = c2.category2_id [ RunTime:0.000340s ]
+[2023-01-19T14:25:42+08:00][sql] CONNECT:[ UseTime:0.018543s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-19T14:25:42+08:00][sql] SHOW FULL COLUMNS FROM `blog_article` [ RunTime:0.000902s ]
+[2023-01-19T14:25:42+08:00][error] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'id' in 'where clause'
+[2023-01-19T14:26:55+08:00][sql] CONNECT:[ UseTime:0.000964s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-19T14:26:55+08:00][sql] SHOW FULL COLUMNS FROM `blog_article` [ RunTime:0.000947s ]
+[2023-01-19T14:26:55+08:00][error] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'id' in 'where clause'
+[2023-01-19T14:26:57+08:00][sql] CONNECT:[ UseTime:0.011241s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-19T14:26:57+08:00][sql] SELECT c2.category_name as top,c1.category_name as second,c1.category2_id as category2_id,c1.category1_id as category1_id FROM `blog_category2` c1,blog_category2 c2 where c1.category1_id = c2.category2_id [ RunTime:0.000508s ]
+[2023-01-19T14:26:58+08:00][sql] CONNECT:[ UseTime:0.000803s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-19T14:26:58+08:00][sql] SHOW FULL COLUMNS FROM `blog_article` [ RunTime:0.001275s ]
+[2023-01-19T14:26:58+08:00][sql] SELECT `article_id`,`title` FROM `blog_article` [ RunTime:0.000632s ]
+[2023-01-19T14:26:59+08:00][sql] CONNECT:[ UseTime:0.001163s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-19T14:26:59+08:00][sql] SHOW FULL COLUMNS FROM `blog_article` [ RunTime:0.000902s ]
+[2023-01-19T14:26:59+08:00][sql] SELECT * FROM `blog_article` WHERE  `article_id` = 6 LIMIT 1 [ RunTime:0.000399s ]
+[2023-01-19T14:26:59+08:00][sql] SELECT c2.category_name as top,c1.category_name as second,c1.category2_id as category2_id,c1.category1_id as category1_id FROM `blog_category2` c1,blog_category2 c2 where c1.category1_id = c2.category2_id [ RunTime:0.000463s ]
+[2023-01-19T14:27:01+08:00][sql] CONNECT:[ UseTime:0.001302s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-19T14:27:01+08:00][sql] SHOW FULL COLUMNS FROM `blog_article` [ RunTime:0.000842s ]
+[2023-01-19T14:27:01+08:00][error] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'id' in 'where clause'
+[2023-01-19T14:27:35+08:00][sql] CONNECT:[ UseTime:0.000922s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-19T14:27:35+08:00][sql] SELECT c2.category_name as top,c1.category_name as second,c1.category2_id as category2_id,c1.category1_id as category1_id FROM `blog_category2` c1,blog_category2 c2 where c1.category1_id = c2.category2_id [ RunTime:0.000405s ]
+[2023-01-19T14:27:36+08:00][sql] CONNECT:[ UseTime:0.021702s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-19T14:27:36+08:00][sql] SHOW FULL COLUMNS FROM `blog_article` [ RunTime:0.000915s ]
+[2023-01-19T14:27:36+08:00][sql] SELECT `article_id`,`title` FROM `blog_article` [ RunTime:0.000242s ]
+[2023-01-19T14:27:37+08:00][sql] CONNECT:[ UseTime:0.000975s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-19T14:27:37+08:00][sql] SHOW FULL COLUMNS FROM `blog_article` [ RunTime:0.001210s ]
+[2023-01-19T14:27:37+08:00][sql] SELECT * FROM `blog_article` WHERE  `article_id` = 6 LIMIT 1 [ RunTime:0.000457s ]
+[2023-01-19T14:27:37+08:00][sql] SELECT c2.category_name as top,c1.category_name as second,c1.category2_id as category2_id,c1.category1_id as category1_id FROM `blog_category2` c1,blog_category2 c2 where c1.category1_id = c2.category2_id [ RunTime:0.000521s ]
+[2023-01-19T14:27:39+08:00][sql] CONNECT:[ UseTime:0.012221s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-19T14:27:39+08:00][sql] SHOW FULL COLUMNS FROM `blog_article` [ RunTime:0.000871s ]
+[2023-01-19T14:27:39+08:00][error] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'id' in 'where clause'
+[2023-01-19T14:27:59+08:00][sql] CONNECT:[ UseTime:0.000906s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-19T14:27:59+08:00][sql] SELECT c2.category_name as top,c1.category_name as second,c1.category2_id as category2_id,c1.category1_id as category1_id FROM `blog_category2` c1,blog_category2 c2 where c1.category1_id = c2.category2_id [ RunTime:0.000421s ]
+[2023-01-19T14:27:59+08:00][sql] CONNECT:[ UseTime:0.000786s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-19T14:27:59+08:00][sql] SHOW FULL COLUMNS FROM `blog_article` [ RunTime:0.002144s ]
+[2023-01-19T14:27:59+08:00][sql] SELECT `article_id`,`title` FROM `blog_article` [ RunTime:0.000418s ]
+[2023-01-19T14:28:01+08:00][sql] CONNECT:[ UseTime:0.022940s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-19T14:28:01+08:00][sql] SHOW FULL COLUMNS FROM `blog_article` [ RunTime:0.002213s ]
+[2023-01-19T14:28:01+08:00][sql] SELECT * FROM `blog_article` WHERE  `article_id` = 6 LIMIT 1 [ RunTime:0.000316s ]
+[2023-01-19T14:28:01+08:00][sql] SELECT c2.category_name as top,c1.category_name as second,c1.category2_id as category2_id,c1.category1_id as category1_id FROM `blog_category2` c1,blog_category2 c2 where c1.category1_id = c2.category2_id [ RunTime:0.000291s ]
+[2023-01-19T14:28:03+08:00][sql] CONNECT:[ UseTime:0.000774s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-19T14:28:03+08:00][sql] SHOW FULL COLUMNS FROM `blog_article` [ RunTime:0.000759s ]
+[2023-01-19T14:28:03+08:00][error] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'id' in 'where clause'
+[2023-01-19T14:28:27+08:00][sql] CONNECT:[ UseTime:0.001283s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-19T14:28:27+08:00][sql] SELECT c2.category_name as top,c1.category_name as second,c1.category2_id as category2_id,c1.category1_id as category1_id FROM `blog_category2` c1,blog_category2 c2 where c1.category1_id = c2.category2_id [ RunTime:0.000492s ]
+[2023-01-19T14:28:27+08:00][sql] CONNECT:[ UseTime:0.000845s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-19T14:28:27+08:00][sql] SHOW FULL COLUMNS FROM `blog_article` [ RunTime:0.001048s ]
+[2023-01-19T14:28:27+08:00][sql] SELECT `article_id`,`title` FROM `blog_article` [ RunTime:0.000313s ]
+[2023-01-19T14:28:29+08:00][sql] CONNECT:[ UseTime:0.012448s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-19T14:28:29+08:00][sql] SHOW FULL COLUMNS FROM `blog_article` [ RunTime:0.000800s ]
+[2023-01-19T14:28:29+08:00][sql] SELECT * FROM `blog_article` WHERE  `article_id` = 6 LIMIT 1 [ RunTime:0.000298s ]
+[2023-01-19T14:28:29+08:00][sql] SELECT c2.category_name as top,c1.category_name as second,c1.category2_id as category2_id,c1.category1_id as category1_id FROM `blog_category2` c1,blog_category2 c2 where c1.category1_id = c2.category2_id [ RunTime:0.000331s ]
+[2023-01-19T14:28:32+08:00][sql] CONNECT:[ UseTime:0.000887s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-19T14:28:32+08:00][sql] SHOW FULL COLUMNS FROM `blog_article` [ RunTime:0.000748s ]
+[2023-01-19T14:28:32+08:00][error] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'id' in 'where clause'
+[2023-01-19T14:28:48+08:00][sql] CONNECT:[ UseTime:0.000871s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-19T14:28:48+08:00][sql] SELECT c2.category_name as top,c1.category_name as second,c1.category2_id as category2_id,c1.category1_id as category1_id FROM `blog_category2` c1,blog_category2 c2 where c1.category1_id = c2.category2_id [ RunTime:0.000387s ]
+[2023-01-19T14:28:49+08:00][sql] CONNECT:[ UseTime:0.001210s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-19T14:28:49+08:00][sql] SHOW FULL COLUMNS FROM `blog_article` [ RunTime:0.006187s ]
+[2023-01-19T14:28:49+08:00][sql] SELECT `article_id`,`title` FROM `blog_article` [ RunTime:0.000473s ]
+[2023-01-19T14:28:50+08:00][sql] CONNECT:[ UseTime:0.000738s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-19T14:28:50+08:00][sql] SHOW FULL COLUMNS FROM `blog_article` [ RunTime:0.000610s ]
+[2023-01-19T14:28:50+08:00][sql] SELECT * FROM `blog_article` WHERE  `article_id` = 6 LIMIT 1 [ RunTime:0.000335s ]
+[2023-01-19T14:28:50+08:00][sql] SELECT c2.category_name as top,c1.category_name as second,c1.category2_id as category2_id,c1.category1_id as category1_id FROM `blog_category2` c1,blog_category2 c2 where c1.category1_id = c2.category2_id [ RunTime:0.000278s ]
+[2023-01-19T14:29:01+08:00][sql] CONNECT:[ UseTime:0.019610s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-19T14:29:01+08:00][sql] SELECT c2.category_name as top,c1.category_name as second,c1.category2_id as category2_id,c1.category1_id as category1_id FROM `blog_category2` c1,blog_category2 c2 where c1.category1_id = c2.category2_id [ RunTime:0.000461s ]
+[2023-01-19T14:29:02+08:00][sql] CONNECT:[ UseTime:0.000749s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-19T14:29:02+08:00][sql] SHOW FULL COLUMNS FROM `blog_article` [ RunTime:0.000855s ]
+[2023-01-19T14:29:02+08:00][sql] SELECT `article_id`,`title` FROM `blog_article` [ RunTime:0.000295s ]
+[2023-01-19T14:29:02+08:00][sql] CONNECT:[ UseTime:0.000800s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-19T14:29:02+08:00][sql] SHOW FULL COLUMNS FROM `blog_article` [ RunTime:0.000649s ]
+[2023-01-19T14:29:02+08:00][sql] SELECT * FROM `blog_article` WHERE  `article_id` = 6 LIMIT 1 [ RunTime:0.000348s ]
+[2023-01-19T14:29:02+08:00][sql] SELECT c2.category_name as top,c1.category_name as second,c1.category2_id as category2_id,c1.category1_id as category1_id FROM `blog_category2` c1,blog_category2 c2 where c1.category1_id = c2.category2_id [ RunTime:0.000350s ]
+[2023-01-19T14:29:04+08:00][sql] CONNECT:[ UseTime:0.022713s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-19T14:29:04+08:00][sql] SHOW FULL COLUMNS FROM `blog_article` [ RunTime:0.000728s ]
+[2023-01-19T14:29:04+08:00][error] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'id' in 'where clause'
+[2023-01-19T14:30:07+08:00][sql] CONNECT:[ UseTime:0.000893s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-19T14:30:07+08:00][sql] SELECT c2.category_name as top,c1.category_name as second,c1.category2_id as category2_id,c1.category1_id as category1_id FROM `blog_category2` c1,blog_category2 c2 where c1.category1_id = c2.category2_id [ RunTime:0.000789s ]
+[2023-01-19T14:30:07+08:00][sql] CONNECT:[ UseTime:0.000774s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-19T14:30:07+08:00][sql] SHOW FULL COLUMNS FROM `blog_article` [ RunTime:0.001518s ]
+[2023-01-19T14:30:07+08:00][sql] SELECT `article_id`,`title` FROM `blog_article` [ RunTime:0.000511s ]
+[2023-01-19T14:30:08+08:00][sql] CONNECT:[ UseTime:0.000936s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-19T14:30:08+08:00][sql] SHOW FULL COLUMNS FROM `blog_article` [ RunTime:0.000734s ]
+[2023-01-19T14:30:08+08:00][sql] SELECT * FROM `blog_article` WHERE  `article_id` = 6 LIMIT 1 [ RunTime:0.000420s ]
+[2023-01-19T14:30:08+08:00][sql] SELECT c2.category_name as top,c1.category_name as second,c1.category2_id as category2_id,c1.category1_id as category1_id FROM `blog_category2` c1,blog_category2 c2 where c1.category1_id = c2.category2_id [ RunTime:0.000385s ]
+[2023-01-19T14:30:10+08:00][sql] CONNECT:[ UseTime:0.001289s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-19T14:30:10+08:00][sql] SHOW FULL COLUMNS FROM `blog_article` [ RunTime:0.000744s ]
+[2023-01-19T14:30:10+08:00][sql] SELECT * FROM `blog_article` WHERE  `article_id` = 6 LIMIT 1 [ RunTime:0.000377s ]
+[2023-01-19T14:30:26+08:00][sql] CONNECT:[ UseTime:0.000779s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-19T14:30:26+08:00][sql] SELECT c2.category_name as top,c1.category_name as second,c1.category2_id as category2_id,c1.category1_id as category1_id FROM `blog_category2` c1,blog_category2 c2 where c1.category1_id = c2.category2_id [ RunTime:0.000311s ]
+[2023-01-19T14:30:27+08:00][sql] CONNECT:[ UseTime:0.021003s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-19T14:30:27+08:00][sql] SHOW FULL COLUMNS FROM `blog_article` [ RunTime:0.000917s ]
+[2023-01-19T14:30:27+08:00][sql] SELECT `article_id`,`title` FROM `blog_article` [ RunTime:0.000299s ]
+[2023-01-19T14:30:28+08:00][sql] CONNECT:[ UseTime:0.018902s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-19T14:30:28+08:00][sql] SHOW FULL COLUMNS FROM `blog_article` [ RunTime:0.000738s ]
+[2023-01-19T14:30:28+08:00][sql] SELECT * FROM `blog_article` WHERE  `article_id` = 6 LIMIT 1 [ RunTime:0.000319s ]
+[2023-01-19T14:30:28+08:00][sql] SELECT c2.category_name as top,c1.category_name as second,c1.category2_id as category2_id,c1.category1_id as category1_id FROM `blog_category2` c1,blog_category2 c2 where c1.category1_id = c2.category2_id [ RunTime:0.000291s ]
+[2023-01-19T14:30:29+08:00][sql] CONNECT:[ UseTime:0.001019s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-19T14:30:29+08:00][sql] SHOW FULL COLUMNS FROM `blog_article` [ RunTime:0.000674s ]
+[2023-01-19T14:30:29+08:00][sql] SELECT * FROM `blog_article` WHERE  `article_id` = 6 LIMIT 1 [ RunTime:0.000228s ]
+[2023-01-19T14:30:41+08:00][sql] CONNECT:[ UseTime:0.000843s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-19T14:30:41+08:00][sql] SELECT c2.category_name as top,c1.category_name as second,c1.category2_id as category2_id,c1.category1_id as category1_id FROM `blog_category2` c1,blog_category2 c2 where c1.category1_id = c2.category2_id [ RunTime:0.000365s ]
+[2023-01-19T14:30:42+08:00][sql] CONNECT:[ UseTime:0.000735s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-19T14:30:42+08:00][sql] SHOW FULL COLUMNS FROM `blog_article` [ RunTime:0.000714s ]
+[2023-01-19T14:30:42+08:00][sql] SELECT `article_id`,`title` FROM `blog_article` [ RunTime:0.000316s ]
+[2023-01-19T14:30:43+08:00][sql] CONNECT:[ UseTime:0.000885s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-19T14:30:43+08:00][sql] SHOW FULL COLUMNS FROM `blog_article` [ RunTime:0.000744s ]
+[2023-01-19T14:30:43+08:00][sql] SELECT * FROM `blog_article` WHERE  `article_id` = 6 LIMIT 1 [ RunTime:0.000400s ]
+[2023-01-19T14:30:43+08:00][sql] SELECT c2.category_name as top,c1.category_name as second,c1.category2_id as category2_id,c1.category1_id as category1_id FROM `blog_category2` c1,blog_category2 c2 where c1.category1_id = c2.category2_id [ RunTime:0.000382s ]
+[2023-01-19T14:31:35+08:00][sql] CONNECT:[ UseTime:0.000917s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-19T14:31:35+08:00][sql] SELECT c2.category_name as top,c1.category_name as second,c1.category2_id as category2_id,c1.category1_id as category1_id FROM `blog_category2` c1,blog_category2 c2 where c1.category1_id = c2.category2_id [ RunTime:0.000607s ]
+[2023-01-19T14:31:35+08:00][sql] CONNECT:[ UseTime:0.017639s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-19T14:31:35+08:00][sql] SHOW FULL COLUMNS FROM `blog_article` [ RunTime:0.000709s ]
+[2023-01-19T14:31:35+08:00][sql] SELECT `article_id`,`title` FROM `blog_article` [ RunTime:0.000337s ]
+[2023-01-19T14:31:36+08:00][sql] CONNECT:[ UseTime:0.000913s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-19T14:31:36+08:00][sql] SHOW FULL COLUMNS FROM `blog_article` [ RunTime:0.000752s ]
+[2023-01-19T14:31:36+08:00][sql] SELECT * FROM `blog_article` WHERE  `article_id` = 6 LIMIT 1 [ RunTime:0.000356s ]
+[2023-01-19T14:31:36+08:00][sql] SELECT c2.category_name as top,c1.category_name as second,c1.category2_id as category2_id,c1.category1_id as category1_id FROM `blog_category2` c1,blog_category2 c2 where c1.category1_id = c2.category2_id [ RunTime:0.000368s ]
+[2023-01-19T14:31:38+08:00][sql] CONNECT:[ UseTime:0.000895s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-19T14:31:38+08:00][sql] SHOW FULL COLUMNS FROM `blog_article` [ RunTime:0.000702s ]
+[2023-01-19T14:31:38+08:00][sql] SELECT * FROM `blog_article` WHERE  `article_id` = 6 LIMIT 1 [ RunTime:0.000357s ]
+[2023-01-19T14:31:48+08:00][sql] CONNECT:[ UseTime:0.001077s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-19T14:31:48+08:00][sql] SELECT c2.category_name as top,c1.category_name as second,c1.category2_id as category2_id,c1.category1_id as category1_id FROM `blog_category2` c1,blog_category2 c2 where c1.category1_id = c2.category2_id [ RunTime:0.000296s ]
+[2023-01-19T14:31:48+08:00][sql] CONNECT:[ UseTime:0.024165s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-19T14:31:48+08:00][sql] SHOW FULL COLUMNS FROM `blog_article` [ RunTime:0.000821s ]
+[2023-01-19T14:31:48+08:00][sql] SELECT `article_id`,`title` FROM `blog_article` [ RunTime:0.000360s ]
+[2023-01-19T14:31:49+08:00][sql] CONNECT:[ UseTime:0.000672s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-19T14:31:49+08:00][sql] SHOW FULL COLUMNS FROM `blog_article` [ RunTime:0.000581s ]
+[2023-01-19T14:31:49+08:00][sql] SELECT * FROM `blog_article` WHERE  `article_id` = 6 LIMIT 1 [ RunTime:0.000237s ]
+[2023-01-19T14:31:49+08:00][sql] SELECT c2.category_name as top,c1.category_name as second,c1.category2_id as category2_id,c1.category1_id as category1_id FROM `blog_category2` c1,blog_category2 c2 where c1.category1_id = c2.category2_id [ RunTime:0.000223s ]
+[2023-01-19T14:31:51+08:00][sql] CONNECT:[ UseTime:0.001157s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-19T14:31:51+08:00][sql] SHOW FULL COLUMNS FROM `blog_article` [ RunTime:0.000722s ]
+[2023-01-19T14:31:51+08:00][sql] SELECT * FROM `blog_article` WHERE  `article_id` = 6 LIMIT 1 [ RunTime:0.000315s ]
+[2023-01-19T14:33:51+08:00][sql] CONNECT:[ UseTime:0.000762s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-19T14:33:51+08:00][sql] SELECT c2.category_name as top,c1.category_name as second,c1.category2_id as category2_id,c1.category1_id as category1_id FROM `blog_category2` c1,blog_category2 c2 where c1.category1_id = c2.category2_id [ RunTime:0.000273s ]
+[2023-01-19T14:33:51+08:00][sql] CONNECT:[ UseTime:0.006288s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-19T14:33:51+08:00][sql] SHOW FULL COLUMNS FROM `blog_article` [ RunTime:0.000724s ]
+[2023-01-19T14:33:51+08:00][sql] SELECT `article_id`,`title` FROM `blog_article` [ RunTime:0.000326s ]
+[2023-01-19T14:33:53+08:00][sql] CONNECT:[ UseTime:0.000753s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-19T14:33:53+08:00][sql] SHOW FULL COLUMNS FROM `blog_article` [ RunTime:0.000689s ]
+[2023-01-19T14:33:53+08:00][sql] SELECT * FROM `blog_article` WHERE  `article_id` = 6 LIMIT 1 [ RunTime:0.000342s ]
+[2023-01-19T14:33:53+08:00][sql] SELECT c2.category_name as top,c1.category_name as second,c1.category2_id as category2_id,c1.category1_id as category1_id FROM `blog_category2` c1,blog_category2 c2 where c1.category1_id = c2.category2_id [ RunTime:0.000292s ]
+[2023-01-19T14:34:20+08:00][sql] CONNECT:[ UseTime:0.000866s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-19T14:34:20+08:00][sql] SELECT c2.category_name as top,c1.category_name as second,c1.category2_id as category2_id,c1.category1_id as category1_id FROM `blog_category2` c1,blog_category2 c2 where c1.category1_id = c2.category2_id [ RunTime:0.000506s ]
+[2023-01-19T14:34:20+08:00][sql] CONNECT:[ UseTime:0.019838s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-19T14:34:20+08:00][sql] SHOW FULL COLUMNS FROM `blog_article` [ RunTime:0.001049s ]
+[2023-01-19T14:34:20+08:00][sql] SELECT `article_id`,`title` FROM `blog_article` [ RunTime:0.000294s ]
+[2023-01-19T14:35:20+08:00][sql] CONNECT:[ UseTime:0.000869s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-19T14:35:20+08:00][sql] SELECT c2.category_name as top,c1.category_name as second,c1.category2_id as category2_id,c1.category1_id as category1_id FROM `blog_category2` c1,blog_category2 c2 where c1.category1_id = c2.category2_id [ RunTime:0.000963s ]
+[2023-01-19T14:35:20+08:00][sql] CONNECT:[ UseTime:0.018224s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-19T14:35:20+08:00][sql] SHOW FULL COLUMNS FROM `blog_article` [ RunTime:0.000659s ]
+[2023-01-19T14:35:20+08:00][sql] SELECT `article_id`,`title` FROM `blog_article` [ RunTime:0.000235s ]
+[2023-01-19T14:35:21+08:00][sql] CONNECT:[ UseTime:0.018500s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-19T14:35:21+08:00][sql] SHOW FULL COLUMNS FROM `blog_article` [ RunTime:0.000685s ]
+[2023-01-19T14:35:21+08:00][sql] SELECT * FROM `blog_article` WHERE  `article_id` = 6 LIMIT 1 [ RunTime:0.000340s ]
+[2023-01-19T14:35:21+08:00][sql] SELECT c2.category_name as top,c1.category_name as second,c1.category2_id as category2_id,c1.category1_id as category1_id FROM `blog_category2` c1,blog_category2 c2 where c1.category1_id = c2.category2_id [ RunTime:0.000293s ]
+[2023-01-19T14:35:35+08:00][sql] CONNECT:[ UseTime:0.000990s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-19T14:35:35+08:00][sql] SHOW FULL COLUMNS FROM `blog_article` [ RunTime:0.000759s ]
+[2023-01-19T14:35:35+08:00][sql] SELECT `article_id`,`title` FROM `blog_article` [ RunTime:0.000321s ]
+[2023-01-19T14:35:51+08:00][sql] CONNECT:[ UseTime:0.025260s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-19T14:35:51+08:00][sql] SELECT c2.category_name as top,c1.category_name as second,c1.category2_id as category2_id,c1.category1_id as category1_id FROM `blog_category2` c1,blog_category2 c2 where c1.category1_id = c2.category2_id [ RunTime:0.000379s ]
+[2023-01-19T14:35:51+08:00][sql] CONNECT:[ UseTime:0.000966s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-19T14:35:51+08:00][sql] SHOW FULL COLUMNS FROM `blog_article` [ RunTime:0.000651s ]
+[2023-01-19T14:35:51+08:00][sql] SELECT `article_id`,`title` FROM `blog_article` [ RunTime:0.000415s ]
+[2023-01-19T14:35:52+08:00][error] [0]语法错误: unexpected 'return' (T_RETURN)
+[2023-01-19T14:36:01+08:00][sql] CONNECT:[ UseTime:0.000844s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-19T14:36:01+08:00][sql] SELECT c2.category_name as top,c1.category_name as second,c1.category2_id as category2_id,c1.category1_id as category1_id FROM `blog_category2` c1,blog_category2 c2 where c1.category1_id = c2.category2_id [ RunTime:0.000511s ]
+[2023-01-19T14:36:01+08:00][sql] CONNECT:[ UseTime:0.023490s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-19T14:36:01+08:00][sql] SHOW FULL COLUMNS FROM `blog_article` [ RunTime:0.000714s ]
+[2023-01-19T14:36:01+08:00][sql] SELECT `article_id`,`title` FROM `blog_article` [ RunTime:0.000215s ]
+[2023-01-19T14:36:02+08:00][sql] CONNECT:[ UseTime:0.000717s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-19T14:36:02+08:00][sql] SHOW FULL COLUMNS FROM `blog_article` [ RunTime:0.000571s ]
+[2023-01-19T14:36:02+08:00][sql] SELECT * FROM `blog_article` WHERE  `article_id` = 6 LIMIT 1 [ RunTime:0.000240s ]
+[2023-01-19T14:36:02+08:00][sql] SELECT c2.category_name as top,c1.category_name as second,c1.category2_id as category2_id,c1.category1_id as category1_id FROM `blog_category2` c1,blog_category2 c2 where c1.category1_id = c2.category2_id [ RunTime:0.000216s ]
+[2023-01-19T14:36:08+08:00][sql] CONNECT:[ UseTime:0.019434s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-19T14:36:08+08:00][sql] SHOW FULL COLUMNS FROM `blog_article` [ RunTime:0.000685s ]
+[2023-01-19T14:36:08+08:00][sql] SELECT * FROM `blog_article` WHERE  `article_id` = 6 LIMIT 1 [ RunTime:0.000281s ]
+[2023-01-19T14:36:08+08:00][sql] UPDATE `blog_article`  SET `title` = 'updaterrrr' , `recommend` = 0  WHERE  `article_id` = 6 [ RunTime:0.000260s ]
+[2023-01-19T14:40:11+08:00][sql] CONNECT:[ UseTime:0.021984s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-19T14:40:11+08:00][sql] SELECT c2.category_name as top,c1.category_name as second,c1.category2_id as category2_id,c1.category1_id as category1_id FROM `blog_category2` c1,blog_category2 c2 where c1.category1_id = c2.category2_id [ RunTime:0.000549s ]
+[2023-01-19T14:40:12+08:00][sql] CONNECT:[ UseTime:0.000725s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-19T14:40:12+08:00][sql] SHOW FULL COLUMNS FROM `blog_article` [ RunTime:0.000601s ]
+[2023-01-19T14:40:12+08:00][sql] SELECT `article_id`,`title` FROM `blog_article` [ RunTime:0.000331s ]

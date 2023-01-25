@@ -1,0 +1,8 @@
+[2023-01-18T16:18:31+08:00][sql] CONNECT:[ UseTime:0.118575s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-18T16:18:31+08:00][sql] SHOW FULL COLUMNS FROM `blog_article` [ RunTime:0.235504s ]
+[2023-01-18T16:18:31+08:00][sql] SELECT * FROM `blog_article` LIMIT 100 [ RunTime:0.003675s ]
+[2023-01-18T16:18:31+08:00][sql] SHOW FULL COLUMNS FROM `blog_category2` [ RunTime:0.034553s ]
+[2023-01-18T16:18:31+08:00][sql] SELECT * FROM `blog_category2` [ RunTime:0.000377s ]
+[2023-01-18T16:19:31+08:00][sql] CONNECT:[ UseTime:0.000915s ] mysql:host=127.0.0.1;port=3306;dbname=blog;charset=utf8
+[2023-01-18T16:19:31+08:00][sql] SHOW FULL COLUMNS FROM `blog_article` [ RunTime:0.000840s ]
+[2023-01-18T16:19:31+08:00][sql] SELECT * FROM `blog_article` WHERE  `article_id` = 5 LIMIT 1 [ RunTime:0.053733s ]

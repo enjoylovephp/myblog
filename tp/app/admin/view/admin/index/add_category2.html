@@ -1,0 +1,66 @@
+{include file="public/header"/}
+<form action="{:url('admin/BlogCategory/add2/')}" method="post" class="layui-form">
+<div class="layui-form-item">
+	<div class="layui-input-block">
+	<select name="category1" id="category1" lay-filter="category1">
+	{volist name="category1" id="cate"}
+		<option value="{$cate.category_name}">{$cate.category_name}</option>
+	{/volist}
+	</select>
+	</div>
+	
+	<div class="layui-input-block">
+		<select name='category2' id="category2" lay-filter='category2'>
+		
+		</select>
+	</div>
+	<button type="submit" class="layui-btn">提交</button>
+</div>
+</form>
+<script>
+
+layui.use('form', function(){
+  
+  var form = layui.form;
+  
+  form.on('select(category1)',function(data){
+	
+	var category_name = data.value;
+        
+	var cate1_arr = ['心情','状态','感受'],cate2_arr = ['感悟','心得','技巧','短篇','散文'],cate3_arr = ['php','html','javascript','css'];
+	var str_select = '';
+	var str_option = '';
+
+	switch(category_name){
+		case '日记':
+			for(var arr1 of cate1_arr){
+				str_option +="<option value='"+arr1+"'>"+arr1+"</option>"
+			}
+		break;
+		case '随笔':
+			for(var arr2 of cate2_arr){
+				str_option +="<option value='"+arr2+"'>"+arr2+"</option>"
+			}
+		break;
+		case 'IT技术':
+			for(var arr3 of cate3_arr){
+				str_option +="<option value='"+arr3+"'>"+arr3+"</option>"
+			}
+		break;
+	}
+	
+	//alert(str_option)
+	
+	
+	$('#category2').html(str_option);
+	form.render();
+  })
+  /*
+  form.on('submit(*)',function(data){
+      $.post("{:url('admin/BlogCategory/add2/')}",data.field,function(){
+          
+      })
+  })
+  */
+})
+</script>

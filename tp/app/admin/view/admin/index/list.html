@@ -1,0 +1,19 @@
+<style>
+.delete-right{
+	float:right;
+}
+ul{
+	list-style:none;
+}
+</style>
+<ul>
+{volist name="article_list" id="data"}
+<li>
+<span>{$data.title}</span>
+<div class="delete-right">
+<a href="{:url('BlogArticle/updateArticle/',['id'=>$data['article_id']])}">修改</a>
+<a href="{:url('BlogArticle/deleteArticle/',['id'=>$data['article_id']])}">删除</a>
+</div>
+</li>
+{/volist}
+</ul>

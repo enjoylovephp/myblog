@@ -1,0 +1,14 @@
+<style>
+.delete-right{
+	float:right;
+}
+</style>
+<ul>
+{volist name="data" id="d"}
+<li>
+<span>{$d.category2_name}</span>
+<a href="{:url('blogCategory/deleteCategory/',['id'=>$d['category1_id']])}" class="delete-right">删除</a>
+</li>
+{/volist}
+</ul>
+

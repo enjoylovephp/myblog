@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<style>
+ul.index-content li {
+	margin-bottom: 20px;
+}
+</style>
+
+</head>
+{include file="public/header"/}
+<body>
+	<div class="layui-container">
+		{include file="public/head"/}
+		<div class="layui-row">
+			<div class="layui-col-md9">
+				<div class="layui-card">
+					<div class="layui-card-header">
+						<h1>{$data.title}</h1>
+					</div>
+					<div class="layui-card-body" id="content"></div>
+				</div>
+
+			</div>
+			<div class="layui-col-md3"></div>
+		</div>
+	</div>
+	<script>
+	document.getElementById('');
+var HtmlUtil = {
+      /*1.用正则表达式实现html转码*/
+      htmlEncodeByRegExp:function (str){  
+           var s = "";
+           if(str.length == 0) return "";
+           s = str.replace(/&/g,"&amp;");
+           s = s.replace(/</g,"&lt;");
+           s = s.replace(/>/g,"&gt;");
+           s = s.replace(/ /g,"&nbsp;");
+          s = s.replace(/\'/g,"&#39;");
+          s = s.replace(/\"/g,"&quot;");
+          return s;  
+    },
+    /*2.用正则表达式实现html解码*/
+    htmlDecodeByRegExp:function (str){  
+          var s = "";
+          if(str.length == 0) return "";
+          s = str.replace(/&amp;/g,"&");
+          s = s.replace(/&lt;/g,"<");
+          s = s.replace(/&gt;/g,">");
+          s = s.replace(/&nbsp;/g," ");
+          s = s.replace(/&#39;/g,"\'");
+          s = s.replace(/&quot;/g,"\"");
+          return s;  
+    }
+ };
+let content = "{$data.content}";
+let html = HtmlUtil.htmlDecodeByRegExp(content);
+$('#content').html(html)
+
+</script>
+</body>
+</html>

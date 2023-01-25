@@ -1,0 +1,102 @@
+{include file="public/header"/}
+<link href="https://unpkg.com/@wangeditor/editor@latest/dist/css/style.css" rel="stylesheet">
+<style>
+    #editor��wrapper {
+        border: 1px solid #ccc;
+        z-index: 100;
+    }
+    #toolbar-container {
+        border-bottom: 1px solid #ccc;
+    }
+    #editor-container {
+        height: 500px;
+    }
+    .key{
+
+    }
+</style>
+<form class="layui-form" name="form1">
+    <div class="layui-form-item">
+
+        <label class="layui-form-label">标题：</label>
+
+        <div class="layui-input-block">
+            <input class="layui-input" type="text" name="title"/>
+        </div>
+    </div>
+    <div class="layui-form-item">
+        <label class="layui-form-label">分类：</label>
+        <div class="layui-input-block">
+            <select name="category2" lay-filter="category2">
+                {volist name="category2" id="cate2"}
+                <option value="{$cate2.category1_id}">{$cate2.top}——{$cate2.second}</option>
+                {/volist}
+            </select>
+        </div>
+    </div>
+    <div class="layui-form-item">
+        <div class="layui-input-block">
+           <label>热门：</label><input type="checkbox" name="hot"/> 
+           <label>推荐：</label><input type="checkbox" name="recommend"/> 
+        </div>
+    </div>
+    <div class="layui-form-item">
+        <div class="layui-input-block">
+            <div id="editor��wrapper">
+                <div id="toolbar-container"></div>
+                <div id="editor-container"></div>
+            </div>
+        </div>
+    </div>
+    <div class="layui-form-item">
+        <div class="layui-input-block">
+            <button type="click" class="layui-btn" id="release">发布</button>
+        </div>
+    </div>
+</form>
+<script src="https://unpkg.com/@wangeditor/editor@latest/dist/index.js"></script>
+<script>
+    const {createEditor, createToolbar} = window.wangEditor
+
+    const editorConfig = {
+        placeholder: '',
+        /*
+         onChange(editor) {
+         const html = editor.getHtml()
+         console.log('editor content', html)
+         
+         }
+         */
+    }
+
+    const editor = createEditor({
+        selector: '#editor-container',
+        html: '<p><br></p>',
+        config: editorConfig,
+        mode: 'default', // or 'simple'
+    })
+    const toolbarConfig = {}
+
+    const toolbar = createToolbar({
+        editor,
+        selector: '#toolbar-container',
+        config: toolbarConfig,
+        mode: 'default', // or 'simple'
+    })
+
+    $('#release').click(function () {
+        let html = editor.getHtml();
+        let title = form1.title.value;
+        let category2 = form1.category2.value;
+        
+        let hot = form1.hot.checked;
+        let recommend = form1.recommend.checked;
+        
+        //console.log(hot);
+        //console.log(great);
+        $.post("{:url('BlogArticle/add/')}", {html: html, title: title, category2: category2,hot:hot,recommend:recommend}, function (result) {
+            console.log(result);
+        })
+    })
+
+</script>
